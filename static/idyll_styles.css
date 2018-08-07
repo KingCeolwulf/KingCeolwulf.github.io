@@ -929,14 +929,8 @@ hr {
 }
 
 
-
-.d3-component svg {
-  background: #ddd;
-  max-height: 300px;
-}
-
-@media all and (max-width: 1000px) {
-  .d3-component svg {
-    max-height: 200px;
-  }
+caption {
+  font-size: 12px;
+  font-style: italic;
+  display: block;
 }
