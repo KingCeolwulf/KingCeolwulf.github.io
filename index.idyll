@@ -7,6 +7,11 @@
   authorLink:"https://github.com/KingCeolwulf"
   /]
 
+[aside]
+[Chart equation:`d => d**2` theme: 'material' domain:`[-5, 5]` range:`[-10, 10]` /]
+[caption] Apparently, this is how to graph a parabola [/caption]
+[/aside]
+  
 I have been working on a set of instructional videos all summer long using the 
 [manim library](https://github.com/3b1b/manim) and have a small library of my own
 to begin production of my own materials. I felt that simply posting the videos to
@@ -15,13 +20,6 @@ YouTube or even simply starting a Patreon campaign would not feel quite... right
 Only time will tell just how far this rabbit hole goes...
 
 ## **And thank you, Heather, for putting up with this constant grind, you are the best!**
-
-[aside]
-[Chart equation:`d => d**2` domain:`[-5, 5]` range:`[-10, 10]` /]
-[caption] Apparently, this is how to graph a parabola [/caption]
-[/aside]
-
-
 
 So this is how you can use a variable:
 
