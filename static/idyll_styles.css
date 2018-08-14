@@ -886,11 +886,6 @@ hr {
 }
 
 
-caption {
-  font-size: 12px;
-  font-style: italic;
-  display: block;
-}
 
 .d3-component svg {
   background: #ddd;
@@ -902,4 +897,3 @@ caption {
     max-height: 200px;
   }
 }
-

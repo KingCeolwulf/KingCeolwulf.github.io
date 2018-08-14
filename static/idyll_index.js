@@ -1,4 +1,4 @@
-require=(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\acorn\\dist\\acorn.js":[function(require,module,exports){
+require=(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\acorn\\dist\\acorn.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -5372,7 +5372,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\base64-js\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\base64-js\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.byteLength = byteLength;
@@ -5495,7 +5495,7 @@ function fromByteArray(uint8) {
   return parts.join('');
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\buffer\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\buffer\\index.js":[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -7274,7 +7274,7 @@ function numberIsNaN (obj) {
   return obj !== obj // eslint-disable-line no-self-compare
 }
 
-},{"base64-js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\base64-js\\index.js","ieee754":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\ieee754\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\camel-case\\camel-case.js":[function(require,module,exports){
+},{"base64-js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\base64-js\\index.js","ieee754":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\ieee754\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\camel-case\\camel-case.js":[function(require,module,exports){
 'use strict';
 
 var upperCase = require('upper-case');
@@ -7301,7 +7301,7 @@ module.exports = function (value, locale, mergeNumbers) {
   });
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\change-case\\change-case.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\change-case\\change-case.js":[function(require,module,exports){
 'use strict';
 
 exports.no = exports.noCase = require('no-case');
@@ -7323,7 +7323,7 @@ exports.isLower = exports.isLowerCase = require('is-lower-case');
 exports.ucFirst = exports.upperCaseFirst = require('upper-case-first');
 exports.lcFirst = exports.lowerCaseFirst = require('lower-case-first');
 
-},{"camel-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\camel-case\\camel-case.js","constant-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\constant-case\\constant-case.js","dot-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\dot-case\\dot-case.js","header-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\header-case\\header-case.js","is-lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-lower-case\\is-lower-case.js","is-upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-upper-case\\is-upper-case.js","lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js","lower-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case-first\\lower-case-first.js","no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js","param-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\param-case\\param-case.js","pascal-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\pascal-case\\pascal-case.js","path-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\path-case\\path-case.js","sentence-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\sentence-case\\sentence-case.js","snake-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\snake-case\\snake-case.js","swap-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\swap-case\\swap-case.js","title-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\title-case\\title-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\constant-case\\constant-case.js":[function(require,module,exports){
+},{"camel-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\camel-case\\camel-case.js","constant-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\constant-case\\constant-case.js","dot-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\dot-case\\dot-case.js","header-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\header-case\\header-case.js","is-lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-lower-case\\is-lower-case.js","is-upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-upper-case\\is-upper-case.js","lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js","lower-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case-first\\lower-case-first.js","no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js","param-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\param-case\\param-case.js","pascal-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\pascal-case\\pascal-case.js","path-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\path-case\\path-case.js","sentence-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\sentence-case\\sentence-case.js","snake-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\snake-case\\snake-case.js","swap-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\swap-case\\swap-case.js","title-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\title-case\\title-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\constant-case\\constant-case.js":[function(require,module,exports){
 'use strict';
 
 var upperCase = require('upper-case');
@@ -7340,7 +7340,7 @@ module.exports = function (value, locale) {
   return upperCase(snakeCase(value, locale), locale);
 };
 
-},{"snake-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\snake-case\\snake-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-array\\build\\d3-array.js":[function(require,module,exports){
+},{"snake-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\snake-case\\snake-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-array\\build\\d3-array.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -7936,7 +7936,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-collection\\build\\d3-collection.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-collection\\build\\d3-collection.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -8198,7 +8198,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-color\\build\\d3-color.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-color\\build\\d3-color.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -8695,7 +8695,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-ease\\build\\d3-ease.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-ease\\build\\d3-ease.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -8968,7 +8968,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-format\\build\\d3-format.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-format\\build\\d3-format.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -9317,7 +9317,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-interpolate\\build\\d3-interpolate.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-interpolate\\build\\d3-interpolate.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -9869,7 +9869,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{"d3-color":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-color\\build\\d3-color.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-path\\build\\d3-path.js":[function(require,module,exports){
+},{"d3-color":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-color\\build\\d3-color.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-path\\build\\d3-path.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -10014,7 +10014,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-scale\\build\\d3-scale.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-scale\\build\\d3-scale.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -10922,7 +10922,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-array\\build\\d3-array.js","d3-collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-collection\\build\\d3-collection.js","d3-color":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-color\\build\\d3-color.js","d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-format\\build\\d3-format.js","d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","d3-time":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-time\\build\\d3-time.js","d3-time-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-time-format\\build\\d3-time-format.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-selection\\dist\\d3-selection.js":[function(require,module,exports){
+},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-array\\build\\d3-array.js","d3-collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-collection\\build\\d3-collection.js","d3-color":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-color\\build\\d3-color.js","d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-format\\build\\d3-format.js","d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","d3-time":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-time\\build\\d3-time.js","d3-time-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-time-format\\build\\d3-time-format.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-selection\\dist\\d3-selection.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -11907,7 +11907,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -13908,7 +13908,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{"d3-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-path\\build\\d3-path.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-time-format\\build\\d3-time-format.js":[function(require,module,exports){
+},{"d3-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-path\\build\\d3-path.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-time-format\\build\\d3-time-format.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -14601,7 +14601,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{"d3-time":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-time\\build\\d3-time.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-time\\build\\d3-time.js":[function(require,module,exports){
+},{"d3-time":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-time\\build\\d3-time.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-time\\build\\d3-time.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -14994,7 +14994,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-timer\\build\\d3-timer.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-timer\\build\\d3-timer.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -15152,7 +15152,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-voronoi\\build\\d3-voronoi.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-voronoi\\build\\d3-voronoi.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -16145,7 +16145,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   Object.defineProperty(exports, '__esModule', { value: true });
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\define-properties\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\define-properties\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -16208,7 +16208,7 @@ defineProperties.supportsDescriptors = !!supportsDescriptors;
 
 module.exports = defineProperties;
 
-},{"foreach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\foreach\\index.js","object-keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-keys\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\dot-case\\dot-case.js":[function(require,module,exports){
+},{"foreach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\foreach\\index.js","object-keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-keys\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\dot-case\\dot-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -16224,7 +16224,7 @@ module.exports = function (value, locale) {
   return noCase(value, locale, '.');
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\GetIntrinsic.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\GetIntrinsic.js":[function(require,module,exports){
 'use strict';
 
 /* globals
@@ -16409,7 +16409,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 	return INTRINSICS[key];
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es2015.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es2015.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -17122,7 +17122,7 @@ delete ES6.CheckObjectCoercible; // renamed in ES6 to RequireObjectCoercible
 
 module.exports = ES6;
 
-},{"./GetIntrinsic":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\GetIntrinsic.js","./es5":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es5.js","./helpers/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\assign.js","./helpers/isFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isFinite.js","./helpers/isNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isNaN.js","./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isPrimitive.js","./helpers/mod":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\mod.js","./helpers/sign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\sign.js","es-to-primitive/es6":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\es6.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js","is-regex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-regex\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es2016.js":[function(require,module,exports){
+},{"./GetIntrinsic":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\GetIntrinsic.js","./es5":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es5.js","./helpers/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\assign.js","./helpers/isFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isFinite.js","./helpers/isNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isNaN.js","./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isPrimitive.js","./helpers/mod":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\mod.js","./helpers/sign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\sign.js","es-to-primitive/es6":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\es6.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js","is-regex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-regex\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es2016.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -17142,7 +17142,7 @@ var ES2016 = assign(assign({}, ES2015), {
 
 module.exports = ES2016;
 
-},{"./es2015":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es2015.js","./helpers/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es5.js":[function(require,module,exports){
+},{"./es2015":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es2015.js","./helpers/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es5.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -17398,12 +17398,12 @@ var ES5 = {
 
 module.exports = ES5;
 
-},{"./GetIntrinsic":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\GetIntrinsic.js","./helpers/isFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isFinite.js","./helpers/isNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isNaN.js","./helpers/mod":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\mod.js","./helpers/sign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\sign.js","es-to-primitive/es5":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\es5.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-callable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es7.js":[function(require,module,exports){
+},{"./GetIntrinsic":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\GetIntrinsic.js","./helpers/isFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isFinite.js","./helpers/isNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isNaN.js","./helpers/mod":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\mod.js","./helpers/sign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\sign.js","es-to-primitive/es5":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\es5.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-callable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es7.js":[function(require,module,exports){
 'use strict';
 
 module.exports = require('./es2016');
 
-},{"./es2016":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es2016.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\assign.js":[function(require,module,exports){
+},{"./es2016":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es2016.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\assign.js":[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
@@ -17424,7 +17424,7 @@ module.exports = function assign(target, source) {
 	return target;
 };
 
-},{"function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isFinite.js":[function(require,module,exports){
+},{"function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isFinite.js":[function(require,module,exports){
 'use strict';
 
 var $isNaN = Number.isNaN || function (a) {
@@ -17435,14 +17435,14 @@ module.exports = Number.isFinite || function (x) {
   return typeof x === 'number' && !$isNaN(x) && x !== Infinity && x !== -Infinity;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isNaN.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isNaN.js":[function(require,module,exports){
 "use strict";
 
 module.exports = Number.isNaN || function isNaN(a) {
 	return a !== a;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isPrimitive.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isPrimitive.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -17451,7 +17451,7 @@ module.exports = function isPrimitive(value) {
 	return value === null || typeof value !== 'function' && (typeof value === 'undefined' ? 'undefined' : _typeof(value)) !== 'object';
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\mod.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\mod.js":[function(require,module,exports){
 "use strict";
 
 module.exports = function mod(number, modulo) {
@@ -17459,14 +17459,14 @@ module.exports = function mod(number, modulo) {
 	return Math.floor(remain >= 0 ? remain : remain + modulo);
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\sign.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\sign.js":[function(require,module,exports){
 "use strict";
 
 module.exports = function sign(number) {
 	return number >= 0 ? 1 : -1;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\es5.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\es5.js":[function(require,module,exports){
 'use strict';
 
 var toStr = Object.prototype.toString;
@@ -17505,7 +17505,7 @@ module.exports = function ToPrimitive(input, PreferredType) {
 	return ES5internalSlots['[[DefaultValue]]'](input, PreferredType);
 };
 
-},{"./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-callable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\es6.js":[function(require,module,exports){
+},{"./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-callable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\es6.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -17583,9 +17583,9 @@ module.exports = function ToPrimitive(input, PreferredType) {
 	return ordinaryToPrimitive(input, hint === 'default' ? 'number' : hint);
 };
 
-},{"./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-callable\\index.js","is-date-object":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-date-object\\index.js","is-symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-symbol\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\helpers\\isPrimitive.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\events\\events.js":[function(require,module,exports){
+},{"./helpers/isPrimitive":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js","is-callable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-callable\\index.js","is-date-object":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-date-object\\index.js","is-symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-symbol\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-to-primitive\\helpers\\isPrimitive.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\helpers\\isPrimitive.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\events\\events.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -17889,7 +17889,7 @@ function isUndefined(arg) {
   return arg === void 0;
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\extend-shallow\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\extend-shallow\\index.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('is-extendable');
@@ -17926,7 +17926,7 @@ function hasOwn(obj, key) {
   return Object.prototype.hasOwnProperty.call(obj, key);
 }
 
-},{"is-extendable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-extendable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\falafel\\index.js":[function(require,module,exports){
+},{"is-extendable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-extendable\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\falafel\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -18012,12 +18012,12 @@ function insertHelpers(node, parent, chunks) {
     }
 }
 
-},{"acorn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\acorn\\dist\\acorn.js","foreach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\foreach\\index.js","isarray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\falafel\\node_modules\\isarray\\index.js","object-keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-keys\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\falafel\\node_modules\\isarray\\index.js":[function(require,module,exports){
+},{"acorn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\acorn\\dist\\acorn.js","foreach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\foreach\\index.js","isarray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\falafel\\node_modules\\isarray\\index.js","object-keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-keys\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\falafel\\node_modules\\isarray\\index.js":[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18052,7 +18052,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\camelize.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\camelize.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -18083,7 +18083,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\camelizeStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18122,7 +18122,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\camelize.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\containsNode.js":[function(require,module,exports){
+},{"./camelize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\camelize.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\containsNode.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18161,7 +18161,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\isTextNode.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js":[function(require,module,exports){
+},{"./isTextNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\isTextNode.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -18199,7 +18199,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 
 module.exports = emptyFunction;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyObject.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18218,7 +18218,7 @@ if ("development" !== 'production') {
 
 module.exports = emptyObject;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\getActiveElement.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\getActiveElement.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18257,7 +18257,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 
 module.exports = getActiveElement;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\hyphenate.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\hyphenate.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18289,7 +18289,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\hyphenateStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18327,7 +18327,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\hyphenate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\invariant.js":[function(require,module,exports){
+},{"./hyphenate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\hyphenate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\invariant.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18382,7 +18382,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\isNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\isNode.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18409,7 +18409,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\isTextNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\isTextNode.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -18433,7 +18433,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\isNode.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\shallowEqual.js":[function(require,module,exports){
+},{"./isNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\isNode.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18502,7 +18502,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\warning.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\warning.js":[function(require,module,exports){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -18566,7 +18566,7 @@ if ("development" !== 'production') {
 
 module.exports = warning;
 
-},{"./emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\foreach\\index.js":[function(require,module,exports){
+},{"./emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\foreach\\index.js":[function(require,module,exports){
 'use strict';
 
 var hasOwn = Object.prototype.hasOwnProperty;
@@ -18590,7 +18590,7 @@ module.exports = function forEach(obj, fn, ctx) {
     }
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\implementation.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\implementation.js":[function(require,module,exports){
 'use strict';
 
 /* eslint no-invalid-this: 1 */
@@ -18638,14 +18638,14 @@ module.exports = function bind(that) {
     return bound;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js":[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
 
 module.exports = Function.prototype.bind || implementation;
 
-},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\index.js":[function(require,module,exports){
+},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\index.js":[function(require,module,exports){
 'use strict';
 
 
@@ -18854,7 +18854,7 @@ matter.language = function (str, options) {
 
 module.exports = matter;
 
-},{"./lib/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\defaults.js","./lib/engines":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engines.js","./lib/excerpt":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\excerpt.js","./lib/parse":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\parse.js","./lib/stringify":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\stringify.js","./lib/to-file":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\to-file.js","./lib/utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\utils.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\extend-shallow\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\defaults.js":[function(require,module,exports){
+},{"./lib/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\defaults.js","./lib/engines":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engines.js","./lib/excerpt":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\excerpt.js","./lib/parse":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\parse.js","./lib/stringify":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\stringify.js","./lib/to-file":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\to-file.js","./lib/utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\utils.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\extend-shallow\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\defaults.js":[function(require,module,exports){
 'use strict';
 
 var extend = require('extend-shallow');
@@ -18875,7 +18875,7 @@ module.exports = function (options) {
   return opts;
 };
 
-},{"./engines":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engines.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\utils.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\extend-shallow\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engine.js":[function(require,module,exports){
+},{"./engines":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engines.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\utils.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\extend-shallow\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engine.js":[function(require,module,exports){
 'use strict';
 
 module.exports = function (name, options) {
@@ -18908,7 +18908,7 @@ function aliase(name) {
   }
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engines.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engines.js":[function(require,module,exports){
 'use strict';
 
 var extend = require('extend-shallow');
@@ -18965,7 +18965,7 @@ engines.javascript = {
   }
 };
 
-},{"extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\extend-shallow\\index.js","js-yaml":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\excerpt.js":[function(require,module,exports){
+},{"extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\extend-shallow\\index.js","js-yaml":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\excerpt.js":[function(require,module,exports){
 'use strict';
 
 var defaults = require('./defaults');
@@ -19000,7 +19000,7 @@ module.exports = function (file, options) {
   return file;
 };
 
-},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\defaults.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\parse.js":[function(require,module,exports){
+},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\defaults.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\parse.js":[function(require,module,exports){
 'use strict';
 
 var getEngine = require('./engine');
@@ -19015,7 +19015,7 @@ module.exports = function (language, str, options) {
   return engine.parse(str, opts);
 };
 
-},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\defaults.js","./engine":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engine.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\stringify.js":[function(require,module,exports){
+},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\defaults.js","./engine":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engine.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\stringify.js":[function(require,module,exports){
 'use strict';
 
 var extend = require('extend-shallow');
@@ -19077,7 +19077,7 @@ function newline(str) {
   return str.slice(-1) !== '\n' ? str + '\n' : str;
 }
 
-},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\defaults.js","./engine":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\engine.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\extend-shallow\\index.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\to-file.js":[function(require,module,exports){
+},{"./defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\defaults.js","./engine":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\engine.js","extend-shallow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\extend-shallow\\index.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\to-file.js":[function(require,module,exports){
 'use strict';
 
 var typeOf = require('kind-of');
@@ -19141,7 +19141,7 @@ module.exports = function (file) {
   return file;
 };
 
-},{"./stringify":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\stringify.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\utils.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\lib\\utils.js":[function(require,module,exports){
+},{"./stringify":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\stringify.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\utils.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\lib\\utils.js":[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
@@ -19207,7 +19207,7 @@ exports.startsWith = function (str, substr, len) {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\buffer\\index.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js","strip-bom-string":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\strip-bom-string\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\buffer\\index.js","kind-of":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js","strip-bom-string":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\strip-bom-string\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\node_modules\\kind-of\\index.js":[function(require,module,exports){
 var toString = Object.prototype.toString;
 
 /**
@@ -19356,14 +19356,14 @@ function isBuffer(val) {
     && val.constructor.isBuffer(val);
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js":[function(require,module,exports){
 'use strict';
 
 var bind = require('function-bind');
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
-},{"function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\header-case\\header-case.js":[function(require,module,exports){
+},{"function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\header-case\\header-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -19382,7 +19382,7 @@ module.exports = function (value, locale) {
   });
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-apparatus-component\\lib.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-apparatus-component\\lib.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -19585,7 +19585,7 @@ var Apparatus = function (_React$Component) {
 
 module.exports = Apparatus;
 
-},{"events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\events\\events.js","little-loader":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\little-loader\\lib\\little-loader.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-ast\\dist\\cjs\\index.js":[function(require,module,exports){
+},{"events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\events\\events.js","little-loader":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\little-loader\\lib\\little-loader.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-ast\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -19893,7 +19893,7 @@ module.exports = {
   findNodes: findNodes
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\grammar.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\grammar.js":[function(require,module,exports){
 "use strict";
 
 // Generated automatically by nearley, version 2.11.1
@@ -20221,7 +20221,7 @@ module.exports = {
   }
 })();
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 var parse = require('./parser');
@@ -20303,7 +20303,7 @@ module.exports = function (input, options, callback) {
   }
 };
 
-},{"./lexer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\lexer.js","./parser":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\parser.js","./processors":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\index.js","./processors/post":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\post.js","./processors/pre":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\pre.js","gray-matter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\gray-matter\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\lexer.js":[function(require,module,exports){
+},{"./lexer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\lexer.js","./parser":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\parser.js","./processors":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\index.js","./processors/post":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\post.js","./processors/pre":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\pre.js","gray-matter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\gray-matter\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\lexer.js":[function(require,module,exports){
 'use strict';
 
 var Lexer = require('lex');
@@ -20652,7 +20652,7 @@ var lex = function lex(options) {
 
 module.exports = lex;
 
-},{"lex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lex\\lexer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\parser.js":[function(require,module,exports){
+},{"lex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lex\\lexer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\parser.js":[function(require,module,exports){
 'use strict';
 
 var grammar = require('./grammar');
@@ -20692,7 +20692,7 @@ module.exports = function (input, tokens, positions, options) {
   throw new Error('No parse results');
 };
 
-},{"./grammar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\grammar.js","nearley":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\nearley\\lib\\nearley.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\index.js":[function(require,module,exports){
+},{"./grammar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\grammar.js","nearley":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\nearley\\lib\\nearley.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\index.js":[function(require,module,exports){
 "use strict";
 
 module.exports = function (input, options) {
@@ -20709,7 +20709,7 @@ module.exports = function (input, options) {
   return processor;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\post.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\post.js":[function(require,module,exports){
 'use strict';
 
 var smartquotes = require('smartquotes');
@@ -20959,7 +20959,7 @@ module.exports = {
   getHyperLinksFromText: getHyperLinksFromText
 };
 
-},{"idyll-ast":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-ast\\dist\\cjs\\index.js","smartquotes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\smartquotes\\dist\\smartquotes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\pre.js":[function(require,module,exports){
+},{"idyll-ast":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-ast\\dist\\cjs\\index.js","smartquotes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\smartquotes\\dist\\smartquotes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\processors\\pre.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -20968,7 +20968,7 @@ module.exports = {
   }
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-component-children\\dist\\cjs\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-component-children\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -21001,7 +21001,7 @@ var mapChildren = function mapChildren(children, transform) {
 
 module.exports = { filterChildren: filterChildren, mapChildren: mapChildren };
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\chart.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\chart.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21160,7 +21160,7 @@ Chart._idyll = {
 
 exports.default = Chart;
 
-},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-array\\build\\d3-array.js","react":"react","victory":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\display.js":[function(require,module,exports){
+},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-array\\build\\d3-array.js","react":"react","victory":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\display.js":[function(require,module,exports){
 'use strict';
 
 var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21252,7 +21252,7 @@ Display._idyll = {
 
 exports.default = Display;
 
-},{"d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-format\\build\\d3-format.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\equation.js":[function(require,module,exports){
+},{"d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-format\\build\\d3-format.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21440,7 +21440,7 @@ Equation._idyll = {
 
 exports.default = Equation;
 
-},{"d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-format\\build\\d3-format.js","d3-selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-selection\\dist\\d3-selection.js","react":"react","react-dom":"react-dom","react-latex-patched":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-latex-patched\\build\\latex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\graphic.js":[function(require,module,exports){
+},{"d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-format\\build\\d3-format.js","d3-selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-selection\\dist\\d3-selection.js","react":"react","react-dom":"react-dom","react-latex-patched":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-latex-patched\\build\\latex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\graphic.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21495,7 +21495,7 @@ var Graphic = function (_React$Component) {
 
 module.exports = Graphic;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\header.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\header.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21575,7 +21575,7 @@ Header._idyll = {
 
 exports.default = Header;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\link.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\link.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21654,7 +21654,7 @@ Link._idyll = {
 
 exports.default = Link;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\range.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\range.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21746,7 +21746,7 @@ Range._idyll = {
 
 exports.default = Range;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\step.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\step.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21833,7 +21833,7 @@ var Step = function (_React$Component) {
 
 exports.default = Step;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -21894,7 +21894,7 @@ var StepperControl = function (_React$Component) {
 
 exports.default = StepperControl;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\stepper.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -22032,7 +22032,7 @@ Stepper._idyll = {
 };
 exports.default = Stepper;
 
-},{"idyll-component-children":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-component-children\\dist\\cjs\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\text-container.js":[function(require,module,exports){
+},{"idyll-component-children":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-component-children\\dist\\cjs\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\text-container.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -22117,7 +22117,7 @@ var TextContainer = function (_React$PureComponent) {
 
 exports.default = TextContainer;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\components\\placeholder.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\components\\placeholder.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -22185,7 +22185,7 @@ var generatePlaceholder = function generatePlaceholder(name) {
 };
 exports.generatePlaceholder = generatePlaceholder;
 
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\index.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -22326,7 +22326,7 @@ var IdyllDocument = function (_React$Component) {
 
 exports.default = IdyllDocument;
 
-},{"./runtime":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\runtime.js","idyll-compiler":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-compiler\\dist\\cjs\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\runtime.js":[function(require,module,exports){
+},{"./runtime":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\runtime.js","idyll-compiler":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-compiler\\dist\\cjs\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\runtime.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -22853,7 +22853,7 @@ IdyllRuntime.defaultProps = {
 
 exports.default = IdyllRuntime;
 
-},{"./components/placeholder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\components\\placeholder.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\utils\\index.js","./utils/schema2element":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\utils\\schema2element.js","idyll-layouts":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\index.js","idyll-themes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\index.js","object.entries":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\index.js","object.values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\index.js","react":"react","react-dom":"react-dom","scrollmonitor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\scrollmonitor\\scrollMonitor.js","scrollparent":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\scrollparent\\scrollparent.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\utils\\index.js":[function(require,module,exports){
+},{"./components/placeholder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\components\\placeholder.js","./utils":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\utils\\index.js","./utils/schema2element":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\utils\\schema2element.js","idyll-layouts":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\index.js","idyll-themes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\index.js","object.entries":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\index.js","object.values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\index.js","react":"react","react-dom":"react-dom","scrollmonitor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\scrollmonitor\\scrollMonitor.js","scrollparent":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\scrollparent\\scrollparent.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\utils\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23173,7 +23173,7 @@ var findWrapTargets = function findWrapTargets(schema, state) {
 };
 exports.findWrapTargets = findWrapTargets;
 
-},{"falafel":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\falafel\\index.js","object.entries":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\index.js","object.values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\utils\\schema2element.js":[function(require,module,exports){
+},{"falafel":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\falafel\\index.js","object.entries":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\index.js","object.values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\utils\\schema2element.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23330,7 +23330,7 @@ var ReactJsonSchema = function () {
 
 exports.default = ReactJsonSchema;
 
-},{"change-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\change-case\\change-case.js","react":"react","react-dom-factories":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom-factories\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\index.js":[function(require,module,exports){
+},{"change-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\change-case\\change-case.js","react":"react","react-dom-factories":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom-factories\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23365,7 +23365,7 @@ exports.default = _extends({}, config, {
   styles: (0, _styles2.default)(config)
 });
 
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\styles.js":[function(require,module,exports){
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23375,7 +23375,7 @@ exports.default = function (_ref) {
   return "\n\nbody {\n  margin: 0;\n}\n\n.idyll-root {\n  box-sizing: border-box;\n  margin: 0 auto;\n  padding: 60px 0;\n  margin-bottom: 60px;\n}\n\n.section {\n  padding: 0 10px;\n  margin: 0 auto;\n}\n\n.article-header {\n  width: 600px;\n  max-width: 90vw;\n  margin-bottom: 45px;\n}\n\n.inset {\n  max-width: 400px;\n  margin: 0 auto;\n}\n\ninput {\n  cursor: pointer;\n}\n\n.relative {\n  position: relative;\n}\n.aside-container {\n  position: relative;\n}\n.aside {\n  position: absolute;\n  width: 300px;\n  right: calc((10vw + 600px + 150px) / -2);\n}\n\n.fixed {\n  position: fixed;\n  display: flex;\n  align-self: center;\n  flex-direction: column;\n  align-items: center;\n  right: 25px;\n  top: 0;\n  bottom: 0;\n  width: calc((80vw - 600px) - 50px);\n  justify-content: center;\n}\n\n.fixed div {\n  width: 100%;\n}\n\n.idyll-scroll-graphic {\n  position: -webkit-sticky;\n  position: sticky;\n}\n\n.idyll-scroll-graphic img {\n  max-height: 100vh;\n}\n\n@media all and (max-width: 1600px) {\n  .fixed {\n    width: calc((85vw - 600px) - 50px);\n  }\n}\n\n@media all and (max-width: 1000px) {\n  /* put your css styles in here */\n  .desktop {\n    display: none;\n  }\n  .relative {\n    position: static;\n  }\n  .aside {\n    position: static;\n    width: 100%;\n    right: 0;\n  }\n\n  .hed {\n    width: 100%;\n  }\n\n  .idyll-root {\n    padding: 15px 0;\n  }\n\n  .idyll-root {\n    width: 90vw;\n    max-width: 600px;\n    margin: 0 auto;\n    padding-bottom: 80vh;\n  }\n  .fixed {\n    position: fixed;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    width: 100vw;\n    top: initial;\n    background: white;\n    padding: 20px 0;\n    border-top: solid 2px black;\n  }\n}\n";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23410,7 +23410,7 @@ exports.default = _extends({}, config, {
   styles: (0, _styles2.default)(config)
 });
 
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\styles.js":[function(require,module,exports){
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23419,7 +23419,7 @@ exports.default = function () {
   return "\nbody {\n  margin: 0;\n}\n\n.idyll-root {\n  box-sizing: border-box;\n  padding: 60px 0;\n  margin-bottom: 60px;\n}\n\n.article-header {\n  margin-bottom: 45px;\n}\n\n.inset {\n  max-width: 400px;\n  margin: 0 auto;\n}\n\ninput {\n  cursor: pointer;\n}\n\n.relative {\n  position: relative;\n}\n.aside {\n  position: absolute;\n  width: 200px;\n  right: -225px;\n}\n\n.idyll-scroll-graphic {\n  position: -webkit-sticky;\n  position: sticky;\n}\n\n.idyll-scroll-graphic img {\n  max-height: 100vh;\n}\n\n.idyll-scroll-graphic > * {\n  display: block;\n}\n\n@media all and (max-width: 1000px) {\n\n  .idyll-root {\n    max-width: 600px;\n    margin: 0 auto;\n    padding: 60px 20px;\n    margin-bottom: 60px;\n    width: 100%;\n  }\n\n  .desktop {\n    display: none;\n  }\n  .relative {\n    position: static;\n  }\n  .aside {\n    position: static;\n    width: 100%;\n    right: 0;\n  }\n\n}\n\n";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23455,7 +23455,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-},{"./blog":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\index.js","./centered":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\index.js","./none":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\none\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\none\\index.js":[function(require,module,exports){
+},{"./blog":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\blog\\index.js","./centered":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\centered\\index.js","./none":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\none\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\none\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23486,7 +23486,7 @@ exports.default = _extends({}, config, {
   styles: (0, _styles2.default)(config)
 });
 
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js":[function(require,module,exports){
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23495,7 +23495,7 @@ exports.default = function () {
   return "";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23524,7 +23524,7 @@ exports.default = _extends({}, config, {
   styles: (0, _styles2.default)(config)
 });
 
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\styles.js":[function(require,module,exports){
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23533,9 +23533,9 @@ exports.default = function () {
   return "\n@font-face {\n  font-family: octicons-link;\n  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');\n}\n\n.ReactTable{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid rgba(0,0,0,0.1);}.ReactTable *{box-sizing:border-box}.ReactTable .rt-table{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;border-collapse:collapse;overflow:auto}.ReactTable .rt-thead{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.ReactTable .rt-thead.-headerGroups{background:rgba(0,0,0,0.03);border-bottom:1px solid rgba(0,0,0,0.05)}.ReactTable .rt-thead.-filters{border-bottom:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-thead.-filters .rt-th{border-right:1px solid rgba(0,0,0,0.02)}.ReactTable .rt-thead.-header{box-shadow:0 2px 15px 0 rgba(0,0,0,0.15)}.ReactTable .rt-thead .rt-tr{text-align:center}.ReactTable .rt-thead .rt-th,.ReactTable .rt-thead .rt-td{padding:5px 5px;line-height:normal;position:relative;border-right:1px solid rgba(0,0,0,0.05);-webkit-transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);box-shadow:inset 0 0 0 0 transparent;}.ReactTable .rt-thead .rt-th.-sort-asc,.ReactTable .rt-thead .rt-td.-sort-asc{box-shadow:inset 0 3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-sort-desc,.ReactTable .rt-thead .rt-td.-sort-desc{box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-cursor-pointer,.ReactTable .rt-thead .rt-td.-cursor-pointer{cursor:pointer}.ReactTable .rt-thead .rt-th:last-child,.ReactTable .rt-thead .rt-td:last-child{border-right:0}.ReactTable .rt-thead .rt-resizable-header{overflow:visible;}.ReactTable .rt-thead .rt-resizable-header:last-child{overflow:hidden}.ReactTable .rt-thead .rt-resizable-header-content{overflow:hidden;text-overflow:ellipsis}.ReactTable .rt-thead .rt-header-pivot{border-right-color:#f7f7f7}.ReactTable .rt-thead .rt-header-pivot:after,.ReactTable .rt-thead .rt-header-pivot:before{left:100%;top:50%;border:solid transparent;content:\" \";height:0;width:0;position:absolute;pointer-events:none}.ReactTable .rt-thead .rt-header-pivot:after{border-color:rgba(255,255,255,0);border-left-color:#fff;border-width:8px;margin-top:-8px}.ReactTable .rt-thead .rt-header-pivot:before{border-color:rgba(102,102,102,0);border-left-color:#f7f7f7;border-width:10px;margin-top:-10px}.ReactTable .rt-tbody{-webkit-box-flex:99999;-ms-flex:99999 1 auto;flex:99999 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto;}.ReactTable .rt-tbody .rt-tr-group{border-bottom:solid 1px rgba(0,0,0,0.05);}.ReactTable .rt-tbody .rt-tr-group:last-child{border-bottom:0}.ReactTable .rt-tbody .rt-td{border-right:1px solid rgba(0,0,0,0.02);}.ReactTable .rt-tbody .rt-td:last-child{border-right:0}.ReactTable .rt-tbody .rt-expandable{cursor:pointer}.ReactTable .rt-tr-group{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.ReactTable .rt-tr{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.ReactTable .rt-th,.ReactTable .rt-td{-webkit-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;white-space:nowrap;text-overflow:ellipsis;padding:7px 5px;overflow:hidden;-webkit-transition:.3s ease;transition:.3s ease;-webkit-transition-property:width,min-width,padding,opacity;transition-property:width,min-width,padding,opacity;}.ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden{width:0 !important;min-width:0 !important;padding:0 !important;border:0 !important;opacity:0 !important}.ReactTable .rt-expander{display:inline-block;position:relative;margin:0;color:transparent;margin:0 10px;}.ReactTable .rt-expander:after{content:'';position:absolute;width:0;height:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%) rotate(-90deg);transform:translate(-50%,-50%) rotate(-90deg);border-left:5.04px solid transparent;border-right:5.04px solid transparent;border-top:7px solid rgba(0,0,0,0.8);-webkit-transition:all .3s cubic-bezier(.175,.885,.32,1.275);transition:all .3s cubic-bezier(.175,.885,.32,1.275);cursor:pointer}.ReactTable .rt-expander.-open:after{-webkit-transform:translate(-50%,-50%) rotate(0);transform:translate(-50%,-50%) rotate(0)}.ReactTable .rt-resizer{display:inline-block;position:absolute;width:36px;top:0;bottom:0;right:-18px;cursor:col-resize;z-index:10}.ReactTable .rt-tfoot{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;box-shadow:0 0 15px 0 rgba(0,0,0,0.15);}.ReactTable .rt-tfoot .rt-td{border-right:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-tfoot .rt-td:last-child{border-right:0}.ReactTable.-striped .rt-tr.-odd{background:rgba(0,0,0,0.03)}.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover{background:rgba(0,0,0,0.05)}.ReactTable .-pagination{z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);border-top:2px solid rgba(0,0,0,0.1);}.ReactTable .-pagination .-btn{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:100%;border:0;border-radius:3px;padding:6px;font-size:1em;color:rgba(0,0,0,0.6);background:rgba(0,0,0,0.1);-webkit-transition:all .1s ease;transition:all .1s ease;cursor:pointer;outline:none;}.ReactTable .-pagination .-btn[disabled]{opacity:.5;cursor:default}.ReactTable .-pagination .-btn:not([disabled]):hover{background:rgba(0,0,0,0.3);color:#fff}.ReactTable .-pagination .-previous,.ReactTable .-pagination .-next{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.ReactTable .-pagination .-center{-webkit-box-flex:1.5;-ms-flex:1.5;flex:1.5;text-align:center;margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.ReactTable .-pagination .-pageInfo{display:inline-block;margin:3px 10px;white-space:nowrap}.ReactTable .-pagination .-pageJump{display:inline-block;}.ReactTable .-pagination .-pageJump input{width:70px;text-align:center}.ReactTable .-pagination .-pageSizeOptions{margin:3px 10px}.ReactTable .rt-noData{display:block;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:1;pointer-events:none;padding:20px;color:rgba(0,0,0,0.5)}.ReactTable .-loading{display:block;position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:-1;opacity:0;pointer-events:none;}.ReactTable .-loading > div{position:absolute;display:block;text-align:center;width:100%;top:50%;left:0;font-size:15px;color:rgba(0,0,0,0.6);-webkit-transform:translateY(-52%);transform:translateY(-52%);-webkit-transition:all .3s cubic-bezier(.25,.46,.45,.94);transition:all .3s cubic-bezier(.25,.46,.45,.94)}.ReactTable .-loading.-active{opacity:1;z-index:2;pointer-events:all;}.ReactTable .-loading.-active > div{-webkit-transform:translateY(50%);transform:translateY(50%)}.ReactTable input,.ReactTable select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .rt-resizing .rt-th,.ReactTable .rt-resizing .rt-td{-webkit-transition:none !important;transition:none !important;cursor:col-resize;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}\n\n* {\n  box-sizing: border-box;\n}\nbody {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n  line-height: 1.5;\n  color: #24292e;\n  font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-size: 16px;\n  line-height: 1.5;\n  word-wrap: break-word;\n}\n\n.pl-c {\n  color: #969896;\n}\n\n.pl-c1,\n.pl-s .pl-v {\n  color: #0086b3;\n}\n\n.pl-e,\n.pl-en {\n  color: #795da3;\n}\n\n.pl-smi,\n.pl-s .pl-s1 {\n  color: #333;\n}\n\n.pl-ent {\n  color: #63a35c;\n}\n\n.pl-k {\n  color: #a71d5d;\n}\n\n.pl-s,\n.pl-pds,\n.pl-s .pl-pse .pl-s1,\n.pl-sr,\n.pl-sr .pl-cce,\n.pl-sr .pl-sre,\n.pl-sr .pl-sra {\n  color: #183691;\n}\n\n.pl-v,\n.pl-smw {\n  color: #ed6a43;\n}\n\n.pl-bu {\n  color: #b52a1d;\n}\n\n.pl-ii {\n  color: #f8f8f8;\n  background-color: #b52a1d;\n}\n\n.pl-c2 {\n  color: #f8f8f8;\n  background-color: #b52a1d;\n}\n\n.pl-c2::before {\n  content: \"\\000d\";\n}\n\n.pl-sr .pl-cce {\n  font-weight: bold;\n  color: #63a35c;\n}\n\n.pl-ml {\n  color: #693a17;\n}\n\n.pl-mh,\n.pl-mh .pl-en,\n.pl-ms {\n  font-weight: bold;\n  color: #1d3e81;\n}\n\n.pl-mq {\n  color: #008080;\n}\n\n.pl-mi {\n  font-style: italic;\n  color: #333;\n}\n\n.pl-mb {\n  font-weight: bold;\n  color: #333;\n}\n\n.pl-md {\n  color: #bd2c00;\n  background-color: #ffecec;\n}\n\n.pl-mi1 {\n  color: #55a532;\n  background-color: #eaffea;\n}\n\n.pl-mc {\n  color: #ef9700;\n  background-color: #ffe3b4;\n}\n\n.pl-mi2 {\n  color: #d8d8d8;\n  background-color: #808080;\n}\n\n.pl-mdr {\n  font-weight: bold;\n  color: #795da3;\n}\n\n.pl-mo {\n  color: #1d3e81;\n}\n\n.pl-ba {\n  color: #595e62;\n}\n\n.pl-sg {\n  color: #c0c0c0;\n}\n\n.pl-corl {\n  text-decoration: underline;\n  color: #183691;\n}\n\n.octicon {\n  display: inline-block;\n  vertical-align: text-top;\n  fill: currentColor;\n}\n\na {\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\na:active,\na:hover {\n  outline-width: 0;\n}\n\nstrong {\n  font-weight: inherit;\n}\n\nstrong {\n  font-weight: bolder;\n}\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\nimg {\n  border-style: none;\n}\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\ncode,\nkbd,\npre {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n\nhr {\n  box-sizing: content-box;\n  height: 0;\n  overflow: visible;\n}\n\ninput {\n  font: inherit;\n  margin: 10px 10px 20px 0;\n}\n\ninput {\n  overflow: visible;\n}\n\n[type=\"checkbox\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\n\n\ninput {\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n}\n\na {\n  color: #0366d6;\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\nstrong {\n  font-weight: 600;\n}\n\nhr {\n  height: 0;\n  margin: 15px 0;\n  overflow: hidden;\n  background: transparent;\n  border: 0;\n  border-bottom: 1px solid #dfe2e5;\n}\n\nhr::before {\n  display: table;\n  content: \"\";\n}\n\nhr::after {\n  display: table;\n  clear: both;\n  content: \"\";\n}\n\ntable {\n  border-spacing: 0;\n  border-collapse: collapse;\n}\n\ntd,\nth {\n  padding: 0;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nh1 {\n  font-size: 32px;\n  font-weight: 600;\n}\n\nh2 {\n  font-size: 24px;\n  font-weight: 600;\n}\n\nh3 {\n  font-size: 20px;\n  font-weight: 600;\n}\n\nh4 {\n  font-size: 16px;\n  font-weight: 600;\n}\n\nh5 {\n  font-size: 14px;\n  font-weight: 600;\n}\n\nh6 {\n  font-size: 12px;\n  font-weight: 600;\n}\n\np {\n  margin-top: 0;\n  margin-bottom: 10px;\n}\n\nblockquote {\n  margin: 0;\n}\n\nul,\nol {\n  padding-left: 0;\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nol ol,\nul ol {\n  list-style-type: lower-roman;\n}\n\nul ul ol,\nul ol ol,\nol ul ol,\nol ol ol {\n  list-style-type: lower-alpha;\n}\n\ndd {\n  margin-left: 0;\n}\n\ncode {\n  font-family: \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n  font-size: 12px;\n}\n\npre {\n  margin-top: 0;\n  margin-bottom: 0;\n  font: 12px \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n}\n\n.octicon {\n  vertical-align: text-bottom;\n}\n\n.pl-0 {\n  padding-left: 0 !important;\n}\n\n.pl-1 {\n  padding-left: 4px !important;\n}\n\n.pl-2 {\n  padding-left: 8px !important;\n}\n\n.pl-3 {\n  padding-left: 16px !important;\n}\n\n.pl-4 {\n  padding-left: 24px !important;\n}\n\n.pl-5 {\n  padding-left: 32px !important;\n}\n\n.pl-6 {\n  padding-left: 40px !important;\n}\n\n.idyll-root::before {\n  display: table;\n  content: \"\";\n}\n\n.idyll-root::after {\n  display: table;\n  clear: both;\n  content: \"\";\n}\n\n.idyll-root>*:first-child {\n  margin-top: 0 !important;\n}\n\n.idyll-root>*:last-child {\n  margin-bottom: 0 !important;\n}\n\na:not([href]) {\n  color: inherit;\n  text-decoration: none;\n}\n\n.anchor {\n  float: left;\n  padding-right: 4px;\n  margin-left: -20px;\n  line-height: 1;\n}\n\n.anchor:focus {\n  outline: none;\n}\n\np,\nblockquote,\nul,\nol,\ndl,\ntable,\npre {\n  margin-top: 0;\n  margin-bottom: 16px;\n}\n\nhr {\n  height: 0.25em;\n  padding: 0;\n  margin: 24px 0;\n  background-color: #e1e4e8;\n  border: 0;\n}\n\nblockquote {\n  padding: 0 1em;\n  color: #6a737d;\n  border-left: 0.25em solid #dfe2e5;\n}\n\nblockquote>:first-child {\n  margin-top: 0;\n}\n\nblockquote>:last-child {\n  margin-bottom: 0;\n}\n\nkbd {\n  display: inline-block;\n  padding: 3px 5px;\n  font-size: 11px;\n  line-height: 10px;\n  color: #444d56;\n  vertical-align: middle;\n  background-color: #fafbfc;\n  border: solid 1px #c6cbd1;\n  border-bottom-color: #959da5;\n  border-radius: 3px;\n  box-shadow: inset 0 -1px 0 #959da5;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin-top: 24px;\n  margin-bottom: 16px;\n  font-weight: 600;\n  line-height: 1.25;\n}\n\nh1 .octicon-link,\nh2 .octicon-link,\nh3 .octicon-link,\nh4 .octicon-link,\nh5 .octicon-link,\nh6 .octicon-link {\n  color: #1b1f23;\n  vertical-align: middle;\n  visibility: hidden;\n}\n\nh1:hover .anchor,\nh2:hover .anchor,\nh3:hover .anchor,\nh4:hover .anchor,\nh5:hover .anchor,\nh6:hover .anchor {\n  text-decoration: none;\n}\n\nh1:hover .anchor .octicon-link,\nh2:hover .anchor .octicon-link,\nh3:hover .anchor .octicon-link,\nh4:hover .anchor .octicon-link,\nh5:hover .anchor .octicon-link,\nh6:hover .anchor .octicon-link {\n  visibility: visible;\n}\n\nh1 {\n  padding-bottom: 0.3em;\n  font-size: 2em;\n  border-bottom: 1px solid #eaecef;\n}\n\nh2 {\n  padding-bottom: 0.3em;\n  font-size: 1.5em;\n  border-bottom: 1px solid #eaecef;\n}\n\nh3 {\n  font-size: 1.25em;\n}\n\nh4 {\n  font-size: 1em;\n}\n\nh5 {\n  font-size: 0.875em;\n}\n\nh6 {\n  font-size: 0.85em;\n  color: #6a737d;\n}\n\nh1.hed,\nh2.dek {\n  border-bottom: none;\n  padding-bottom: 0;\n  margin-top: 12px;\n}\n\nul,\nol {\n  padding-left: 2em;\n}\n\nul ul,\nul ol,\nol ol,\nol ul {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nli>p {\n  margin-top: 16px;\n}\n\nli+li {\n  margin-top: 0.25em;\n}\n\ndl {\n  padding: 0;\n}\n\ndl dt {\n  padding: 0;\n  margin-top: 16px;\n  font-size: 1em;\n  font-style: italic;\n  font-weight: 600;\n}\n\ndl dd {\n  padding: 0 16px;\n  margin-bottom: 16px;\n}\n\ntable {\n  display: block;\n  width: 100%;\n  overflow: auto;\n}\n\ntable th {\n  font-weight: 600;\n}\n\ntable th,\ntable td {\n  padding: 6px 13px;\n  border: 1px solid #dfe2e5;\n}\n\ntable tr {\n  background-color: #fff;\n  border-top: 1px solid #c6cbd1;\n}\n\ntable tr:nth-child(2n) {\n  background-color: #f6f8fa;\n}\n\nimg {\n  max-width: 100%;\n  box-sizing: content-box;\n  background-color: #fff;\n}\n\ncode {\n  padding: 0;\n  padding-top: 0.2em;\n  padding-bottom: 0.2em;\n  margin: 0;\n  font-size: 85%;\n  background-color: rgba(27,31,35,0.05);\n  border-radius: 3px;\n}\n\ncode::before,\ncode::after {\n  letter-spacing: -0.2em;\n  content: \"\\00a0\";\n}\n\npre {\n  word-wrap: normal;\n}\n\npre>code {\n  padding: 0;\n  margin: 0;\n  font-size: 100%;\n  word-break: normal;\n  white-space: pre;\n  background: transparent;\n  border: 0;\n}\n\n.highlight {\n  margin-bottom: 16px;\n}\n\n.highlight pre {\n  margin-bottom: 0;\n  word-break: normal;\n}\n\n.highlight pre,\npre {\n  padding: 16px;\n  overflow: auto;\n  font-size: 85%;\n  line-height: 1.45;\n  background-color: #f6f8fa;\n  border-radius: 3px;\n}\n\npre code {\n  display: inline;\n  max-width: auto;\n  padding: 0;\n  margin: 0;\n  overflow: visible;\n  line-height: inherit;\n  word-wrap: normal;\n  background-color: transparent;\n  border: 0;\n}\n\npre code::before,\npre code::after {\n  content: normal;\n}\n\n.full-commit .btn-outline:not(:disabled):hover {\n  color: #005cc5;\n  border-color: #005cc5;\n}\n\nkbd {\n  display: inline-block;\n  padding: 3px 5px;\n  font: 11px \"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n  line-height: 10px;\n  color: #444d56;\n  vertical-align: middle;\n  background-color: #fcfcfc;\n  border: solid 1px #c6cbd1;\n  border-bottom-color: #959da5;\n  border-radius: 3px;\n  box-shadow: inset 0 -1px 0 #959da5;\n}\n\n:checked+.radio-label {\n  position: relative;\n  z-index: 1;\n  border-color: #0366d6;\n}\n\n.task-list-item {\n  list-style-type: none;\n}\n\n.task-list-item+.task-list-item {\n  margin-top: 3px;\n}\n\n.task-list-item input {\n  margin: 0 0.2em 0.25em -1.6em;\n  vertical-align: middle;\n}\n\nhr {\n  border-bottom-color: #eee;\n}\n\n.idyll-dynamic {\n  text-decoration: underline;\n  text-decoration-style: dotted;\n}\n\n.idyll-action {\n  text-decoration: underline;\n}\n\n.idyll-document-error {\n  color: red;\n  font-family: monospace;\n}\n\n\n\n.idyll-step-graphic {\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  height: 100%;\n  overflow: hidden;\n  margin: 0 auto;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: black;\n}\n\n.idyll-scroll-graphic {\n\n  text-align: center;\n  width: 100%;\n}\n\n.idyll-step-graphic img {\n  flex-shrink: 0;\n  min-width: 100%;\n  min-height: 100%\n}\n\n.idyll-step-content {\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  color: white;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.8);\n}\n\n.idyll-stepper-control {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 100%;\n}\n\n.idyll-stepper-control-button {\n  background: rgba(0, 0, 0, 0.7);\n  color: white;\n  font-weight: bold;\n  padding: 15px 10px;\n  cursor: pointer;\n}\n\n.idyll-stepper-control-button-previous {\n  position: absolute;\n  left: 10px;\n}\n\n.idyll-stepper-control-button-next {\n  position: absolute;\n  right: 10px;\n}\n\n.idyll-stepper {\n  margin: 60px 0;\n}\n\n.idyll-scroll {\n  margin-top: 25vh;\n}\n\n.idyll-scroll-text {\n  padding: 50vh 0;\n}\n\n.idyll-scroll-text .idyll-step {\n  margin: 75vh 0 75vh 0;\n  padding: 50px;\n  background: white;\n}\n\n";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\styles.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23544,7 +23544,7 @@ exports.default = function () {
   return "\n* {\n  box-sizing: border-box;\n}\n\nhtml {\n  margin: 0;\n  padding: 0;\n}\n\nimg {\n  display: block;\n  width: 100%;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n}\n\nh1,h2,h3,h4,h5,h6{\n  margin: 40px 0 20px 0;\n  font-weight: bold;\n}\n\n\nbody {\n  color: black;\n}\n\np, .article-body {\n  font-size: 1.15rem;\n  line-height: 1.75rem;\n}\n\n.byline a {\n  color: black;\n}\n\n.ReactTable{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid rgba(0,0,0,0.1);}.ReactTable *{box-sizing:border-box}.ReactTable .rt-table{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;border-collapse:collapse;overflow:auto}.ReactTable .rt-thead{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.ReactTable .rt-thead.-headerGroups{background:rgba(0,0,0,0.03);border-bottom:1px solid rgba(0,0,0,0.05)}.ReactTable .rt-thead.-filters{border-bottom:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-thead.-filters .rt-th{border-right:1px solid rgba(0,0,0,0.02)}.ReactTable .rt-thead.-header{box-shadow:0 2px 15px 0 rgba(0,0,0,0.15)}.ReactTable .rt-thead .rt-tr{text-align:center}.ReactTable .rt-thead .rt-th,.ReactTable .rt-thead .rt-td{padding:5px 5px;line-height:normal;position:relative;border-right:1px solid rgba(0,0,0,0.05);-webkit-transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);box-shadow:inset 0 0 0 0 transparent;}.ReactTable .rt-thead .rt-th.-sort-asc,.ReactTable .rt-thead .rt-td.-sort-asc{box-shadow:inset 0 3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-sort-desc,.ReactTable .rt-thead .rt-td.-sort-desc{box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-cursor-pointer,.ReactTable .rt-thead .rt-td.-cursor-pointer{cursor:pointer}.ReactTable .rt-thead .rt-th:last-child,.ReactTable .rt-thead .rt-td:last-child{border-right:0}.ReactTable .rt-thead .rt-resizable-header{overflow:visible;}.ReactTable .rt-thead .rt-resizable-header:last-child{overflow:hidden}.ReactTable .rt-thead .rt-resizable-header-content{overflow:hidden;text-overflow:ellipsis}.ReactTable .rt-thead .rt-header-pivot{border-right-color:#f7f7f7}.ReactTable .rt-thead .rt-header-pivot:after,.ReactTable .rt-thead .rt-header-pivot:before{left:100%;top:50%;border:solid transparent;content:\" \";height:0;width:0;position:absolute;pointer-events:none}.ReactTable .rt-thead .rt-header-pivot:after{border-color:rgba(255,255,255,0);border-left-color:#fff;border-width:8px;margin-top:-8px}.ReactTable .rt-thead .rt-header-pivot:before{border-color:rgba(102,102,102,0);border-left-color:#f7f7f7;border-width:10px;margin-top:-10px}.ReactTable .rt-tbody{-webkit-box-flex:99999;-ms-flex:99999 1 auto;flex:99999 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto;}.ReactTable .rt-tbody .rt-tr-group{border-bottom:solid 1px rgba(0,0,0,0.05);}.ReactTable .rt-tbody .rt-tr-group:last-child{border-bottom:0}.ReactTable .rt-tbody .rt-td{border-right:1px solid rgba(0,0,0,0.02);}.ReactTable .rt-tbody .rt-td:last-child{border-right:0}.ReactTable .rt-tbody .rt-expandable{cursor:pointer}.ReactTable .rt-tr-group{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.ReactTable .rt-tr{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.ReactTable .rt-th,.ReactTable .rt-td{-webkit-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;white-space:nowrap;text-overflow:ellipsis;padding:7px 5px;overflow:hidden;-webkit-transition:.3s ease;transition:.3s ease;-webkit-transition-property:width,min-width,padding,opacity;transition-property:width,min-width,padding,opacity;}.ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden{width:0 !important;min-width:0 !important;padding:0 !important;border:0 !important;opacity:0 !important}.ReactTable .rt-expander{display:inline-block;position:relative;margin:0;color:transparent;margin:0 10px;}.ReactTable .rt-expander:after{content:'';position:absolute;width:0;height:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%) rotate(-90deg);transform:translate(-50%,-50%) rotate(-90deg);border-left:5.04px solid transparent;border-right:5.04px solid transparent;border-top:7px solid rgba(0,0,0,0.8);-webkit-transition:all .3s cubic-bezier(.175,.885,.32,1.275);transition:all .3s cubic-bezier(.175,.885,.32,1.275);cursor:pointer}.ReactTable .rt-expander.-open:after{-webkit-transform:translate(-50%,-50%) rotate(0);transform:translate(-50%,-50%) rotate(0)}.ReactTable .rt-resizer{display:inline-block;position:absolute;width:36px;top:0;bottom:0;right:-18px;cursor:col-resize;z-index:10}.ReactTable .rt-tfoot{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;box-shadow:0 0 15px 0 rgba(0,0,0,0.15);}.ReactTable .rt-tfoot .rt-td{border-right:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-tfoot .rt-td:last-child{border-right:0}.ReactTable.-striped .rt-tr.-odd{background:rgba(0,0,0,0.03)}.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover{background:rgba(0,0,0,0.05)}.ReactTable .-pagination{z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);border-top:2px solid rgba(0,0,0,0.1);}.ReactTable .-pagination .-btn{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:100%;border:0;border-radius:3px;padding:6px;font-size:1em;color:rgba(0,0,0,0.6);background:rgba(0,0,0,0.1);-webkit-transition:all .1s ease;transition:all .1s ease;cursor:pointer;outline:none;}.ReactTable .-pagination .-btn[disabled]{opacity:.5;cursor:default}.ReactTable .-pagination .-btn:not([disabled]):hover{background:rgba(0,0,0,0.3);color:#fff}.ReactTable .-pagination .-previous,.ReactTable .-pagination .-next{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.ReactTable .-pagination .-center{-webkit-box-flex:1.5;-ms-flex:1.5;flex:1.5;text-align:center;margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.ReactTable .-pagination .-pageInfo{display:inline-block;margin:3px 10px;white-space:nowrap}.ReactTable .-pagination .-pageJump{display:inline-block;}.ReactTable .-pagination .-pageJump input{width:70px;text-align:center}.ReactTable .-pagination .-pageSizeOptions{margin:3px 10px}.ReactTable .rt-noData{display:block;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:1;pointer-events:none;padding:20px;color:rgba(0,0,0,0.5)}.ReactTable .-loading{display:block;position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:-1;opacity:0;pointer-events:none;}.ReactTable .-loading > div{position:absolute;display:block;text-align:center;width:100%;top:50%;left:0;font-size:15px;color:rgba(0,0,0,0.6);-webkit-transform:translateY(-52%);transform:translateY(-52%);-webkit-transition:all .3s cubic-bezier(.25,.46,.45,.94);transition:all .3s cubic-bezier(.25,.46,.45,.94)}.ReactTable .-loading.-active{opacity:1;z-index:2;pointer-events:all;}.ReactTable .-loading.-active > div{-webkit-transform:translateY(50%);transform:translateY(50%)}.ReactTable input,.ReactTable select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .rt-resizing .rt-th,.ReactTable .rt-resizing .rt-td{-webkit-transition:none !important;transition:none !important;cursor:col-resize;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}\n\n.hed {\n  font-size: 3rem;\n  line-height: 3rem;\n  margin: 20px 0 20px;\n  font-weight: bold;\n  width: 150%;\n  max-width: 90vw;\n}\n\n.dek {\n  margin: 0;\n  display: block;\n  font-size: 1.5rem;\n  line-height: 2.2rem;\n  color: black;\n  margin-top: 1rem;\n  max-width: 90vw;\n}\n\n.byline {\n  font-size: .95rem;\n  line-height: 1rem;\n  color: black;\n  margin-top: 1rem;\n}\n\na, a:visited, a:hover {\n  color: black;\n  cursor: pointer;\n  text-decoration: none;\n  /*border-bottom: 1px solid #EAE7D6;*/\n  box-shadow: inset 0 -4px 0 #EAE7D6;\n  transition: box-shadow 0.25s ease-out;\n}\n\na:hover {\n  color: black;\n  /*background: #EAE7D6;*/\n  box-shadow: inset 0 -20px 0 #EAE7D6;\n}\n\npre {\n  margin-top: 25px;\n  margin-bottom: 25px;\n}\n\npre code {\n  background: #F2F3F2;\n  color: black;\n  padding: 20px 15px;\n  width: 100%;\n  display: block;\n  overflow-x: auto;\n  font-size: 12px;\n  text-align: initial;\n  font-style: normal;\n}\ncode {\n  background: #F2F3F2;\n  color: black;\n  padding: 1px 5px;\n}\n\n\n\nspan.action {\n  border-color: #5601FF;\n  border-width: 2px;\n  border-style: none none solid none;\n  color: #5601FF;\n  /*font-size: 0.9em;*/\n  padding: -4px 5px;\n  margin: 0 5px;\n  cursor: pointer;\n}\n\n.idyll-dynamic {\n  text-decoration: underline;\n  text-decoration-style: dotted;\n}\n\n.idyll-action {\n  text-decoration: underline;\n}\n\n.idyll-document-error {\n  color: red;\n  font-family: monospace;\n}\n\n\n\n.idyll-step-graphic {\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  height: 100%;\n  overflow: hidden;\n  margin: 0 auto;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: black;\n}\n\n.idyll-scroll-graphic {\n\n  text-align: center;\n  width: 100%;\n}\n\n.idyll-step-graphic img {\n  flex-shrink: 0;\n  min-width: 100%;\n  min-height: 100%\n}\n\n.idyll-step-content {\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  color: white;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.8);\n}\n\n.idyll-stepper-control {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 100%;\n}\n\n.idyll-stepper-control-button {\n  background: rgba(0, 0, 0, 0.7);\n  color: white;\n  font-weight: bold;\n  padding: 15px 10px;\n  cursor: pointer;\n}\n\n.idyll-stepper-control-button-previous {\n  position: absolute;\n  left: 10px;\n}\n\n.idyll-stepper-control-button-next {\n  position: absolute;\n  right: 10px;\n}\n\n.idyll-stepper {\n  margin: 60px 0;\n}\n\n.idyll-scroll {\n  margin-top: 25vh;\n}\n\n.idyll-scroll-text {\n  padding: 50vh 0;\n}\n\n.idyll-scroll-text .idyll-step {\n  margin: 75vh 0 75vh 0;\n  padding: 50px;\n  background: white;\n}\n\n\n";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -23589,13 +23589,13 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-},{"./github":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js","./idyll":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\index.js","./none":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\none\\index.js","./tufte":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\none\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\none\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\none\\styles.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
-},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\styles.js":[function(require,module,exports){
+},{"./github":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js","./idyll":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\idyll\\index.js","./none":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\none\\index.js","./tufte":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\none\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\none\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\none\\styles.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-layouts\\dist\\cjs\\none\\styles.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\github\\index.js"][0].apply(exports,arguments)
+},{"./styles":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\styles.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-themes\\dist\\cjs\\tufte\\styles.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23604,7 +23604,7 @@ exports.default = function () {
   return "\n@charset \"UTF-8\";\n\n/* Import ET Book styles\n   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */\n\n@font-face { font-family: \"et-book\";\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot\");\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix\") format(\"embedded-opentype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff\") format(\"woff\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf\") format(\"truetype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf\") format(\"svg\");\n             font-weight: normal;\n             font-style: normal; }\n\n@font-face { font-family: \"et-book\";\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot\");\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix\") format(\"embedded-opentype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff\") format(\"woff\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf\") format(\"truetype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf\") format(\"svg\");\n             font-weight: normal;\n             font-style: italic; }\n\n@font-face { font-family: \"et-book\";\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot\");\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix\") format(\"embedded-opentype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff\") format(\"woff\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf\") format(\"truetype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf\") format(\"svg\");\n             font-weight: bold;\n             font-style: normal; }\n\n@font-face { font-family: \"et-book-roman-old-style\";\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot\");\n             src: url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix\") format(\"embedded-opentype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff\") format(\"woff\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf\") format(\"truetype\"), url(\"https://cdn.rawgit.com/edwardtufte/tufte-css/gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf\") format(\"svg\");\n             font-weight: normal;\n             font-style: normal; }\n\n\n             .ReactTable{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid rgba(0,0,0,0.1);}.ReactTable *{box-sizing:border-box}.ReactTable .rt-table{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;border-collapse:collapse;overflow:auto}.ReactTable .rt-thead{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.ReactTable .rt-thead.-headerGroups{background:rgba(0,0,0,0.03);border-bottom:1px solid rgba(0,0,0,0.05)}.ReactTable .rt-thead.-filters{border-bottom:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-thead.-filters .rt-th{border-right:1px solid rgba(0,0,0,0.02)}.ReactTable .rt-thead.-header{box-shadow:0 2px 15px 0 rgba(0,0,0,0.15)}.ReactTable .rt-thead .rt-tr{text-align:center}.ReactTable .rt-thead .rt-th,.ReactTable .rt-thead .rt-td{padding:5px 5px;line-height:normal;position:relative;border-right:1px solid rgba(0,0,0,0.05);-webkit-transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);box-shadow:inset 0 0 0 0 transparent;}.ReactTable .rt-thead .rt-th.-sort-asc,.ReactTable .rt-thead .rt-td.-sort-asc{box-shadow:inset 0 3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-sort-desc,.ReactTable .rt-thead .rt-td.-sort-desc{box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-cursor-pointer,.ReactTable .rt-thead .rt-td.-cursor-pointer{cursor:pointer}.ReactTable .rt-thead .rt-th:last-child,.ReactTable .rt-thead .rt-td:last-child{border-right:0}.ReactTable .rt-thead .rt-resizable-header{overflow:visible;}.ReactTable .rt-thead .rt-resizable-header:last-child{overflow:hidden}.ReactTable .rt-thead .rt-resizable-header-content{overflow:hidden;text-overflow:ellipsis}.ReactTable .rt-thead .rt-header-pivot{border-right-color:#f7f7f7}.ReactTable .rt-thead .rt-header-pivot:after,.ReactTable .rt-thead .rt-header-pivot:before{left:100%;top:50%;border:solid transparent;content:\" \";height:0;width:0;position:absolute;pointer-events:none}.ReactTable .rt-thead .rt-header-pivot:after{border-color:rgba(255,255,255,0);border-left-color:#fff;border-width:8px;margin-top:-8px}.ReactTable .rt-thead .rt-header-pivot:before{border-color:rgba(102,102,102,0);border-left-color:#f7f7f7;border-width:10px;margin-top:-10px}.ReactTable .rt-tbody{-webkit-box-flex:99999;-ms-flex:99999 1 auto;flex:99999 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto;}.ReactTable .rt-tbody .rt-tr-group{border-bottom:solid 1px rgba(0,0,0,0.05);}.ReactTable .rt-tbody .rt-tr-group:last-child{border-bottom:0}.ReactTable .rt-tbody .rt-td{border-right:1px solid rgba(0,0,0,0.02);}.ReactTable .rt-tbody .rt-td:last-child{border-right:0}.ReactTable .rt-tbody .rt-expandable{cursor:pointer}.ReactTable .rt-tr-group{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.ReactTable .rt-tr{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.ReactTable .rt-th,.ReactTable .rt-td{-webkit-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;white-space:nowrap;text-overflow:ellipsis;padding:7px 5px;overflow:hidden;-webkit-transition:.3s ease;transition:.3s ease;-webkit-transition-property:width,min-width,padding,opacity;transition-property:width,min-width,padding,opacity;}.ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden{width:0 !important;min-width:0 !important;padding:0 !important;border:0 !important;opacity:0 !important}.ReactTable .rt-expander{display:inline-block;position:relative;margin:0;color:transparent;margin:0 10px;}.ReactTable .rt-expander:after{content:'';position:absolute;width:0;height:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%) rotate(-90deg);transform:translate(-50%,-50%) rotate(-90deg);border-left:5.04px solid transparent;border-right:5.04px solid transparent;border-top:7px solid rgba(0,0,0,0.8);-webkit-transition:all .3s cubic-bezier(.175,.885,.32,1.275);transition:all .3s cubic-bezier(.175,.885,.32,1.275);cursor:pointer}.ReactTable .rt-expander.-open:after{-webkit-transform:translate(-50%,-50%) rotate(0);transform:translate(-50%,-50%) rotate(0)}.ReactTable .rt-resizer{display:inline-block;position:absolute;width:36px;top:0;bottom:0;right:-18px;cursor:col-resize;z-index:10}.ReactTable .rt-tfoot{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;box-shadow:0 0 15px 0 rgba(0,0,0,0.15);}.ReactTable .rt-tfoot .rt-td{border-right:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-tfoot .rt-td:last-child{border-right:0}.ReactTable.-striped .rt-tr.-odd{background:rgba(0,0,0,0.03)}.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover{background:rgba(0,0,0,0.05)}.ReactTable .-pagination{z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);border-top:2px solid rgba(0,0,0,0.1);}.ReactTable .-pagination .-btn{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:100%;border:0;border-radius:3px;padding:6px;font-size:1em;color:rgba(0,0,0,0.6);background:rgba(0,0,0,0.1);-webkit-transition:all .1s ease;transition:all .1s ease;cursor:pointer;outline:none;}.ReactTable .-pagination .-btn[disabled]{opacity:.5;cursor:default}.ReactTable .-pagination .-btn:not([disabled]):hover{background:rgba(0,0,0,0.3);color:#fff}.ReactTable .-pagination .-previous,.ReactTable .-pagination .-next{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.ReactTable .-pagination .-center{-webkit-box-flex:1.5;-ms-flex:1.5;flex:1.5;text-align:center;margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.ReactTable .-pagination .-pageInfo{display:inline-block;margin:3px 10px;white-space:nowrap}.ReactTable .-pagination .-pageJump{display:inline-block;}.ReactTable .-pagination .-pageJump input{width:70px;text-align:center}.ReactTable .-pagination .-pageSizeOptions{margin:3px 10px}.ReactTable .rt-noData{display:block;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:1;pointer-events:none;padding:20px;color:rgba(0,0,0,0.5)}.ReactTable .-loading{display:block;position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:-1;opacity:0;pointer-events:none;}.ReactTable .-loading > div{position:absolute;display:block;text-align:center;width:100%;top:50%;left:0;font-size:15px;color:rgba(0,0,0,0.6);-webkit-transform:translateY(-52%);transform:translateY(-52%);-webkit-transition:all .3s cubic-bezier(.25,.46,.45,.94);transition:all .3s cubic-bezier(.25,.46,.45,.94)}.ReactTable .-loading.-active{opacity:1;z-index:2;pointer-events:all;}.ReactTable .-loading.-active > div{-webkit-transform:translateY(50%);transform:translateY(50%)}.ReactTable input,.ReactTable select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .rt-resizing .rt-th,.ReactTable .rt-resizing .rt-td{-webkit-transition:none !important;transition:none !important;cursor:col-resize;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}\n/* Tufte CSS styles */\nhtml {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #fffff8;\n}\n\nbody { font-family: et-book, Palatino, \"Palatino Linotype\", \"Palatino LT STD\", \"Book Antiqua\", Georgia, serif;\n       background-color: #fffff8;\n       color: #111;\n       counter-reset: sidenote-counter; }\n\n\n.idyll-root { position: relative;\n          padding: 5rem 0rem;\n          margin-left: 0;\n          width: auto;\n          margin: auto; }\n\nh1, .hed { font-weight: 400;\n     margin-top: 4rem;\n     margin-bottom: 1.5rem;\n     font-size: 3.2rem;\n     line-height: 1; }\n\nh2 { font-style: italic;\n     font-weight: 400;\n     margin-top: 2.1rem;\n     margin-bottom: 0;\n     font-size: 2.2rem;\n     line-height: 1; }\n\nh3 { font-style: italic;\n     font-weight: 400;\n     font-size: 1.7rem;\n     margin-top: 2rem;\n     margin-bottom: 0;\n     line-height: 1; }\n\nhr { display: block;\n     height: 1px;\n     width: 55%;\n     border: 0;\n     border-top: 1px solid #ccc;\n     margin: 1em 0;\n     padding: 0; }\n\np.subtitle,\n.dek { font-style: italic;\n             margin-top: 1rem;\n             margin-bottom: 1rem;\n             font-size: 1.8rem;\n             display: block;\n             line-height: 1; }\n\n.numeral { font-family: et-book-roman-old-style; }\n\n.danger { color: red; }\n\nsection { padding-top: 1rem;\n          padding-bottom: 1rem; }\n\np, ol, ul { font-size: 1.4rem; }\n\np { line-height: 2rem;\n    margin-top: 1.4rem;\n    margin-bottom: 1.4rem;\n    padding-right: 0;\n    vertical-align: baseline; }\n\n/* Chapter Epigraphs */\ndiv.epigraph { margin: 5em 0; }\n\ndiv.epigraph > blockquote { margin-top: 3em;\n                            margin-bottom: 3em; }\n\ndiv.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }\n\ndiv.epigraph > blockquote > footer { font-style: normal; }\n\ndiv.epigraph > blockquote > footer > cite { font-style: italic; }\n/* end chapter epigraphs styles */\n\nblockquote { font-size: 1.4rem; }\n\nblockquote p { width: 55%;\n               margin-right: 40px; }\n\nblockquote footer { width: 55%;\n                    font-size: 1.1rem;\n                    text-align: right; }\n\nsection>ol, section>ul { width: 45%;\n                         -webkit-padding-start: 5%;\n                         -webkit-padding-end: 5%; }\n\nli { padding: 0.5rem 0; }\n\nfigure { padding: 0;\n         border: 0;\n         font-size: 100%;\n         font: inherit;\n         vertical-align: baseline;\n         max-width: 55%;\n         -webkit-margin-start: 0;\n         -webkit-margin-end: 0;\n         margin: 0 0 3em 0; }\n\nfigcaption { float: right;\n             clear: right;\n             margin-top: 0;\n             margin-bottom: 0;\n             font-size: 1.1rem;\n             line-height: 1.6;\n             vertical-align: baseline;\n             position: relative;\n             max-width: 40%; }\n\nfigure.fullwidth figcaption { margin-right: 24%; }\n\n/* Links: replicate underline that clears descenders */\na:link, a:visited { color: inherit; }\n\n@media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }\n\n\na:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;\n                         background: #b4d5fe; }\n\n/* Sidenotes, margin notes, figures, captions */\nimg { max-width: 100%; }\n\n.aside, .sidenote, .marginnote { float: right;\n                         clear: right;\n                         margin-right: -60%;\n                         width: 50%;\n                         margin-top: 0;\n                         margin-bottom: 0;\n                         font-size: 1.1rem;\n                         line-height: 1.3;\n                         vertical-align: baseline;\n                         position: relative; }\n\n.sidenote-number { counter-increment: sidenote-counter; }\n\n.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) \" \";\n                                           font-family: et-book-roman-old-style;\n                                           position: relative;\n                                           vertical-align: baseline; }\n\n.sidenote-number:after { content: counter(sidenote-counter);\n                         font-size: 1rem;\n                         top: -0.5rem;\n                         left: 0.1rem; }\n\n.sidenote:before { content: counter(sidenote-counter) \" \";\n                   top: -0.5rem; }\n\nblockquote .sidenote, blockquote .marginnote, blockquote .aside { margin-right: -82%;\n                                               min-width: 59%;\n                                               text-align: left; }\n\n.aside-container { width: 55%; }\n.aside-container {\n  position: static;\n}\ndiv.fullwidth, table.fullwidth { width: 100%; }\n\ndiv.table-wrapper { overflow-x: auto;\n                    font-family: \"Trebuchet MS\", \"Gill Sans\", \"Gill Sans MT\", sans-serif; }\n\n.sans { font-family: \"Gill Sans\", \"Gill Sans MT\", Calibri, sans-serif;\n        letter-spacing: .03em; }\n\ncode { font-family: Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n       font-size: 1.0rem;\n       line-height: 1.42; }\n\n.sans > code { font-size: 1.2rem; }\n\nh1 > code, h2 > code, h3 > code { font-size: 0.80em; }\n\n.marginnote > code, .sidenote > code { font-size: 1rem; }\n\npre.code { font-size: 0.9rem;\n           width: 52.5%;\n           margin-left: 2.5%;\n           overflow-x: auto; }\n\npre.code.fullwidth { width: 90%; }\n\n.fullwidth { max-width: 90%;\n             clear:both; }\n\nspan.newthought { font-variant: small-caps;\n                  font-size: 1.2em; }\n\ninput.margin-toggle { display: none; }\n\nlabel.sidenote-number { display: inline; }\n\nlabel.margin-toggle:not(.sidenote-number) { display: none; }\n\n@media (max-width: 760px) { p, footer { width: 100%; }\n                            pre.code { width: 97%; }\n                            ul { width: 85%; }\n                            figure { max-width: 90%; }\n                            figcaption, figure.fullwidth figcaption { margin-right: 0%;\n                                                                      max-width: none; }\n                            blockquote { margin-left: 1.5em;\n                                         margin-right: 0em; }\n                            blockquote p, blockquote footer { width: 100%; }\n                            label.margin-toggle:not(.sidenote-number) { display: inline; }\n                            .sidenote, .marginnote { display: none; }\n                            .margin-toggle:checked + .sidenote,\n                            .margin-toggle:checked + .marginnote { display: block;\n                                                                   float: left;\n                                                                   left: 1rem;\n                                                                   clear: both;\n                                                                   width: 95%;\n                                                                   margin: 1rem 2.5%;\n                                                                   vertical-align: baseline;\n                                                                   position: relative; }\n                            label { cursor: pointer; }\n                            div.table-wrapper, table { width: 85%; }\n                            img { width: 100%; } }\n\n\n\n.idyll-dynamic {\n  text-decoration: underline;\n  text-decoration-style: dotted;\n}\n\n.idyll-action {\n  text-decoration: underline;\n}\n\n\n.idyll-document-error {\n  color: red;\n  font-family: monospace;\n}\n\n\n.idyll-step-graphic {\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  height: 100%;\n  overflow: hidden;\n  margin: 0 auto;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: black;\n}\n\n.idyll-scroll-graphic {\n\n  text-align: center;\n  width: 100%;\n}\n\n.idyll-step-graphic img {\n  flex-shrink: 0;\n  min-width: 100%;\n  min-height: 100%\n}\n\n.idyll-step-content {\n  left: 0;\n  right: 0;\n  bottom: 0;\n  position: absolute;\n  color: white;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.8);\n}\n\n.idyll-stepper-control {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 100%;\n}\n\n.idyll-stepper-control-button {\n  background: rgba(0, 0, 0, 0.7);\n  color: white;\n  font-weight: bold;\n  padding: 15px 10px;\n  cursor: pointer;\n}\n\n.idyll-stepper-control-button-previous {\n  position: absolute;\n  left: 10px;\n}\n\n.idyll-stepper-control-button-next {\n  position: absolute;\n  right: 10px;\n}\n\n.idyll-stepper {\n  margin: 60px 0;\n}\n\n.idyll-scroll {\n  margin-top: 25vh;\n}\n\n.idyll-scroll-text {\n  padding: 50vh 0;\n}\n\n.idyll-scroll-text .idyll-step {\n  margin: 75vh 0 75vh 0;\n  padding: 50px;\n  background: #fff;\n  border: solid 1px #111;\n}\n\n.idyll-scroll-text .idyll-step h2 {\n  margin-top: 0;\n}\n\npre {\n  background: #f3f3f3;\n  padding: 15px;\n  overflow-x: auto;\n}\n\n";
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll\\src\\client\\build.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll\\src\\client\\build.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -23641,7 +23641,7 @@ ReactDOM[mountMethod](React.createElement(IdyllDocument, {
   theme: theme
 }), mountNode);
 
-},{"__IDYLL_AST__":"__IDYLL_AST__","__IDYLL_COMPONENTS__":"__IDYLL_COMPONENTS__","__IDYLL_CONTEXT__":"__IDYLL_CONTEXT__","__IDYLL_DATA__":"__IDYLL_DATA__","__IDYLL_OPTS__":"__IDYLL_OPTS__","__IDYLL_SYNTAX_HIGHLIGHT__":"__IDYLL_SYNTAX_HIGHLIGHT__","idyll-document":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-document\\dist\\cjs\\index.js","react":"react","react-dom":"react-dom"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\ieee754\\index.js":[function(require,module,exports){
+},{"__IDYLL_AST__":"__IDYLL_AST__","__IDYLL_COMPONENTS__":"__IDYLL_COMPONENTS__","__IDYLL_CONTEXT__":"__IDYLL_CONTEXT__","__IDYLL_DATA__":"__IDYLL_DATA__","__IDYLL_OPTS__":"__IDYLL_OPTS__","__IDYLL_SYNTAX_HIGHLIGHT__":"__IDYLL_SYNTAX_HIGHLIGHT__","idyll-document":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-document\\dist\\cjs\\index.js","react":"react","react-dom":"react-dom"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\ieee754\\index.js":[function(require,module,exports){
 "use strict";
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -23729,7 +23729,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-callable\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-callable\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -23782,7 +23782,7 @@ module.exports = function isCallable(value) {
 	return strClass === fnClass || strClass === genClass;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-date-object\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-date-object\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -23808,7 +23808,7 @@ module.exports = function isDateObject(value) {
 	return hasToStringTag ? tryDateObject(value) : toStr.call(value) === dateClass;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-extendable\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-extendable\\index.js":[function(require,module,exports){
 /*!
  * is-extendable <https://github.com/jonschlinkert/is-extendable>
  *
@@ -23824,7 +23824,7 @@ module.exports = function isExtendable(val) {
   return typeof val !== 'undefined' && val !== null && ((typeof val === 'undefined' ? 'undefined' : _typeof(val)) === 'object' || typeof val === 'function');
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-lower-case\\is-lower-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-lower-case\\is-lower-case.js":[function(require,module,exports){
 'use strict';
 
 var lowerCase = require('lower-case');
@@ -23840,7 +23840,7 @@ module.exports = function (string, locale) {
   return lowerCase(string, locale) === string;
 };
 
-},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-regex\\index.js":[function(require,module,exports){
+},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-regex\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -23883,7 +23883,7 @@ module.exports = function isRegex(value) {
 	return tryRegexExecCall(value);
 };
 
-},{"has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-symbol\\index.js":[function(require,module,exports){
+},{"has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-symbol\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -23920,7 +23920,7 @@ if (hasSymbols) {
 	};
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\is-upper-case\\is-upper-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\is-upper-case\\is-upper-case.js":[function(require,module,exports){
 'use strict';
 
 var upperCase = require('upper-case');
@@ -23936,14 +23936,14 @@ module.exports = function (string, locale) {
   return upperCase(string, locale) === string;
 };
 
-},{"upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\index.js":[function(require,module,exports){
+},{"upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\index.js":[function(require,module,exports){
 'use strict';
 
 var yaml = require('./lib/js-yaml.js');
 
 module.exports = yaml;
 
-},{"./lib/js-yaml.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml.js":[function(require,module,exports){
+},{"./lib/js-yaml.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml.js":[function(require,module,exports){
 'use strict';
 
 var loader = require('./js-yaml/loader');
@@ -23981,7 +23981,7 @@ module.exports.parse = deprecated('parse');
 module.exports.compose = deprecated('compose');
 module.exports.addConstructor = deprecated('addConstructor');
 
-},{"./js-yaml/dumper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\dumper.js","./js-yaml/exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./js-yaml/loader":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\loader.js","./js-yaml/schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","./js-yaml/schema/core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js","./js-yaml/schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./js-yaml/schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js","./js-yaml/schema/failsafe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js","./js-yaml/schema/json":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js","./js-yaml/type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js":[function(require,module,exports){
+},{"./js-yaml/dumper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\dumper.js","./js-yaml/exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./js-yaml/loader":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\loader.js","./js-yaml/schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","./js-yaml/schema/core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js","./js-yaml/schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./js-yaml/schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js","./js-yaml/schema/failsafe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js","./js-yaml/schema/json":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js","./js-yaml/type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -24037,7 +24037,7 @@ module.exports.repeat = repeat;
 module.exports.isNegativeZero = isNegativeZero;
 module.exports.extend = extend;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\dumper.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\dumper.js":[function(require,module,exports){
 'use strict';
 
 /*eslint-disable no-use-before-define*/
@@ -24823,7 +24823,7 @@ function safeDump(input, options) {
 module.exports.dump = dump;
 module.exports.safeDump = safeDump;
 
-},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js":[function(require,module,exports){
+},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js":[function(require,module,exports){
 // YAML error class. http://stackoverflow.com/questions/8458984
 //
 'use strict';
@@ -24865,7 +24865,7 @@ YAMLException.prototype.toString = function toString(compact) {
 
 module.exports = YAMLException;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\loader.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\loader.js":[function(require,module,exports){
 'use strict';
 
 /*eslint-disable max-len,no-use-before-define*/
@@ -26364,7 +26364,7 @@ module.exports.load = load;
 module.exports.safeLoadAll = safeLoadAll;
 module.exports.safeLoad = safeLoad;
 
-},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./mark":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\mark.js","./schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\mark.js":[function(require,module,exports){
+},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./mark":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\mark.js","./schema/default_full":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js","./schema/default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\mark.js":[function(require,module,exports){
 'use strict';
 
 var common = require('./common');
@@ -26437,7 +26437,7 @@ Mark.prototype.toString = function toString(compact) {
 
 module.exports = Mark;
 
-},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js":[function(require,module,exports){
+},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js":[function(require,module,exports){
 'use strict';
 
 /*eslint-disable max-len*/
@@ -26547,7 +26547,7 @@ Schema.create = function createSchema() {
 
 module.exports = Schema;
 
-},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js":[function(require,module,exports){
+},{"./common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js","./type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js":[function(require,module,exports){
 // Standard YAML's Core schema.
 // http://www.yaml.org/spec/1.2/spec.html#id2804923
 //
@@ -26563,7 +26563,7 @@ module.exports = new Schema({
   include: [require('./json')]
 });
 
-},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","./json":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js":[function(require,module,exports){
+},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","./json":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_full.js":[function(require,module,exports){
 // JS-YAML's default schema for `load` function.
 // It is not described in the YAML specification.
 //
@@ -26582,7 +26582,7 @@ module.exports = Schema.DEFAULT = new Schema({
   explicit: [require('../type/js/undefined'), require('../type/js/regexp'), require('../type/js/function')]
 });
 
-},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/js/function":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\function.js","../type/js/regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\regexp.js","../type/js/undefined":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\undefined.js","./default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js":[function(require,module,exports){
+},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/js/function":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\function.js","../type/js/regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\regexp.js","../type/js/undefined":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\undefined.js","./default_safe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\default_safe.js":[function(require,module,exports){
 // JS-YAML's default schema for `safeLoad` function.
 // It is not described in the YAML specification.
 //
@@ -26600,7 +26600,7 @@ module.exports = new Schema({
   explicit: [require('../type/binary'), require('../type/omap'), require('../type/pairs'), require('../type/set')]
 });
 
-},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/binary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\binary.js","../type/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\merge.js","../type/omap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\omap.js","../type/pairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\pairs.js","../type/set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\set.js","../type/timestamp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\timestamp.js","./core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js":[function(require,module,exports){
+},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/binary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\binary.js","../type/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\merge.js","../type/omap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\omap.js","../type/pairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\pairs.js","../type/set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\set.js","../type/timestamp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\timestamp.js","./core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\core.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js":[function(require,module,exports){
 // Standard YAML's Failsafe schema.
 // http://www.yaml.org/spec/1.2/spec.html#id2802346
 
@@ -26613,7 +26613,7 @@ module.exports = new Schema({
   explicit: [require('../type/str'), require('../type/seq'), require('../type/map')]
 });
 
-},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\map.js","../type/seq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\seq.js","../type/str":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\str.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js":[function(require,module,exports){
+},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\map.js","../type/seq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\seq.js","../type/str":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\str.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\json.js":[function(require,module,exports){
 // Standard YAML's JSON schema.
 // http://www.yaml.org/spec/1.2/spec.html#id2803231
 //
@@ -26631,7 +26631,7 @@ module.exports = new Schema({
   implicit: [require('../type/null'), require('../type/bool'), require('../type/int'), require('../type/float')]
 });
 
-},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/bool":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\bool.js","../type/float":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\float.js","../type/int":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\int.js","../type/null":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\null.js","./failsafe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js":[function(require,module,exports){
+},{"../schema":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema.js","../type/bool":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\bool.js","../type/float":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\float.js","../type/int":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\int.js","../type/null":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\null.js","./failsafe":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\schema\\failsafe.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js":[function(require,module,exports){
 'use strict';
 
 var YAMLException = require('./exception');
@@ -26685,7 +26685,7 @@ function Type(tag, options) {
 
 module.exports = Type;
 
-},{"./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\binary.js":[function(require,module,exports){
+},{"./exception":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\exception.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\binary.js":[function(require,module,exports){
 'use strict';
 
 /*eslint-disable no-bitwise*/
@@ -26832,7 +26832,7 @@ module.exports = new Type('tag:yaml.org,2002:binary', {
   represent: representYamlBinary
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\bool.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\bool.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -26872,7 +26872,7 @@ module.exports = new Type('tag:yaml.org,2002:bool', {
   defaultStyle: 'lowercase'
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\float.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\float.js":[function(require,module,exports){
 'use strict';
 
 var common = require('../common');
@@ -26994,7 +26994,7 @@ module.exports = new Type('tag:yaml.org,2002:float', {
   defaultStyle: 'lowercase'
 });
 
-},{"../common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\int.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\int.js":[function(require,module,exports){
 'use strict';
 
 var common = require('../common');
@@ -27177,7 +27177,7 @@ module.exports = new Type('tag:yaml.org,2002:int', {
   }
 });
 
-},{"../common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\function.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\common.js","../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\function.js":[function(require,module,exports){
 'use strict';
 
 var esprima;
@@ -27263,7 +27263,7 @@ module.exports = new Type('tag:yaml.org,2002:js/function', {
   represent: representJavascriptFunction
 });
 
-},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\regexp.js":[function(require,module,exports){
+},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\regexp.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../../type');
@@ -27325,7 +27325,7 @@ module.exports = new Type('tag:yaml.org,2002:js/regexp', {
   represent: representJavascriptRegExp
 });
 
-},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\undefined.js":[function(require,module,exports){
+},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\js\\undefined.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../../type');
@@ -27355,7 +27355,7 @@ module.exports = new Type('tag:yaml.org,2002:js/undefined', {
   represent: representJavascriptUndefined
 });
 
-},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\map.js":[function(require,module,exports){
+},{"../../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\map.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27367,7 +27367,7 @@ module.exports = new Type('tag:yaml.org,2002:map', {
   }
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\merge.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\merge.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27381,7 +27381,7 @@ module.exports = new Type('tag:yaml.org,2002:merge', {
   resolve: resolveYamlMerge
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\null.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\null.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27424,7 +27424,7 @@ module.exports = new Type('tag:yaml.org,2002:null', {
   defaultStyle: 'lowercase'
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\omap.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\omap.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27473,7 +27473,7 @@ module.exports = new Type('tag:yaml.org,2002:omap', {
   construct: constructYamlOmap
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\pairs.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\pairs.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27536,7 +27536,7 @@ module.exports = new Type('tag:yaml.org,2002:pairs', {
   construct: constructYamlPairs
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\seq.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\seq.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27548,7 +27548,7 @@ module.exports = new Type('tag:yaml.org,2002:seq', {
   }
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\set.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\set.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27580,7 +27580,7 @@ module.exports = new Type('tag:yaml.org,2002:set', {
   construct: constructYamlSet
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\str.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\str.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27592,7 +27592,7 @@ module.exports = new Type('tag:yaml.org,2002:str', {
   }
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type\\timestamp.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type\\timestamp.js":[function(require,module,exports){
 'use strict';
 
 var Type = require('../type');
@@ -27692,7 +27692,7 @@ module.exports = new Type('tag:yaml.org,2002:timestamp', {
   represent: representYamlTimestamp
 });
 
-},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\katex\\dist\\katex.js":[function(require,module,exports){
+},{"../type":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\js-yaml\\lib\\js-yaml\\type.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\katex\\dist\\katex.js":[function(require,module,exports){
 'use strict';var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};(function webpackUniversalModuleDefinition(root,factory){if((typeof exports==='undefined'?'undefined':_typeof(exports))==='object'&&(typeof module==='undefined'?'undefined':_typeof(module))==='object')module.exports=factory();else if(typeof define==='function'&&define.amd)define([],factory);else if((typeof exports==='undefined'?'undefined':_typeof(exports))==='object')exports["katex"]=factory();else root["katex"]=factory();})(undefined,function(){return(/******/function(modules){// webpackBootstrap
 /******/// The module cache
 /******/var installedModules={};/******//******/// The require function
@@ -30303,7 +30303,7 @@ module.exports={'\u0301':{text:"\\'",math:'\\acute'},'\u0300':{text:'\\`',math:'
 '\u1FFA':'\u03A9\u0300'// Ὼ = \`{Ω}
 };/***/}]/******/)["default"]);});
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lex\\lexer.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lex\\lexer.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -30451,7 +30451,7 @@ function Lexer(defunct) {
     }
 }
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\little-loader\\lib\\little-loader.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\little-loader\\lib\\little-loader.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -30707,7 +30707,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   }
 })();
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_DataView.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_DataView.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative'),
@@ -30718,7 +30718,7 @@ var DataView = getNative(root, 'DataView');
 
 module.exports = DataView;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Hash.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Hash.js":[function(require,module,exports){
 'use strict';
 
 var hashClear = require('./_hashClear'),
@@ -30754,7 +30754,7 @@ Hash.prototype.set = hashSet;
 
 module.exports = Hash;
 
-},{"./_hashClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashClear.js","./_hashDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashDelete.js","./_hashGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashGet.js","./_hashHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashHas.js","./_hashSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LazyWrapper.js":[function(require,module,exports){
+},{"./_hashClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashClear.js","./_hashDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashDelete.js","./_hashGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashGet.js","./_hashHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashHas.js","./_hashSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LazyWrapper.js":[function(require,module,exports){
 'use strict';
 
 var baseCreate = require('./_baseCreate'),
@@ -30786,7 +30786,7 @@ LazyWrapper.prototype.constructor = LazyWrapper;
 
 module.exports = LazyWrapper;
 
-},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseCreate.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_ListCache.js":[function(require,module,exports){
+},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseCreate.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_ListCache.js":[function(require,module,exports){
 'use strict';
 
 var listCacheClear = require('./_listCacheClear'),
@@ -30822,7 +30822,7 @@ ListCache.prototype.set = listCacheSet;
 
 module.exports = ListCache;
 
-},{"./_listCacheClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheClear.js","./_listCacheDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheDelete.js","./_listCacheGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheGet.js","./_listCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheHas.js","./_listCacheSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LodashWrapper.js":[function(require,module,exports){
+},{"./_listCacheClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheClear.js","./_listCacheDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheDelete.js","./_listCacheGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheGet.js","./_listCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheHas.js","./_listCacheSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LodashWrapper.js":[function(require,module,exports){
 'use strict';
 
 var baseCreate = require('./_baseCreate'),
@@ -30848,7 +30848,7 @@ LodashWrapper.prototype.constructor = LodashWrapper;
 
 module.exports = LodashWrapper;
 
-},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseCreate.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Map.js":[function(require,module,exports){
+},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseCreate.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Map.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative'),
@@ -30859,7 +30859,7 @@ var Map = getNative(root, 'Map');
 
 module.exports = Map;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_MapCache.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_MapCache.js":[function(require,module,exports){
 'use strict';
 
 var mapCacheClear = require('./_mapCacheClear'),
@@ -30895,7 +30895,7 @@ MapCache.prototype.set = mapCacheSet;
 
 module.exports = MapCache;
 
-},{"./_mapCacheClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheClear.js","./_mapCacheDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheDelete.js","./_mapCacheGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheGet.js","./_mapCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheHas.js","./_mapCacheSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Promise.js":[function(require,module,exports){
+},{"./_mapCacheClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheClear.js","./_mapCacheDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheDelete.js","./_mapCacheGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheGet.js","./_mapCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheHas.js","./_mapCacheSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Promise.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative'),
@@ -30906,7 +30906,7 @@ var Promise = getNative(root, 'Promise');
 
 module.exports = Promise;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Set.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Set.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative'),
@@ -30917,7 +30917,7 @@ var Set = getNative(root, 'Set');
 
 module.exports = Set;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_SetCache.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_SetCache.js":[function(require,module,exports){
 'use strict';
 
 var MapCache = require('./_MapCache'),
@@ -30948,7 +30948,7 @@ SetCache.prototype.has = setCacheHas;
 
 module.exports = SetCache;
 
-},{"./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_MapCache.js","./_setCacheAdd":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setCacheAdd.js","./_setCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setCacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Stack.js":[function(require,module,exports){
+},{"./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_MapCache.js","./_setCacheAdd":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setCacheAdd.js","./_setCacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setCacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Stack.js":[function(require,module,exports){
 'use strict';
 
 var ListCache = require('./_ListCache'),
@@ -30979,7 +30979,7 @@ Stack.prototype.set = stackSet;
 
 module.exports = Stack;
 
-},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_ListCache.js","./_stackClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackClear.js","./_stackDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackDelete.js","./_stackGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackGet.js","./_stackHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackHas.js","./_stackSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js":[function(require,module,exports){
+},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_ListCache.js","./_stackClear":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackClear.js","./_stackDelete":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackDelete.js","./_stackGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackGet.js","./_stackHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackHas.js","./_stackSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackSet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js":[function(require,module,exports){
 'use strict';
 
 var root = require('./_root');
@@ -30989,7 +30989,7 @@ var _Symbol = root.Symbol;
 
 module.exports = _Symbol;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Uint8Array.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Uint8Array.js":[function(require,module,exports){
 'use strict';
 
 var root = require('./_root');
@@ -30999,7 +30999,7 @@ var Uint8Array = root.Uint8Array;
 
 module.exports = Uint8Array;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_WeakMap.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_WeakMap.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative'),
@@ -31010,7 +31010,7 @@ var WeakMap = getNative(root, 'WeakMap');
 
 module.exports = WeakMap;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_apply.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_apply.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31039,7 +31039,7 @@ function apply(func, thisArg, args) {
 
 module.exports = apply;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayAggregator.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayAggregator.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31065,7 +31065,7 @@ function arrayAggregator(array, setter, iteratee, accumulator) {
 
 module.exports = arrayAggregator;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayEach.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayEach.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31091,7 +31091,7 @@ function arrayEach(array, iteratee) {
 
 module.exports = arrayEach;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayFilter.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayFilter.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31120,7 +31120,7 @@ function arrayFilter(array, predicate) {
 
 module.exports = arrayFilter;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludes.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludes.js":[function(require,module,exports){
 'use strict';
 
 var baseIndexOf = require('./_baseIndexOf');
@@ -31141,7 +31141,7 @@ function arrayIncludes(array, value) {
 
 module.exports = arrayIncludes;
 
-},{"./_baseIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludesWith.js":[function(require,module,exports){
+},{"./_baseIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludesWith.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31167,7 +31167,7 @@ function arrayIncludesWith(array, value, comparator) {
 
 module.exports = arrayIncludesWith;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayLikeKeys.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayLikeKeys.js":[function(require,module,exports){
 'use strict';
 
 var baseTimes = require('./_baseTimes'),
@@ -31218,7 +31218,7 @@ function arrayLikeKeys(value, inherited) {
 
 module.exports = arrayLikeKeys;
 
-},{"./_baseTimes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseTimes.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js":[function(require,module,exports){
+},{"./_baseTimes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseTimes.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31243,7 +31243,7 @@ function arrayMap(array, iteratee) {
 
 module.exports = arrayMap;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayPush.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayPush.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31267,7 +31267,7 @@ function arrayPush(array, values) {
 
 module.exports = arrayPush;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayReduce.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayReduce.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31297,7 +31297,7 @@ function arrayReduce(array, iteratee, accumulator, initAccum) {
 
 module.exports = arrayReduce;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arraySome.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arraySome.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31324,7 +31324,7 @@ function arraySome(array, predicate) {
 
 module.exports = arraySome;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignMergeValue.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignMergeValue.js":[function(require,module,exports){
 'use strict';
 
 var baseAssignValue = require('./_baseAssignValue'),
@@ -31347,7 +31347,7 @@ function assignMergeValue(object, key, value) {
 
 module.exports = assignMergeValue;
 
-},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignValue.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignValue.js":[function(require,module,exports){
+},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignValue.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignValue.js":[function(require,module,exports){
 'use strict';
 
 var baseAssignValue = require('./_baseAssignValue'),
@@ -31378,7 +31378,7 @@ function assignValue(object, key, value) {
 
 module.exports = assignValue;
 
-},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignValue.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assocIndexOf.js":[function(require,module,exports){
+},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignValue.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assocIndexOf.js":[function(require,module,exports){
 'use strict';
 
 var eq = require('./eq');
@@ -31403,7 +31403,7 @@ function assocIndexOf(array, key) {
 
 module.exports = assocIndexOf;
 
-},{"./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAggregator.js":[function(require,module,exports){
+},{"./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAggregator.js":[function(require,module,exports){
 'use strict';
 
 var baseEach = require('./_baseEach');
@@ -31428,7 +31428,7 @@ function baseAggregator(collection, setter, iteratee, accumulator) {
 
 module.exports = baseAggregator;
 
-},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssign.js":[function(require,module,exports){
+},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssign.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -31449,7 +31449,7 @@ function baseAssign(object, source) {
 
 module.exports = baseAssign;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignIn.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignIn.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -31470,7 +31470,7 @@ function baseAssignIn(object, source) {
 
 module.exports = baseAssignIn;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignValue.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignValue.js":[function(require,module,exports){
 'use strict';
 
 var defineProperty = require('./_defineProperty');
@@ -31499,7 +31499,7 @@ function baseAssignValue(object, key, value) {
 
 module.exports = baseAssignValue;
 
-},{"./_defineProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_defineProperty.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseClone.js":[function(require,module,exports){
+},{"./_defineProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_defineProperty.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseClone.js":[function(require,module,exports){
 'use strict';
 
 var Stack = require('./_Stack'),
@@ -31659,7 +31659,7 @@ function baseClone(value, bitmask, customizer, key, object, stack) {
 
 module.exports = baseClone;
 
-},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Stack.js","./_arrayEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayEach.js","./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignValue.js","./_baseAssign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssign.js","./_baseAssignIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignIn.js","./_cloneBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneBuffer.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyArray.js","./_copySymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copySymbols.js","./_copySymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copySymbolsIn.js","./_getAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeys.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeysIn.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./_initCloneArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneArray.js","./_initCloneByTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneByTag.js","./_initCloneObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneObject.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js","./isMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isMap.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","./isSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSet.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseCreate.js":[function(require,module,exports){
+},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Stack.js","./_arrayEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayEach.js","./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignValue.js","./_baseAssign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssign.js","./_baseAssignIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignIn.js","./_cloneBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneBuffer.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyArray.js","./_copySymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copySymbols.js","./_copySymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copySymbolsIn.js","./_getAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeys.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeysIn.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./_initCloneArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneArray.js","./_initCloneByTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneByTag.js","./_initCloneObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneObject.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js","./isMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isMap.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","./isSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSet.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseCreate.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('./isObject');
@@ -31693,7 +31693,7 @@ var baseCreate = function () {
 
 module.exports = baseCreate;
 
-},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseDifference.js":[function(require,module,exports){
+},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseDifference.js":[function(require,module,exports){
 'use strict';
 
 var SetCache = require('./_SetCache'),
@@ -31761,7 +31761,7 @@ function baseDifference(array, values, iteratee, comparator) {
 
 module.exports = baseDifference;
 
-},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_SetCache.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludes.js","./_arrayIncludesWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludesWith.js","./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseEach.js":[function(require,module,exports){
+},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_SetCache.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludes.js","./_arrayIncludesWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludesWith.js","./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseEach.js":[function(require,module,exports){
 'use strict';
 
 var baseForOwn = require('./_baseForOwn'),
@@ -31779,7 +31779,7 @@ var baseEach = createBaseEach(baseForOwn);
 
 module.exports = baseEach;
 
-},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseForOwn.js","./_createBaseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBaseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFindIndex.js":[function(require,module,exports){
+},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseForOwn.js","./_createBaseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBaseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFindIndex.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31807,7 +31807,7 @@ function baseFindIndex(array, predicate, fromIndex, fromRight) {
 
 module.exports = baseFindIndex;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFlatten.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFlatten.js":[function(require,module,exports){
 'use strict';
 
 var arrayPush = require('./_arrayPush'),
@@ -31849,7 +31849,7 @@ function baseFlatten(array, depth, predicate, isStrict, result) {
 
 module.exports = baseFlatten;
 
-},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayPush.js","./_isFlattenable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isFlattenable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFor.js":[function(require,module,exports){
+},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayPush.js","./_isFlattenable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isFlattenable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFor.js":[function(require,module,exports){
 'use strict';
 
 var createBaseFor = require('./_createBaseFor');
@@ -31869,7 +31869,7 @@ var baseFor = createBaseFor();
 
 module.exports = baseFor;
 
-},{"./_createBaseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBaseFor.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseForOwn.js":[function(require,module,exports){
+},{"./_createBaseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBaseFor.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseForOwn.js":[function(require,module,exports){
 'use strict';
 
 var baseFor = require('./_baseFor'),
@@ -31889,7 +31889,7 @@ function baseForOwn(object, iteratee) {
 
 module.exports = baseForOwn;
 
-},{"./_baseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFor.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGet.js":[function(require,module,exports){
+},{"./_baseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFor.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGet.js":[function(require,module,exports){
 'use strict';
 
 var castPath = require('./_castPath'),
@@ -31917,7 +31917,7 @@ function baseGet(object, path) {
 
 module.exports = baseGet;
 
-},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetAllKeys.js":[function(require,module,exports){
+},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetAllKeys.js":[function(require,module,exports){
 'use strict';
 
 var arrayPush = require('./_arrayPush'),
@@ -31941,7 +31941,7 @@ function baseGetAllKeys(object, keysFunc, symbolsFunc) {
 
 module.exports = baseGetAllKeys;
 
-},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayPush.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js":[function(require,module,exports){
+},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayPush.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol'),
@@ -31971,7 +31971,7 @@ function baseGetTag(value) {
 
 module.exports = baseGetTag;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js","./_getRawTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getRawTag.js","./_objectToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_objectToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseHasIn.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js","./_getRawTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getRawTag.js","./_objectToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_objectToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseHasIn.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -31988,7 +31988,7 @@ function baseHasIn(object, key) {
 
 module.exports = baseHasIn;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIndexOf.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIndexOf.js":[function(require,module,exports){
 'use strict';
 
 var baseFindIndex = require('./_baseFindIndex'),
@@ -32010,7 +32010,7 @@ function baseIndexOf(array, value, fromIndex) {
 
 module.exports = baseIndexOf;
 
-},{"./_baseFindIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFindIndex.js","./_baseIsNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsNaN.js","./_strictIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_strictIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseInverter.js":[function(require,module,exports){
+},{"./_baseFindIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFindIndex.js","./_baseIsNaN":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsNaN.js","./_strictIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_strictIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseInverter.js":[function(require,module,exports){
 'use strict';
 
 var baseForOwn = require('./_baseForOwn');
@@ -32035,7 +32035,7 @@ function baseInverter(object, setter, iteratee, accumulator) {
 
 module.exports = baseInverter;
 
-},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseForOwn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsArguments.js":[function(require,module,exports){
+},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseForOwn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsArguments.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -32057,7 +32057,7 @@ function baseIsArguments(value) {
 
 module.exports = baseIsArguments;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqual.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqual.js":[function(require,module,exports){
 'use strict';
 
 var baseIsEqualDeep = require('./_baseIsEqualDeep'),
@@ -32089,7 +32089,7 @@ function baseIsEqual(value, other, bitmask, customizer, stack) {
 
 module.exports = baseIsEqual;
 
-},{"./_baseIsEqualDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqualDeep.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqualDeep.js":[function(require,module,exports){
+},{"./_baseIsEqualDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqualDeep.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqualDeep.js":[function(require,module,exports){
 'use strict';
 
 var Stack = require('./_Stack'),
@@ -32174,7 +32174,7 @@ function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack) {
 
 module.exports = baseIsEqualDeep;
 
-},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Stack.js","./_equalArrays":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalArrays.js","./_equalByTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalByTag.js","./_equalObjects":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalObjects.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsMap.js":[function(require,module,exports){
+},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Stack.js","./_equalArrays":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalArrays.js","./_equalByTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalByTag.js","./_equalObjects":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalObjects.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsMap.js":[function(require,module,exports){
 'use strict';
 
 var getTag = require('./_getTag'),
@@ -32196,7 +32196,7 @@ function baseIsMap(value) {
 
 module.exports = baseIsMap;
 
-},{"./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsMatch.js":[function(require,module,exports){
+},{"./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsMatch.js":[function(require,module,exports){
 'use strict';
 
 var Stack = require('./_Stack'),
@@ -32256,7 +32256,7 @@ function baseIsMatch(object, source, matchData, customizer) {
 
 module.exports = baseIsMatch;
 
-},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Stack.js","./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqual.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsNaN.js":[function(require,module,exports){
+},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Stack.js","./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqual.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsNaN.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -32272,7 +32272,7 @@ function baseIsNaN(value) {
 
 module.exports = baseIsNaN;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsNative.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsNative.js":[function(require,module,exports){
 'use strict';
 
 var isFunction = require('./isFunction'),
@@ -32320,7 +32320,7 @@ function baseIsNative(value) {
 
 module.exports = baseIsNative;
 
-},{"./_isMasked":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isMasked.js","./_toSource":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toSource.js","./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsSet.js":[function(require,module,exports){
+},{"./_isMasked":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isMasked.js","./_toSource":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toSource.js","./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsSet.js":[function(require,module,exports){
 'use strict';
 
 var getTag = require('./_getTag'),
@@ -32342,7 +32342,7 @@ function baseIsSet(value) {
 
 module.exports = baseIsSet;
 
-},{"./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsTypedArray.js":[function(require,module,exports){
+},{"./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsTypedArray.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -32394,7 +32394,7 @@ function baseIsTypedArray(value) {
 
 module.exports = baseIsTypedArray;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isLength.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isLength.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -32429,7 +32429,7 @@ function baseIteratee(value) {
 
 module.exports = baseIteratee;
 
-},{"./_baseMatches":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMatches.js","./_baseMatchesProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMatchesProperty.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseKeys.js":[function(require,module,exports){
+},{"./_baseMatches":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMatches.js","./_baseMatchesProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMatchesProperty.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseKeys.js":[function(require,module,exports){
 'use strict';
 
 var isPrototype = require('./_isPrototype'),
@@ -32463,7 +32463,7 @@ function baseKeys(object) {
 
 module.exports = baseKeys;
 
-},{"./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js","./_nativeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeKeys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseKeysIn.js":[function(require,module,exports){
+},{"./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js","./_nativeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeKeys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseKeysIn.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('./isObject'),
@@ -32500,7 +32500,7 @@ function baseKeysIn(object) {
 
 module.exports = baseKeysIn;
 
-},{"./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js","./_nativeKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeKeysIn.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseLodash.js":[function(require,module,exports){
+},{"./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js","./_nativeKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeKeysIn.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseLodash.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -32514,7 +32514,7 @@ function baseLodash() {
 
 module.exports = baseLodash;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMap.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMap.js":[function(require,module,exports){
 'use strict';
 
 var baseEach = require('./_baseEach'),
@@ -32540,7 +32540,7 @@ function baseMap(collection, iteratee) {
 
 module.exports = baseMap;
 
-},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseEach.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMatches.js":[function(require,module,exports){
+},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseEach.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMatches.js":[function(require,module,exports){
 'use strict';
 
 var baseIsMatch = require('./_baseIsMatch'),
@@ -32566,7 +32566,7 @@ function baseMatches(source) {
 
 module.exports = baseMatches;
 
-},{"./_baseIsMatch":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsMatch.js","./_getMatchData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMatchData.js","./_matchesStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_matchesStrictComparable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMatchesProperty.js":[function(require,module,exports){
+},{"./_baseIsMatch":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsMatch.js","./_getMatchData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMatchData.js","./_matchesStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_matchesStrictComparable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMatchesProperty.js":[function(require,module,exports){
 'use strict';
 
 var baseIsEqual = require('./_baseIsEqual'),
@@ -32601,7 +32601,7 @@ function baseMatchesProperty(path, srcValue) {
 
 module.exports = baseMatchesProperty;
 
-},{"./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqual.js","./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKey.js","./_isStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isStrictComparable.js","./_matchesStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_matchesStrictComparable.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js","./get":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\get.js","./hasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\hasIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMerge.js":[function(require,module,exports){
+},{"./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqual.js","./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKey.js","./_isStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isStrictComparable.js","./_matchesStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_matchesStrictComparable.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js","./get":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\get.js","./hasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\hasIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMerge.js":[function(require,module,exports){
 'use strict';
 
 var Stack = require('./_Stack'),
@@ -32644,7 +32644,7 @@ function baseMerge(object, source, srcIndex, customizer, stack) {
 
 module.exports = baseMerge;
 
-},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Stack.js","./_assignMergeValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignMergeValue.js","./_baseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFor.js","./_baseMergeDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMergeDeep.js","./_safeGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_safeGet.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMergeDeep.js":[function(require,module,exports){
+},{"./_Stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Stack.js","./_assignMergeValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignMergeValue.js","./_baseFor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFor.js","./_baseMergeDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMergeDeep.js","./_safeGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_safeGet.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMergeDeep.js":[function(require,module,exports){
 'use strict';
 
 var assignMergeValue = require('./_assignMergeValue'),
@@ -32733,7 +32733,7 @@ function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, sta
 
 module.exports = baseMergeDeep;
 
-},{"./_assignMergeValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignMergeValue.js","./_cloneBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneBuffer.js","./_cloneTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneTypedArray.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyArray.js","./_initCloneObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneObject.js","./_safeGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_safeGet.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isArrayLikeObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLikeObject.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js","./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","./isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isTypedArray.js","./toPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toPlainObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseOrderBy.js":[function(require,module,exports){
+},{"./_assignMergeValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignMergeValue.js","./_cloneBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneBuffer.js","./_cloneTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneTypedArray.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyArray.js","./_initCloneObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneObject.js","./_safeGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_safeGet.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isArrayLikeObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLikeObject.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js","./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","./isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isTypedArray.js","./toPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toPlainObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseOrderBy.js":[function(require,module,exports){
 'use strict';
 
 var arrayMap = require('./_arrayMap'),
@@ -32771,7 +32771,7 @@ function baseOrderBy(collection, iteratees, orders) {
 
 module.exports = baseOrderBy;
 
-},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./_baseMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMap.js","./_baseSortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSortBy.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js","./_compareMultiple":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_compareMultiple.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePick.js":[function(require,module,exports){
+},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./_baseMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMap.js","./_baseSortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSortBy.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js","./_compareMultiple":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_compareMultiple.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePick.js":[function(require,module,exports){
 'use strict';
 
 var basePickBy = require('./_basePickBy'),
@@ -32794,7 +32794,7 @@ function basePick(object, paths) {
 
 module.exports = basePick;
 
-},{"./_basePickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePickBy.js","./hasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\hasIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePickBy.js":[function(require,module,exports){
+},{"./_basePickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePickBy.js","./hasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\hasIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePickBy.js":[function(require,module,exports){
 'use strict';
 
 var baseGet = require('./_baseGet'),
@@ -32828,7 +32828,7 @@ function basePickBy(object, paths, predicate) {
 
 module.exports = basePickBy;
 
-},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGet.js","./_baseSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSet.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseProperty.js":[function(require,module,exports){
+},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGet.js","./_baseSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSet.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseProperty.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -32846,7 +32846,7 @@ function baseProperty(key) {
 
 module.exports = baseProperty;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePropertyDeep.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePropertyDeep.js":[function(require,module,exports){
 'use strict';
 
 var baseGet = require('./_baseGet');
@@ -32866,7 +32866,7 @@ function basePropertyDeep(path) {
 
 module.exports = basePropertyDeep;
 
-},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRange.js":[function(require,module,exports){
+},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRange.js":[function(require,module,exports){
 "use strict";
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
@@ -32898,7 +32898,7 @@ function baseRange(start, end, step, fromRight) {
 
 module.exports = baseRange;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseReduce.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseReduce.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -32923,7 +32923,7 @@ function baseReduce(collection, iteratee, accumulator, initAccum, eachFunc) {
 
 module.exports = baseReduce;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js":[function(require,module,exports){
 'use strict';
 
 var identity = require('./identity'),
@@ -32944,7 +32944,7 @@ function baseRest(func, start) {
 
 module.exports = baseRest;
 
-},{"./_overRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overRest.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToString.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSet.js":[function(require,module,exports){
+},{"./_overRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overRest.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToString.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSet.js":[function(require,module,exports){
 'use strict';
 
 var assignValue = require('./_assignValue'),
@@ -32993,7 +32993,7 @@ function baseSet(object, path, value, customizer) {
 
 module.exports = baseSet;
 
-},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignValue.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSetData.js":[function(require,module,exports){
+},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignValue.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSetData.js":[function(require,module,exports){
 'use strict';
 
 var identity = require('./identity'),
@@ -33014,7 +33014,7 @@ var baseSetData = !metaMap ? identity : function (func, data) {
 
 module.exports = baseSetData;
 
-},{"./_metaMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_metaMap.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSetToString.js":[function(require,module,exports){
+},{"./_metaMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_metaMap.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSetToString.js":[function(require,module,exports){
 'use strict';
 
 var constant = require('./constant'),
@@ -33040,7 +33040,7 @@ var baseSetToString = !defineProperty ? identity : function (func, string) {
 
 module.exports = baseSetToString;
 
-},{"./_defineProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_defineProperty.js","./constant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\constant.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSlice.js":[function(require,module,exports){
+},{"./_defineProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_defineProperty.js","./constant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\constant.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSlice.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33075,7 +33075,7 @@ function baseSlice(array, start, end) {
 
 module.exports = baseSlice;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSome.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSome.js":[function(require,module,exports){
 'use strict';
 
 var baseEach = require('./_baseEach');
@@ -33101,7 +33101,7 @@ function baseSome(collection, predicate) {
 
 module.exports = baseSome;
 
-},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSortBy.js":[function(require,module,exports){
+},{"./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseEach.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSortBy.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33126,7 +33126,7 @@ function baseSortBy(array, comparer) {
 
 module.exports = baseSortBy;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSortedUniq.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSortedUniq.js":[function(require,module,exports){
 'use strict';
 
 var eq = require('./eq');
@@ -33160,7 +33160,7 @@ function baseSortedUniq(array, iteratee) {
 
 module.exports = baseSortedUniq;
 
-},{"./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSum.js":[function(require,module,exports){
+},{"./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSum.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33188,7 +33188,7 @@ function baseSum(array, iteratee) {
 
 module.exports = baseSum;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseTimes.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseTimes.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33212,7 +33212,7 @@ function baseTimes(n, iteratee) {
 
 module.exports = baseTimes;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseToPairs.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseToPairs.js":[function(require,module,exports){
 'use strict';
 
 var arrayMap = require('./_arrayMap');
@@ -33234,7 +33234,7 @@ function baseToPairs(object, props) {
 
 module.exports = baseToPairs;
 
-},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseToString.js":[function(require,module,exports){
+},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseToString.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol'),
@@ -33275,7 +33275,7 @@ function baseToString(value) {
 
 module.exports = baseToString;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js","./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js","./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33293,7 +33293,7 @@ function baseUnary(func) {
 
 module.exports = baseUnary;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUniq.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUniq.js":[function(require,module,exports){
 'use strict';
 
 var SetCache = require('./_SetCache'),
@@ -33365,7 +33365,7 @@ function baseUniq(array, iteratee, comparator) {
 
 module.exports = baseUniq;
 
-},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_SetCache.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludes.js","./_arrayIncludesWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludesWith.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cacheHas.js","./_createSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createSet.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnset.js":[function(require,module,exports){
+},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_SetCache.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludes.js","./_arrayIncludesWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludesWith.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cacheHas.js","./_createSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createSet.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnset.js":[function(require,module,exports){
 'use strict';
 
 var castPath = require('./_castPath'),
@@ -33389,7 +33389,7 @@ function baseUnset(object, path) {
 
 module.exports = baseUnset;
 
-},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js","./_parent":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_parent.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js","./last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\last.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseValues.js":[function(require,module,exports){
+},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js","./_parent":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_parent.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js","./last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\last.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseValues.js":[function(require,module,exports){
 'use strict';
 
 var arrayMap = require('./_arrayMap');
@@ -33412,7 +33412,7 @@ function baseValues(object, props) {
 
 module.exports = baseValues;
 
-},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cacheHas.js":[function(require,module,exports){
+},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cacheHas.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33429,7 +33429,7 @@ function cacheHas(cache, key) {
 
 module.exports = cacheHas;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castFunction.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castFunction.js":[function(require,module,exports){
 'use strict';
 
 var identity = require('./identity');
@@ -33447,7 +33447,7 @@ function castFunction(value) {
 
 module.exports = castFunction;
 
-},{"./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js":[function(require,module,exports){
+},{"./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js":[function(require,module,exports){
 'use strict';
 
 var isArray = require('./isArray'),
@@ -33472,7 +33472,7 @@ function castPath(value, object) {
 
 module.exports = castPath;
 
-},{"./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKey.js","./_stringToPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stringToPath.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneArrayBuffer.js":[function(require,module,exports){
+},{"./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKey.js","./_stringToPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stringToPath.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneArrayBuffer.js":[function(require,module,exports){
 'use strict';
 
 var Uint8Array = require('./_Uint8Array');
@@ -33492,7 +33492,7 @@ function cloneArrayBuffer(arrayBuffer) {
 
 module.exports = cloneArrayBuffer;
 
-},{"./_Uint8Array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Uint8Array.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneBuffer.js":[function(require,module,exports){
+},{"./_Uint8Array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Uint8Array.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneBuffer.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -33533,7 +33533,7 @@ function cloneBuffer(buffer, isDeep) {
 
 module.exports = cloneBuffer;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneDataView.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneDataView.js":[function(require,module,exports){
 'use strict';
 
 var cloneArrayBuffer = require('./_cloneArrayBuffer');
@@ -33553,7 +33553,7 @@ function cloneDataView(dataView, isDeep) {
 
 module.exports = cloneDataView;
 
-},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneArrayBuffer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneRegExp.js":[function(require,module,exports){
+},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneArrayBuffer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneRegExp.js":[function(require,module,exports){
 "use strict";
 
 /** Used to match `RegExp` flags from their coerced string values. */
@@ -33574,7 +33574,7 @@ function cloneRegExp(regexp) {
 
 module.exports = cloneRegExp;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneSymbol.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneSymbol.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol');
@@ -33596,7 +33596,7 @@ function cloneSymbol(symbol) {
 
 module.exports = cloneSymbol;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneTypedArray.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneTypedArray.js":[function(require,module,exports){
 'use strict';
 
 var cloneArrayBuffer = require('./_cloneArrayBuffer');
@@ -33616,7 +33616,7 @@ function cloneTypedArray(typedArray, isDeep) {
 
 module.exports = cloneTypedArray;
 
-},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneArrayBuffer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_compareAscending.js":[function(require,module,exports){
+},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneArrayBuffer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_compareAscending.js":[function(require,module,exports){
 'use strict';
 
 var isSymbol = require('./isSymbol');
@@ -33653,7 +33653,7 @@ function compareAscending(value, other) {
 
 module.exports = compareAscending;
 
-},{"./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_compareMultiple.js":[function(require,module,exports){
+},{"./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_compareMultiple.js":[function(require,module,exports){
 'use strict';
 
 var compareAscending = require('./_compareAscending');
@@ -33701,7 +33701,7 @@ function compareMultiple(object, other, orders) {
 
 module.exports = compareMultiple;
 
-},{"./_compareAscending":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_compareAscending.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgs.js":[function(require,module,exports){
+},{"./_compareAscending":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_compareAscending.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgs.js":[function(require,module,exports){
 "use strict";
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
@@ -33744,7 +33744,7 @@ function composeArgs(args, partials, holders, isCurried) {
 
 module.exports = composeArgs;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgsRight.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgsRight.js":[function(require,module,exports){
 "use strict";
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
@@ -33789,7 +33789,7 @@ function composeArgsRight(args, partials, holders, isCurried) {
 
 module.exports = composeArgsRight;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyArray.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyArray.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33813,7 +33813,7 @@ function copyArray(source, array) {
 
 module.exports = copyArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js":[function(require,module,exports){
 'use strict';
 
 var assignValue = require('./_assignValue'),
@@ -33855,7 +33855,7 @@ function copyObject(source, props, object, customizer) {
 
 module.exports = copyObject;
 
-},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignValue.js","./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignValue.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copySymbols.js":[function(require,module,exports){
+},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignValue.js","./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignValue.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copySymbols.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -33875,7 +33875,7 @@ function copySymbols(source, object) {
 
 module.exports = copySymbols;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbols.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copySymbolsIn.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbols.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copySymbolsIn.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -33895,7 +33895,7 @@ function copySymbolsIn(source, object) {
 
 module.exports = copySymbolsIn;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./_getSymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbolsIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_coreJsData.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./_getSymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbolsIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_coreJsData.js":[function(require,module,exports){
 'use strict';
 
 var root = require('./_root');
@@ -33905,7 +33905,7 @@ var coreJsData = root['__core-js_shared__'];
 
 module.exports = coreJsData;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_countHolders.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_countHolders.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -33930,7 +33930,7 @@ function countHolders(array, placeholder) {
 
 module.exports = countHolders;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAggregator.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAggregator.js":[function(require,module,exports){
 'use strict';
 
 var arrayAggregator = require('./_arrayAggregator'),
@@ -33957,7 +33957,7 @@ function createAggregator(setter, initializer) {
 
 module.exports = createAggregator;
 
-},{"./_arrayAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayAggregator.js","./_baseAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAggregator.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAssigner.js":[function(require,module,exports){
+},{"./_arrayAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayAggregator.js","./_baseAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAggregator.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAssigner.js":[function(require,module,exports){
 'use strict';
 
 var baseRest = require('./_baseRest'),
@@ -33996,7 +33996,7 @@ function createAssigner(assigner) {
 
 module.exports = createAssigner;
 
-},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBaseEach.js":[function(require,module,exports){
+},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBaseEach.js":[function(require,module,exports){
 'use strict';
 
 var isArrayLike = require('./isArrayLike');
@@ -34032,7 +34032,7 @@ function createBaseEach(eachFunc, fromRight) {
 
 module.exports = createBaseEach;
 
-},{"./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBaseFor.js":[function(require,module,exports){
+},{"./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBaseFor.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -34061,7 +34061,7 @@ function createBaseFor(fromRight) {
 
 module.exports = createBaseFor;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBind.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBind.js":[function(require,module,exports){
 'use strict';
 
 var createCtor = require('./_createCtor'),
@@ -34093,7 +34093,7 @@ function createBind(func, bitmask, thisArg) {
 
 module.exports = createBind;
 
-},{"./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCtor.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCtor.js":[function(require,module,exports){
+},{"./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCtor.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCtor.js":[function(require,module,exports){
 'use strict';
 
 var baseCreate = require('./_baseCreate'),
@@ -34142,7 +34142,7 @@ function createCtor(Ctor) {
 
 module.exports = createCtor;
 
-},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseCreate.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCurry.js":[function(require,module,exports){
+},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseCreate.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCurry.js":[function(require,module,exports){
 'use strict';
 
 var apply = require('./_apply'),
@@ -34188,7 +34188,7 @@ function createCurry(func, bitmask, arity) {
 
 module.exports = createCurry;
 
-},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_apply.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCtor.js","./_createHybrid":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createHybrid.js","./_createRecurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createRecurry.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createFind.js":[function(require,module,exports){
+},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_apply.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCtor.js","./_createHybrid":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createHybrid.js","./_createRecurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createRecurry.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createFind.js":[function(require,module,exports){
 'use strict';
 
 var baseIteratee = require('./_baseIteratee'),
@@ -34219,7 +34219,7 @@ function createFind(findIndexFunc) {
 
 module.exports = createFind;
 
-},{"./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createFlow.js":[function(require,module,exports){
+},{"./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createFlow.js":[function(require,module,exports){
 'use strict';
 
 var LodashWrapper = require('./_LodashWrapper'),
@@ -34296,7 +34296,7 @@ function createFlow(fromRight) {
 
 module.exports = createFlow;
 
-},{"./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LodashWrapper.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_flatRest.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getData.js","./_getFuncName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getFuncName.js","./_isLaziable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isLaziable.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createHybrid.js":[function(require,module,exports){
+},{"./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LodashWrapper.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_flatRest.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getData.js","./_getFuncName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getFuncName.js","./_isLaziable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isLaziable.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createHybrid.js":[function(require,module,exports){
 'use strict';
 
 var composeArgs = require('./_composeArgs'),
@@ -34389,7 +34389,7 @@ function createHybrid(func, bitmask, thisArg, partials, holders, partialsRight, 
 
 module.exports = createHybrid;
 
-},{"./_composeArgs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgs.js","./_composeArgsRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgsRight.js","./_countHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_countHolders.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCtor.js","./_createRecurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createRecurry.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getHolder.js","./_reorder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_reorder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createInverter.js":[function(require,module,exports){
+},{"./_composeArgs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgs.js","./_composeArgsRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgsRight.js","./_countHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_countHolders.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCtor.js","./_createRecurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createRecurry.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getHolder.js","./_reorder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_reorder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createInverter.js":[function(require,module,exports){
 'use strict';
 
 var baseInverter = require('./_baseInverter');
@@ -34410,7 +34410,7 @@ function createInverter(setter, toIteratee) {
 
 module.exports = createInverter;
 
-},{"./_baseInverter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseInverter.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createPartial.js":[function(require,module,exports){
+},{"./_baseInverter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseInverter.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createPartial.js":[function(require,module,exports){
 'use strict';
 
 var apply = require('./_apply'),
@@ -34457,7 +34457,7 @@ function createPartial(func, bitmask, thisArg, partials) {
 
 module.exports = createPartial;
 
-},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_apply.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCtor.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createRange.js":[function(require,module,exports){
+},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_apply.js","./_createCtor":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCtor.js","./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createRange.js":[function(require,module,exports){
 'use strict';
 
 var baseRange = require('./_baseRange'),
@@ -34491,7 +34491,7 @@ function createRange(fromRight) {
 
 module.exports = createRange;
 
-},{"./_baseRange":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRange.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js","./toFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toFinite.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createRecurry.js":[function(require,module,exports){
+},{"./_baseRange":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRange.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js","./toFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toFinite.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createRecurry.js":[function(require,module,exports){
 'use strict';
 
 var isLaziable = require('./_isLaziable'),
@@ -34548,7 +34548,7 @@ function createRecurry(func, bitmask, wrapFunc, placeholder, thisArg, partials, 
 
 module.exports = createRecurry;
 
-},{"./_isLaziable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isLaziable.js","./_setData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setData.js","./_setWrapToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setWrapToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createSet.js":[function(require,module,exports){
+},{"./_isLaziable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isLaziable.js","./_setData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setData.js","./_setWrapToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setWrapToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createSet.js":[function(require,module,exports){
 'use strict';
 
 var Set = require('./_Set'),
@@ -34571,7 +34571,7 @@ var createSet = !(Set && 1 / setToArray(new Set([, -0]))[1] == INFINITY) ? noop 
 
 module.exports = createSet;
 
-},{"./_Set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Set.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToArray.js","./noop":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\noop.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createToPairs.js":[function(require,module,exports){
+},{"./_Set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Set.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToArray.js","./noop":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\noop.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createToPairs.js":[function(require,module,exports){
 'use strict';
 
 var baseToPairs = require('./_baseToPairs'),
@@ -34605,7 +34605,7 @@ function createToPairs(keysFunc) {
 
 module.exports = createToPairs;
 
-},{"./_baseToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseToPairs.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./_mapToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapToArray.js","./_setToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToPairs.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createWrap.js":[function(require,module,exports){
+},{"./_baseToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseToPairs.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./_mapToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapToArray.js","./_setToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToPairs.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createWrap.js":[function(require,module,exports){
 'use strict';
 
 var baseSetData = require('./_baseSetData'),
@@ -34710,7 +34710,7 @@ function createWrap(func, bitmask, thisArg, partials, holders, argPos, ary, arit
 
 module.exports = createWrap;
 
-},{"./_baseSetData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSetData.js","./_createBind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createBind.js","./_createCurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createCurry.js","./_createHybrid":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createHybrid.js","./_createPartial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createPartial.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getData.js","./_mergeData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mergeData.js","./_setData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setData.js","./_setWrapToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setWrapToString.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toInteger.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_customDefaultsMerge.js":[function(require,module,exports){
+},{"./_baseSetData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSetData.js","./_createBind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createBind.js","./_createCurry":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createCurry.js","./_createHybrid":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createHybrid.js","./_createPartial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createPartial.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getData.js","./_mergeData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mergeData.js","./_setData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setData.js","./_setWrapToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setWrapToString.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toInteger.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_customDefaultsMerge.js":[function(require,module,exports){
 'use strict';
 
 var baseMerge = require('./_baseMerge'),
@@ -34742,7 +34742,7 @@ function customDefaultsMerge(objValue, srcValue, key, object, source, stack) {
 
 module.exports = customDefaultsMerge;
 
-},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMerge.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_customOmitClone.js":[function(require,module,exports){
+},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMerge.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_customOmitClone.js":[function(require,module,exports){
 'use strict';
 
 var isPlainObject = require('./isPlainObject');
@@ -34762,7 +34762,7 @@ function customOmitClone(value) {
 
 module.exports = customOmitClone;
 
-},{"./isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_defineProperty.js":[function(require,module,exports){
+},{"./isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_defineProperty.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative');
@@ -34777,7 +34777,7 @@ var defineProperty = function () {
 
 module.exports = defineProperty;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalArrays.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalArrays.js":[function(require,module,exports){
 'use strict';
 
 var SetCache = require('./_SetCache'),
@@ -34858,7 +34858,7 @@ function equalArrays(array, other, bitmask, customizer, equalFunc, stack) {
 
 module.exports = equalArrays;
 
-},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_SetCache.js","./_arraySome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arraySome.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalByTag.js":[function(require,module,exports){
+},{"./_SetCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_SetCache.js","./_arraySome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arraySome.js","./_cacheHas":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cacheHas.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalByTag.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol'),
@@ -34972,7 +34972,7 @@ function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack) {
 
 module.exports = equalByTag;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js","./_Uint8Array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Uint8Array.js","./_equalArrays":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalArrays.js","./_mapToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapToArray.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToArray.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_equalObjects.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js","./_Uint8Array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Uint8Array.js","./_equalArrays":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalArrays.js","./_mapToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapToArray.js","./_setToArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToArray.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_equalObjects.js":[function(require,module,exports){
 'use strict';
 
 var getAllKeys = require('./_getAllKeys');
@@ -35057,7 +35057,7 @@ function equalObjects(object, other, bitmask, customizer, equalFunc, stack) {
 
 module.exports = equalObjects;
 
-},{"./_getAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_flatRest.js":[function(require,module,exports){
+},{"./_getAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_flatRest.js":[function(require,module,exports){
 'use strict';
 
 var flatten = require('./flatten'),
@@ -35077,7 +35077,7 @@ function flatRest(func) {
 
 module.exports = flatRest;
 
-},{"./_overRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overRest.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToString.js","./flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_freeGlobal.js":[function(require,module,exports){
+},{"./_overRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overRest.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToString.js","./flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_freeGlobal.js":[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -35089,7 +35089,7 @@ var freeGlobal = (typeof global === 'undefined' ? 'undefined' : _typeof(global))
 module.exports = freeGlobal;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeys.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeys.js":[function(require,module,exports){
 'use strict';
 
 var baseGetAllKeys = require('./_baseGetAllKeys'),
@@ -35109,7 +35109,7 @@ function getAllKeys(object) {
 
 module.exports = getAllKeys;
 
-},{"./_baseGetAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetAllKeys.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbols.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeysIn.js":[function(require,module,exports){
+},{"./_baseGetAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetAllKeys.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbols.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeysIn.js":[function(require,module,exports){
 'use strict';
 
 var baseGetAllKeys = require('./_baseGetAllKeys'),
@@ -35130,7 +35130,7 @@ function getAllKeysIn(object) {
 
 module.exports = getAllKeysIn;
 
-},{"./_baseGetAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetAllKeys.js","./_getSymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbolsIn.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getData.js":[function(require,module,exports){
+},{"./_baseGetAllKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetAllKeys.js","./_getSymbolsIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbolsIn.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getData.js":[function(require,module,exports){
 'use strict';
 
 var metaMap = require('./_metaMap'),
@@ -35149,7 +35149,7 @@ var getData = !metaMap ? noop : function (func) {
 
 module.exports = getData;
 
-},{"./_metaMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_metaMap.js","./noop":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\noop.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getFuncName.js":[function(require,module,exports){
+},{"./_metaMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_metaMap.js","./noop":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\noop.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getFuncName.js":[function(require,module,exports){
 'use strict';
 
 var realNames = require('./_realNames');
@@ -35184,7 +35184,7 @@ function getFuncName(func) {
 
 module.exports = getFuncName;
 
-},{"./_realNames":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_realNames.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getHolder.js":[function(require,module,exports){
+},{"./_realNames":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_realNames.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getHolder.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -35201,7 +35201,7 @@ function getHolder(func) {
 
 module.exports = getHolder;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMapData.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMapData.js":[function(require,module,exports){
 'use strict';
 
 var isKeyable = require('./_isKeyable');
@@ -35221,7 +35221,7 @@ function getMapData(map, key) {
 
 module.exports = getMapData;
 
-},{"./_isKeyable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKeyable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMatchData.js":[function(require,module,exports){
+},{"./_isKeyable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKeyable.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMatchData.js":[function(require,module,exports){
 'use strict';
 
 var isStrictComparable = require('./_isStrictComparable'),
@@ -35249,7 +35249,7 @@ function getMatchData(object) {
 
 module.exports = getMatchData;
 
-},{"./_isStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isStrictComparable.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js":[function(require,module,exports){
+},{"./_isStrictComparable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isStrictComparable.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js":[function(require,module,exports){
 'use strict';
 
 var baseIsNative = require('./_baseIsNative'),
@@ -35270,7 +35270,7 @@ function getNative(object, key) {
 
 module.exports = getNative;
 
-},{"./_baseIsNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsNative.js","./_getValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getValue.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getPrototype.js":[function(require,module,exports){
+},{"./_baseIsNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsNative.js","./_getValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getValue.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getPrototype.js":[function(require,module,exports){
 'use strict';
 
 var overArg = require('./_overArg');
@@ -35280,7 +35280,7 @@ var getPrototype = overArg(Object.getPrototypeOf, Object);
 
 module.exports = getPrototype;
 
-},{"./_overArg":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overArg.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getRawTag.js":[function(require,module,exports){
+},{"./_overArg":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overArg.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getRawTag.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol');
@@ -35330,7 +35330,7 @@ function getRawTag(value) {
 
 module.exports = getRawTag;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbols.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbols.js":[function(require,module,exports){
 'use strict';
 
 var arrayFilter = require('./_arrayFilter'),
@@ -35364,7 +35364,7 @@ var getSymbols = !nativeGetSymbols ? stubArray : function (object) {
 
 module.exports = getSymbols;
 
-},{"./_arrayFilter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayFilter.js","./stubArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\stubArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbolsIn.js":[function(require,module,exports){
+},{"./_arrayFilter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayFilter.js","./stubArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\stubArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbolsIn.js":[function(require,module,exports){
 'use strict';
 
 var arrayPush = require('./_arrayPush'),
@@ -35393,7 +35393,7 @@ var getSymbolsIn = !nativeGetSymbols ? stubArray : function (object) {
 
 module.exports = getSymbolsIn;
 
-},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayPush.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getPrototype.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getSymbols.js","./stubArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\stubArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js":[function(require,module,exports){
+},{"./_arrayPush":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayPush.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getPrototype.js","./_getSymbols":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getSymbols.js","./stubArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\stubArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js":[function(require,module,exports){
 'use strict';
 
 var DataView = require('./_DataView'),
@@ -35456,7 +35456,7 @@ if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag || Map &
 
 module.exports = getTag;
 
-},{"./_DataView":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_DataView.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Map.js","./_Promise":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Promise.js","./_Set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Set.js","./_WeakMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_WeakMap.js","./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./_toSource":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toSource.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getValue.js":[function(require,module,exports){
+},{"./_DataView":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_DataView.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Map.js","./_Promise":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Promise.js","./_Set":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Set.js","./_WeakMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_WeakMap.js","./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./_toSource":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toSource.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getValue.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -35473,7 +35473,7 @@ function getValue(object, key) {
 
 module.exports = getValue;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getWrapDetails.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getWrapDetails.js":[function(require,module,exports){
 "use strict";
 
 /** Used to match wrap detail comments. */
@@ -35494,7 +35494,7 @@ function getWrapDetails(source) {
 
 module.exports = getWrapDetails;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hasPath.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hasPath.js":[function(require,module,exports){
 'use strict';
 
 var castPath = require('./_castPath'),
@@ -35536,7 +35536,7 @@ function hasPath(object, path, hasFunc) {
 
 module.exports = hasPath;
 
-},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isLength.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashClear.js":[function(require,module,exports){
+},{"./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isLength.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashClear.js":[function(require,module,exports){
 'use strict';
 
 var nativeCreate = require('./_nativeCreate');
@@ -35555,7 +35555,7 @@ function hashClear() {
 
 module.exports = hashClear;
 
-},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashDelete.js":[function(require,module,exports){
+},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashDelete.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -35576,7 +35576,7 @@ function hashDelete(key) {
 
 module.exports = hashDelete;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashGet.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashGet.js":[function(require,module,exports){
 'use strict';
 
 var nativeCreate = require('./_nativeCreate');
@@ -35610,7 +35610,7 @@ function hashGet(key) {
 
 module.exports = hashGet;
 
-},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashHas.js":[function(require,module,exports){
+},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashHas.js":[function(require,module,exports){
 'use strict';
 
 var nativeCreate = require('./_nativeCreate');
@@ -35637,7 +35637,7 @@ function hashHas(key) {
 
 module.exports = hashHas;
 
-},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hashSet.js":[function(require,module,exports){
+},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hashSet.js":[function(require,module,exports){
 'use strict';
 
 var nativeCreate = require('./_nativeCreate');
@@ -35664,7 +35664,7 @@ function hashSet(key, value) {
 
 module.exports = hashSet;
 
-},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneArray.js":[function(require,module,exports){
+},{"./_nativeCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeCreate.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneArray.js":[function(require,module,exports){
 'use strict';
 
 /** Used for built-in method references. */
@@ -35694,7 +35694,7 @@ function initCloneArray(array) {
 
 module.exports = initCloneArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneByTag.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneByTag.js":[function(require,module,exports){
 'use strict';
 
 var cloneArrayBuffer = require('./_cloneArrayBuffer'),
@@ -35775,7 +35775,7 @@ function initCloneByTag(object, tag, isDeep) {
 
 module.exports = initCloneByTag;
 
-},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneArrayBuffer.js","./_cloneDataView":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneDataView.js","./_cloneRegExp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneRegExp.js","./_cloneSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneSymbol.js","./_cloneTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_cloneTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_initCloneObject.js":[function(require,module,exports){
+},{"./_cloneArrayBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneArrayBuffer.js","./_cloneDataView":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneDataView.js","./_cloneRegExp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneRegExp.js","./_cloneSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneSymbol.js","./_cloneTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_cloneTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_initCloneObject.js":[function(require,module,exports){
 'use strict';
 
 var baseCreate = require('./_baseCreate'),
@@ -35795,7 +35795,7 @@ function initCloneObject(object) {
 
 module.exports = initCloneObject;
 
-},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseCreate.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getPrototype.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_insertWrapDetails.js":[function(require,module,exports){
+},{"./_baseCreate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseCreate.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getPrototype.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_insertWrapDetails.js":[function(require,module,exports){
 'use strict';
 
 /** Used to match wrap detail comments. */
@@ -35822,7 +35822,7 @@ function insertWrapDetails(source, details) {
 
 module.exports = insertWrapDetails;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isFlattenable.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isFlattenable.js":[function(require,module,exports){
 'use strict';
 
 var _Symbol = require('./_Symbol'),
@@ -35845,7 +35845,7 @@ function isFlattenable(value) {
 
 module.exports = isFlattenable;
 
-},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Symbol.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js":[function(require,module,exports){
+},{"./_Symbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Symbol.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -35873,7 +35873,7 @@ function isIndex(value, length) {
 
 module.exports = isIndex;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -35906,7 +35906,7 @@ function isIterateeCall(value, index, object) {
 
 module.exports = isIterateeCall;
 
-},{"./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKey.js":[function(require,module,exports){
+},{"./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKey.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -35939,7 +35939,7 @@ function isKey(value, object) {
 
 module.exports = isKey;
 
-},{"./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKeyable.js":[function(require,module,exports){
+},{"./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKeyable.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -35958,7 +35958,7 @@ function isKeyable(value) {
 
 module.exports = isKeyable;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isLaziable.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isLaziable.js":[function(require,module,exports){
 'use strict';
 
 var LazyWrapper = require('./_LazyWrapper'),
@@ -35990,7 +35990,7 @@ function isLaziable(func) {
 
 module.exports = isLaziable;
 
-},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LazyWrapper.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getData.js","./_getFuncName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getFuncName.js","./wrapperLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\wrapperLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isMasked.js":[function(require,module,exports){
+},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LazyWrapper.js","./_getData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getData.js","./_getFuncName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getFuncName.js","./wrapperLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\wrapperLodash.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isMasked.js":[function(require,module,exports){
 'use strict';
 
 var coreJsData = require('./_coreJsData');
@@ -36014,7 +36014,7 @@ function isMasked(func) {
 
 module.exports = isMasked;
 
-},{"./_coreJsData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_coreJsData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js":[function(require,module,exports){
+},{"./_coreJsData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_coreJsData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js":[function(require,module,exports){
 'use strict';
 
 /** Used for built-in method references. */
@@ -36036,7 +36036,7 @@ function isPrototype(value) {
 
 module.exports = isPrototype;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isStrictComparable.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isStrictComparable.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('./isObject');
@@ -36055,7 +36055,7 @@ function isStrictComparable(value) {
 
 module.exports = isStrictComparable;
 
-},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheClear.js":[function(require,module,exports){
+},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheClear.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36072,7 +36072,7 @@ function listCacheClear() {
 
 module.exports = listCacheClear;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheDelete.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheDelete.js":[function(require,module,exports){
 'use strict';
 
 var assocIndexOf = require('./_assocIndexOf');
@@ -36111,7 +36111,7 @@ function listCacheDelete(key) {
 
 module.exports = listCacheDelete;
 
-},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheGet.js":[function(require,module,exports){
+},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheGet.js":[function(require,module,exports){
 'use strict';
 
 var assocIndexOf = require('./_assocIndexOf');
@@ -36134,7 +36134,7 @@ function listCacheGet(key) {
 
 module.exports = listCacheGet;
 
-},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheHas.js":[function(require,module,exports){
+},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheHas.js":[function(require,module,exports){
 'use strict';
 
 var assocIndexOf = require('./_assocIndexOf');
@@ -36154,7 +36154,7 @@ function listCacheHas(key) {
 
 module.exports = listCacheHas;
 
-},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_listCacheSet.js":[function(require,module,exports){
+},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_listCacheSet.js":[function(require,module,exports){
 'use strict';
 
 var assocIndexOf = require('./_assocIndexOf');
@@ -36184,7 +36184,7 @@ function listCacheSet(key, value) {
 
 module.exports = listCacheSet;
 
-},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheClear.js":[function(require,module,exports){
+},{"./_assocIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assocIndexOf.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheClear.js":[function(require,module,exports){
 'use strict';
 
 var Hash = require('./_Hash'),
@@ -36209,7 +36209,7 @@ function mapCacheClear() {
 
 module.exports = mapCacheClear;
 
-},{"./_Hash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Hash.js","./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_ListCache.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Map.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheDelete.js":[function(require,module,exports){
+},{"./_Hash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Hash.js","./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_ListCache.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Map.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheDelete.js":[function(require,module,exports){
 'use strict';
 
 var getMapData = require('./_getMapData');
@@ -36231,7 +36231,7 @@ function mapCacheDelete(key) {
 
 module.exports = mapCacheDelete;
 
-},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheGet.js":[function(require,module,exports){
+},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheGet.js":[function(require,module,exports){
 'use strict';
 
 var getMapData = require('./_getMapData');
@@ -36251,7 +36251,7 @@ function mapCacheGet(key) {
 
 module.exports = mapCacheGet;
 
-},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheHas.js":[function(require,module,exports){
+},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheHas.js":[function(require,module,exports){
 'use strict';
 
 var getMapData = require('./_getMapData');
@@ -36271,7 +36271,7 @@ function mapCacheHas(key) {
 
 module.exports = mapCacheHas;
 
-},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapCacheSet.js":[function(require,module,exports){
+},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapCacheSet.js":[function(require,module,exports){
 'use strict';
 
 var getMapData = require('./_getMapData');
@@ -36297,7 +36297,7 @@ function mapCacheSet(key, value) {
 
 module.exports = mapCacheSet;
 
-},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mapToArray.js":[function(require,module,exports){
+},{"./_getMapData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getMapData.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mapToArray.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36319,7 +36319,7 @@ function mapToArray(map) {
 
 module.exports = mapToArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_matchesStrictComparable.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_matchesStrictComparable.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36342,7 +36342,7 @@ function matchesStrictComparable(key, srcValue) {
 
 module.exports = matchesStrictComparable;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_memoizeCapped.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_memoizeCapped.js":[function(require,module,exports){
 'use strict';
 
 var memoize = require('./memoize');
@@ -36372,7 +36372,7 @@ function memoizeCapped(func) {
 
 module.exports = memoizeCapped;
 
-},{"./memoize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\memoize.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_mergeData.js":[function(require,module,exports){
+},{"./memoize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\memoize.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_mergeData.js":[function(require,module,exports){
 'use strict';
 
 var composeArgs = require('./_composeArgs'),
@@ -36463,7 +36463,7 @@ function mergeData(data, source) {
 
 module.exports = mergeData;
 
-},{"./_composeArgs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgs.js","./_composeArgsRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_composeArgsRight.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_metaMap.js":[function(require,module,exports){
+},{"./_composeArgs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgs.js","./_composeArgsRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_composeArgsRight.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_metaMap.js":[function(require,module,exports){
 'use strict';
 
 var WeakMap = require('./_WeakMap');
@@ -36473,7 +36473,7 @@ var metaMap = WeakMap && new WeakMap();
 
 module.exports = metaMap;
 
-},{"./_WeakMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_WeakMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeCreate.js":[function(require,module,exports){
+},{"./_WeakMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_WeakMap.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeCreate.js":[function(require,module,exports){
 'use strict';
 
 var getNative = require('./_getNative');
@@ -36483,7 +36483,7 @@ var nativeCreate = getNative(Object, 'create');
 
 module.exports = nativeCreate;
 
-},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getNative.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeKeys.js":[function(require,module,exports){
+},{"./_getNative":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getNative.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeKeys.js":[function(require,module,exports){
 'use strict';
 
 var overArg = require('./_overArg');
@@ -36493,7 +36493,7 @@ var nativeKeys = overArg(Object.keys, Object);
 
 module.exports = nativeKeys;
 
-},{"./_overArg":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overArg.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nativeKeysIn.js":[function(require,module,exports){
+},{"./_overArg":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overArg.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nativeKeysIn.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36517,7 +36517,7 @@ function nativeKeysIn(object) {
 
 module.exports = nativeKeysIn;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nodeUtil.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nodeUtil.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -36553,7 +36553,7 @@ var nodeUtil = function () {
 
 module.exports = nodeUtil;
 
-},{"./_freeGlobal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_freeGlobal.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_objectToString.js":[function(require,module,exports){
+},{"./_freeGlobal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_freeGlobal.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_objectToString.js":[function(require,module,exports){
 "use strict";
 
 /** Used for built-in method references. */
@@ -36579,7 +36579,7 @@ function objectToString(value) {
 
 module.exports = objectToString;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overArg.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overArg.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36598,7 +36598,7 @@ function overArg(func, transform) {
 
 module.exports = overArg;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_overRest.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_overRest.js":[function(require,module,exports){
 'use strict';
 
 var apply = require('./_apply');
@@ -36638,7 +36638,7 @@ function overRest(func, start, transform) {
 
 module.exports = overRest;
 
-},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_apply.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_parent.js":[function(require,module,exports){
+},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_apply.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_parent.js":[function(require,module,exports){
 'use strict';
 
 var baseGet = require('./_baseGet'),
@@ -36658,7 +36658,7 @@ function parent(object, path) {
 
 module.exports = parent;
 
-},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGet.js","./_baseSlice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSlice.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_realNames.js":[function(require,module,exports){
+},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGet.js","./_baseSlice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSlice.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_realNames.js":[function(require,module,exports){
 "use strict";
 
 /** Used to lookup unminified function names. */
@@ -36666,7 +36666,7 @@ var realNames = {};
 
 module.exports = realNames;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_reorder.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_reorder.js":[function(require,module,exports){
 'use strict';
 
 var copyArray = require('./_copyArray'),
@@ -36699,7 +36699,7 @@ function reorder(array, indexes) {
 
 module.exports = reorder;
 
-},{"./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyArray.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIndex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js":[function(require,module,exports){
+},{"./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyArray.js","./_isIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIndex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js":[function(require,module,exports){
 'use strict';
 
 /** Used as the internal argument placeholder. */
@@ -36732,7 +36732,7 @@ function replaceHolders(array, placeholder) {
 
 module.exports = replaceHolders;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -36747,7 +36747,7 @@ var root = freeGlobal || freeSelf || Function('return this')();
 
 module.exports = root;
 
-},{"./_freeGlobal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_freeGlobal.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_safeGet.js":[function(require,module,exports){
+},{"./_freeGlobal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_freeGlobal.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_safeGet.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -36764,7 +36764,7 @@ function safeGet(object, key) {
 
 module.exports = safeGet;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setCacheAdd.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setCacheAdd.js":[function(require,module,exports){
 'use strict';
 
 /** Used to stand-in for `undefined` hash values. */
@@ -36787,7 +36787,7 @@ function setCacheAdd(value) {
 
 module.exports = setCacheAdd;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setCacheHas.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setCacheHas.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36805,7 +36805,7 @@ function setCacheHas(value) {
 
 module.exports = setCacheHas;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setData.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setData.js":[function(require,module,exports){
 'use strict';
 
 var baseSetData = require('./_baseSetData'),
@@ -36829,7 +36829,7 @@ var setData = shortOut(baseSetData);
 
 module.exports = setData;
 
-},{"./_baseSetData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSetData.js","./_shortOut":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_shortOut.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToArray.js":[function(require,module,exports){
+},{"./_baseSetData":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSetData.js","./_shortOut":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_shortOut.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToArray.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36851,7 +36851,7 @@ function setToArray(set) {
 
 module.exports = setToArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToPairs.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToPairs.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -36873,7 +36873,7 @@ function setToPairs(set) {
 
 module.exports = setToPairs;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToString.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToString.js":[function(require,module,exports){
 'use strict';
 
 var baseSetToString = require('./_baseSetToString'),
@@ -36891,7 +36891,7 @@ var setToString = shortOut(baseSetToString);
 
 module.exports = setToString;
 
-},{"./_baseSetToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSetToString.js","./_shortOut":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_shortOut.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setWrapToString.js":[function(require,module,exports){
+},{"./_baseSetToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSetToString.js","./_shortOut":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_shortOut.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setWrapToString.js":[function(require,module,exports){
 'use strict';
 
 var getWrapDetails = require('./_getWrapDetails'),
@@ -36916,7 +36916,7 @@ function setWrapToString(wrapper, reference, bitmask) {
 
 module.exports = setWrapToString;
 
-},{"./_getWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getWrapDetails.js","./_insertWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_insertWrapDetails.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_setToString.js","./_updateWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_updateWrapDetails.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_shortOut.js":[function(require,module,exports){
+},{"./_getWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getWrapDetails.js","./_insertWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_insertWrapDetails.js","./_setToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_setToString.js","./_updateWrapDetails":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_updateWrapDetails.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_shortOut.js":[function(require,module,exports){
 "use strict";
 
 /** Used to detect hot functions by number of calls within a span of milliseconds. */
@@ -36957,7 +36957,7 @@ function shortOut(func) {
 
 module.exports = shortOut;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackClear.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackClear.js":[function(require,module,exports){
 'use strict';
 
 var ListCache = require('./_ListCache');
@@ -36976,7 +36976,7 @@ function stackClear() {
 
 module.exports = stackClear;
 
-},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_ListCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackDelete.js":[function(require,module,exports){
+},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_ListCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackDelete.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -36998,7 +36998,7 @@ function stackDelete(key) {
 
 module.exports = stackDelete;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackGet.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackGet.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37016,7 +37016,7 @@ function stackGet(key) {
 
 module.exports = stackGet;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackHas.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackHas.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37034,7 +37034,7 @@ function stackHas(key) {
 
 module.exports = stackHas;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stackSet.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stackSet.js":[function(require,module,exports){
 'use strict';
 
 var ListCache = require('./_ListCache'),
@@ -37072,7 +37072,7 @@ function stackSet(key, value) {
 
 module.exports = stackSet;
 
-},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_ListCache.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_Map.js","./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_MapCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_strictIndexOf.js":[function(require,module,exports){
+},{"./_ListCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_ListCache.js","./_Map":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_Map.js","./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_MapCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_strictIndexOf.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37099,7 +37099,7 @@ function strictIndexOf(array, value, fromIndex) {
 
 module.exports = strictIndexOf;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_stringToPath.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_stringToPath.js":[function(require,module,exports){
 'use strict';
 
 var memoizeCapped = require('./_memoizeCapped');
@@ -37130,7 +37130,7 @@ var stringToPath = memoizeCapped(function (string) {
 
 module.exports = stringToPath;
 
-},{"./_memoizeCapped":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_memoizeCapped.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js":[function(require,module,exports){
+},{"./_memoizeCapped":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_memoizeCapped.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js":[function(require,module,exports){
 'use strict';
 
 var isSymbol = require('./isSymbol');
@@ -37155,7 +37155,7 @@ function toKey(value) {
 
 module.exports = toKey;
 
-},{"./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toSource.js":[function(require,module,exports){
+},{"./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toSource.js":[function(require,module,exports){
 'use strict';
 
 /** Used for built-in method references. */
@@ -37185,7 +37185,7 @@ function toSource(func) {
 
 module.exports = toSource;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_updateWrapDetails.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_updateWrapDetails.js":[function(require,module,exports){
 'use strict';
 
 var arrayEach = require('./_arrayEach'),
@@ -37225,7 +37225,7 @@ function updateWrapDetails(details, bitmask) {
 
 module.exports = updateWrapDetails;
 
-},{"./_arrayEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayEach.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayIncludes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_wrapperClone.js":[function(require,module,exports){
+},{"./_arrayEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayEach.js","./_arrayIncludes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayIncludes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_wrapperClone.js":[function(require,module,exports){
 'use strict';
 
 var LazyWrapper = require('./_LazyWrapper'),
@@ -37252,7 +37252,7 @@ function wrapperClone(wrapper) {
 
 module.exports = wrapperClone;
 
-},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LazyWrapper.js","./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LodashWrapper.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js":[function(require,module,exports){
+},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LazyWrapper.js","./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LodashWrapper.js","./_copyArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js":[function(require,module,exports){
 'use strict';
 
 var assignValue = require('./_assignValue'),
@@ -37314,7 +37314,7 @@ var assign = createAssigner(function (object, source) {
 
 module.exports = assign;
 
-},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_assignValue.js","./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAssigner.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assignIn.js":[function(require,module,exports){
+},{"./_assignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_assignValue.js","./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAssigner.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assignIn.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -37358,7 +37358,7 @@ var assignIn = createAssigner(function (object, source) {
 
 module.exports = assignIn;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAssigner.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\constant.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAssigner.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\constant.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37388,7 +37388,7 @@ function constant(value) {
 
 module.exports = constant;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\debounce.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\debounce.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('./isObject'),
@@ -37579,7 +37579,7 @@ function debounce(func, wait, options) {
 
 module.exports = debounce;
 
-},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","./now":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\now.js","./toNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toNumber.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js":[function(require,module,exports){
+},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","./now":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\now.js","./toNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toNumber.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js":[function(require,module,exports){
 'use strict';
 
 var baseRest = require('./_baseRest'),
@@ -37646,7 +37646,7 @@ var defaults = baseRest(function (object, sources) {
 
 module.exports = defaults;
 
-},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaultsDeep.js":[function(require,module,exports){
+},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js","./eq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaultsDeep.js":[function(require,module,exports){
 'use strict';
 
 var apply = require('./_apply'),
@@ -37680,7 +37680,7 @@ var defaultsDeep = baseRest(function (args) {
 
 module.exports = defaultsDeep;
 
-},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_apply.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_customDefaultsMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_customDefaultsMerge.js","./mergeWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\mergeWith.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\eq.js":[function(require,module,exports){
+},{"./_apply":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_apply.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_customDefaultsMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_customDefaultsMerge.js","./mergeWith":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\mergeWith.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\eq.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37721,12 +37721,12 @@ function eq(value, other) {
 
 module.exports = eq;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\extend.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\extend.js":[function(require,module,exports){
 'use strict';
 
 module.exports = require('./assignIn');
 
-},{"./assignIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assignIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\find.js":[function(require,module,exports){
+},{"./assignIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assignIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\find.js":[function(require,module,exports){
 'use strict';
 
 var createFind = require('./_createFind'),
@@ -37772,7 +37772,7 @@ var find = createFind(findIndex);
 
 module.exports = find;
 
-},{"./_createFind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createFind.js","./findIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\findIndex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\findIndex.js":[function(require,module,exports){
+},{"./_createFind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createFind.js","./findIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\findIndex.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\findIndex.js":[function(require,module,exports){
 'use strict';
 
 var baseFindIndex = require('./_baseFindIndex'),
@@ -37831,7 +37831,7 @@ function findIndex(array, predicate, fromIndex) {
 
 module.exports = findIndex;
 
-},{"./_baseFindIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFindIndex.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toInteger.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js":[function(require,module,exports){
+},{"./_baseFindIndex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFindIndex.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toInteger.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js":[function(require,module,exports){
 'use strict';
 
 var baseFlatten = require('./_baseFlatten');
@@ -37857,7 +37857,7 @@ function flatten(array) {
 
 module.exports = flatten;
 
-},{"./_baseFlatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFlatten.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flow.js":[function(require,module,exports){
+},{"./_baseFlatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFlatten.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flow.js":[function(require,module,exports){
 'use strict';
 
 var createFlow = require('./_createFlow');
@@ -37888,7 +37888,7 @@ var flow = createFlow();
 
 module.exports = flow;
 
-},{"./_createFlow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createFlow.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\forOwn.js":[function(require,module,exports){
+},{"./_createFlow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createFlow.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\forOwn.js":[function(require,module,exports){
 'use strict';
 
 var baseForOwn = require('./_baseForOwn'),
@@ -37928,7 +37928,7 @@ function forOwn(object, iteratee) {
 
 module.exports = forOwn;
 
-},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseForOwn.js","./_castFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\fromPairs.js":[function(require,module,exports){
+},{"./_baseForOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseForOwn.js","./_castFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\fromPairs.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -37960,7 +37960,7 @@ function fromPairs(pairs) {
 
 module.exports = fromPairs;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\get.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\get.js":[function(require,module,exports){
 'use strict';
 
 var baseGet = require('./_baseGet');
@@ -37997,7 +37997,7 @@ function get(object, path, defaultValue) {
 
 module.exports = get;
 
-},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\groupBy.js":[function(require,module,exports){
+},{"./_baseGet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGet.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\groupBy.js":[function(require,module,exports){
 'use strict';
 
 var baseAssignValue = require('./_baseAssignValue'),
@@ -38042,7 +38042,7 @@ var groupBy = createAggregator(function (result, value, key) {
 
 module.exports = groupBy;
 
-},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseAssignValue.js","./_createAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAggregator.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\hasIn.js":[function(require,module,exports){
+},{"./_baseAssignValue":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseAssignValue.js","./_createAggregator":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAggregator.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\hasIn.js":[function(require,module,exports){
 'use strict';
 
 var baseHasIn = require('./_baseHasIn'),
@@ -38080,7 +38080,7 @@ function hasIn(object, path) {
 
 module.exports = hasIn;
 
-},{"./_baseHasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseHasIn.js","./_hasPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_hasPath.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js":[function(require,module,exports){
+},{"./_baseHasIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseHasIn.js","./_hasPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_hasPath.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -38105,7 +38105,7 @@ function identity(value) {
 
 module.exports = identity;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js":[function(require,module,exports){
 'use strict';
 
 var baseIndexOf = require('./_baseIndexOf'),
@@ -38160,7 +38160,7 @@ function includes(collection, value, fromIndex, guard) {
 
 module.exports = includes;
 
-},{"./_baseIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIndexOf.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./isString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isString.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toInteger.js","./values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\values.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\invert.js":[function(require,module,exports){
+},{"./_baseIndexOf":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIndexOf.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./isString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isString.js","./toInteger":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toInteger.js","./values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\values.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\invert.js":[function(require,module,exports){
 'use strict';
 
 var constant = require('./constant'),
@@ -38205,7 +38205,7 @@ var invert = createInverter(function (result, value, key) {
 
 module.exports = invert;
 
-},{"./_createInverter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createInverter.js","./constant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\constant.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js":[function(require,module,exports){
+},{"./_createInverter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createInverter.js","./constant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\constant.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js":[function(require,module,exports){
 'use strict';
 
 var baseIsArguments = require('./_baseIsArguments'),
@@ -38246,7 +38246,7 @@ var isArguments = baseIsArguments(function () {
 
 module.exports = isArguments;
 
-},{"./_baseIsArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsArguments.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js":[function(require,module,exports){
+},{"./_baseIsArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsArguments.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -38276,7 +38276,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js":[function(require,module,exports){
 'use strict';
 
 var isFunction = require('./isFunction'),
@@ -38313,7 +38313,7 @@ function isArrayLike(value) {
 
 module.exports = isArrayLike;
 
-},{"./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isLength.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLikeObject.js":[function(require,module,exports){
+},{"./isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","./isLength":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isLength.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLikeObject.js":[function(require,module,exports){
 'use strict';
 
 var isArrayLike = require('./isArrayLike'),
@@ -38350,7 +38350,7 @@ function isArrayLikeObject(value) {
 
 module.exports = isArrayLikeObject;
 
-},{"./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js":[function(require,module,exports){
+},{"./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -38394,7 +38394,7 @@ var isBuffer = nativeIsBuffer || stubFalse;
 
 module.exports = isBuffer;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js","./stubFalse":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\stubFalse.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js","./stubFalse":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\stubFalse.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js":[function(require,module,exports){
 'use strict';
 
 var baseKeys = require('./_baseKeys'),
@@ -38473,7 +38473,7 @@ function isEmpty(value) {
 
 module.exports = isEmpty;
 
-},{"./_baseKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseKeys.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getTag.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isPrototype.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js":[function(require,module,exports){
+},{"./_baseKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseKeys.js","./_getTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getTag.js","./_isPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isPrototype.js","./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArguments.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js","./isBuffer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isBuffer.js","./isTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isTypedArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js":[function(require,module,exports){
 'use strict';
 
 var baseIsEqual = require('./_baseIsEqual');
@@ -38512,7 +38512,7 @@ function isEqual(value, other) {
 
 module.exports = isEqual;
 
-},{"./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsEqual.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js":[function(require,module,exports){
+},{"./_baseIsEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsEqual.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -38553,7 +38553,7 @@ function isFunction(value) {
 
 module.exports = isFunction;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isLength.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isLength.js":[function(require,module,exports){
 'use strict';
 
 /** Used as references for various `Number` constants. */
@@ -38591,7 +38591,7 @@ function isLength(value) {
 
 module.exports = isLength;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isMap.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isMap.js":[function(require,module,exports){
 'use strict';
 
 var baseIsMap = require('./_baseIsMap'),
@@ -38622,7 +38622,7 @@ var isMap = nodeIsMap ? baseUnary(nodeIsMap) : baseIsMap;
 
 module.exports = isMap;
 
-},{"./_baseIsMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsMap.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isNumber.js":[function(require,module,exports){
+},{"./_baseIsMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsMap.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isNumber.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -38663,7 +38663,7 @@ function isNumber(value) {
 
 module.exports = isNumber;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -38700,7 +38700,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -38735,7 +38735,7 @@ function isObjectLike(value) {
 
 module.exports = isObjectLike;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -38800,7 +38800,7 @@ function isPlainObject(value) {
 
 module.exports = isPlainObject;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getPrototype.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSet.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./_getPrototype":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getPrototype.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSet.js":[function(require,module,exports){
 'use strict';
 
 var baseIsSet = require('./_baseIsSet'),
@@ -38831,7 +38831,7 @@ var isSet = nodeIsSet ? baseUnary(nodeIsSet) : baseIsSet;
 
 module.exports = isSet;
 
-},{"./_baseIsSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsSet.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isString.js":[function(require,module,exports){
+},{"./_baseIsSet":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsSet.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isString.js":[function(require,module,exports){
 'use strict';
 
 var baseGetTag = require('./_baseGetTag'),
@@ -38864,7 +38864,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -38898,7 +38898,7 @@ function isSymbol(value) {
 
 module.exports = isSymbol;
 
-},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isTypedArray.js":[function(require,module,exports){
+},{"./_baseGetTag":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseGetTag.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isTypedArray.js":[function(require,module,exports){
 'use strict';
 
 var baseIsTypedArray = require('./_baseIsTypedArray'),
@@ -38929,7 +38929,7 @@ var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedA
 
 module.exports = isTypedArray;
 
-},{"./_baseIsTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIsTypedArray.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isUndefined.js":[function(require,module,exports){
+},{"./_baseIsTypedArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIsTypedArray.js","./_baseUnary":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnary.js","./_nodeUtil":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_nodeUtil.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isUndefined.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -38955,7 +38955,7 @@ function isUndefined(value) {
 
 module.exports = isUndefined;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js":[function(require,module,exports){
 'use strict';
 
 var arrayLikeKeys = require('./_arrayLikeKeys'),
@@ -38996,7 +38996,7 @@ function keys(object) {
 
 module.exports = keys;
 
-},{"./_arrayLikeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayLikeKeys.js","./_baseKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseKeys.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js":[function(require,module,exports){
+},{"./_arrayLikeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayLikeKeys.js","./_baseKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseKeys.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js":[function(require,module,exports){
 'use strict';
 
 var arrayLikeKeys = require('./_arrayLikeKeys'),
@@ -39032,7 +39032,7 @@ function keysIn(object) {
 
 module.exports = keysIn;
 
-},{"./_arrayLikeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayLikeKeys.js","./_baseKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseKeysIn.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\last.js":[function(require,module,exports){
+},{"./_arrayLikeKeys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayLikeKeys.js","./_baseKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseKeysIn.js","./isArrayLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\last.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -39056,7 +39056,7 @@ function last(array) {
 
 module.exports = last;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\memoize.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\memoize.js":[function(require,module,exports){
 'use strict';
 
 var MapCache = require('./_MapCache');
@@ -39133,7 +39133,7 @@ memoize.Cache = MapCache;
 
 module.exports = memoize;
 
-},{"./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_MapCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js":[function(require,module,exports){
+},{"./_MapCache":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_MapCache.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js":[function(require,module,exports){
 'use strict';
 
 var baseMerge = require('./_baseMerge'),
@@ -39176,7 +39176,7 @@ var merge = createAssigner(function (object, source, srcIndex) {
 
 module.exports = merge;
 
-},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMerge.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAssigner.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\mergeWith.js":[function(require,module,exports){
+},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMerge.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAssigner.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\mergeWith.js":[function(require,module,exports){
 'use strict';
 
 var baseMerge = require('./_baseMerge'),
@@ -39219,7 +39219,7 @@ var mergeWith = createAssigner(function (object, source, srcIndex, customizer) {
 
 module.exports = mergeWith;
 
-},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseMerge.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createAssigner.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\noop.js":[function(require,module,exports){
+},{"./_baseMerge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseMerge.js","./_createAssigner":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createAssigner.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\noop.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -39240,7 +39240,7 @@ function noop() {
 
 module.exports = noop;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\now.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\now.js":[function(require,module,exports){
 'use strict';
 
 var root = require('./_root');
@@ -39267,7 +39267,7 @@ var now = function now() {
 
 module.exports = now;
 
-},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js":[function(require,module,exports){
+},{"./_root":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_root.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js":[function(require,module,exports){
 'use strict';
 
 var arrayMap = require('./_arrayMap'),
@@ -39328,7 +39328,7 @@ var omit = flatRest(function (object, paths) {
 
 module.exports = omit;
 
-},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js","./_baseClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseClone.js","./_baseUnset":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUnset.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_castPath.js","./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./_customOmitClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_customOmitClone.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_flatRest.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partial.js":[function(require,module,exports){
+},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js","./_baseClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseClone.js","./_baseUnset":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUnset.js","./_castPath":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_castPath.js","./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./_customOmitClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_customOmitClone.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_flatRest.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partial.js":[function(require,module,exports){
 'use strict';
 
 var baseRest = require('./_baseRest'),
@@ -39382,7 +39382,7 @@ partial.placeholder = {};
 
 module.exports = partial;
 
-},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_createWrap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createWrap.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js":[function(require,module,exports){
+},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_createWrap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createWrap.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js":[function(require,module,exports){
 'use strict';
 
 var baseRest = require('./_baseRest'),
@@ -39435,7 +39435,7 @@ partialRight.placeholder = {};
 
 module.exports = partialRight;
 
-},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_createWrap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createWrap.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pick.js":[function(require,module,exports){
+},{"./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_createWrap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createWrap.js","./_getHolder":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getHolder.js","./_replaceHolders":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_replaceHolders.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pick.js":[function(require,module,exports){
 'use strict';
 
 var basePick = require('./_basePick'),
@@ -39464,7 +39464,7 @@ var pick = flatRest(function (object, paths) {
 
 module.exports = pick;
 
-},{"./_basePick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePick.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_flatRest.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pickBy.js":[function(require,module,exports){
+},{"./_basePick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePick.js","./_flatRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_flatRest.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pickBy.js":[function(require,module,exports){
 var arrayMap = require('./_arrayMap'),
     baseIteratee = require('./_baseIteratee'),
     basePickBy = require('./_basePickBy'),
@@ -39503,7 +39503,7 @@ function pickBy(object, predicate) {
 
 module.exports = pickBy;
 
-},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayMap.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./_basePickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePickBy.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_getAllKeysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js":[function(require,module,exports){
+},{"./_arrayMap":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayMap.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./_basePickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePickBy.js","./_getAllKeysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_getAllKeysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js":[function(require,module,exports){
 'use strict';
 
 var baseProperty = require('./_baseProperty'),
@@ -39539,7 +39539,7 @@ function property(path) {
 
 module.exports = property;
 
-},{"./_baseProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseProperty.js","./_basePropertyDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_basePropertyDeep.js","./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isKey.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_toKey.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js":[function(require,module,exports){
+},{"./_baseProperty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseProperty.js","./_basePropertyDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_basePropertyDeep.js","./_isKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isKey.js","./_toKey":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_toKey.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js":[function(require,module,exports){
 'use strict';
 
 var createRange = require('./_createRange');
@@ -39589,7 +39589,7 @@ var range = createRange();
 
 module.exports = range;
 
-},{"./_createRange":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createRange.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\reduce.js":[function(require,module,exports){
+},{"./_createRange":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createRange.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\reduce.js":[function(require,module,exports){
 'use strict';
 
 var arrayReduce = require('./_arrayReduce'),
@@ -39644,7 +39644,7 @@ function reduce(collection, iteratee, accumulator) {
 
 module.exports = reduce;
 
-},{"./_arrayReduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arrayReduce.js","./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseEach.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./_baseReduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseReduce.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\some.js":[function(require,module,exports){
+},{"./_arrayReduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arrayReduce.js","./_baseEach":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseEach.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./_baseReduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseReduce.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\some.js":[function(require,module,exports){
 'use strict';
 
 var arraySome = require('./_arraySome'),
@@ -39699,7 +39699,7 @@ function some(collection, predicate, guard) {
 
 module.exports = some;
 
-},{"./_arraySome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_arraySome.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./_baseSome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSome.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js":[function(require,module,exports){
+},{"./_arraySome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_arraySome.js","./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./_baseSome":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSome.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js":[function(require,module,exports){
 'use strict';
 
 var baseFlatten = require('./_baseFlatten'),
@@ -39751,7 +39751,7 @@ var sortBy = baseRest(function (collection, iteratees) {
 
 module.exports = sortBy;
 
-},{"./_baseFlatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseFlatten.js","./_baseOrderBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseOrderBy.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_isIterateeCall.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortedUniq.js":[function(require,module,exports){
+},{"./_baseFlatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseFlatten.js","./_baseOrderBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseOrderBy.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./_isIterateeCall":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_isIterateeCall.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortedUniq.js":[function(require,module,exports){
 'use strict';
 
 var baseSortedUniq = require('./_baseSortedUniq');
@@ -39777,7 +39777,7 @@ function sortedUniq(array) {
 
 module.exports = sortedUniq;
 
-},{"./_baseSortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\stubArray.js":[function(require,module,exports){
+},{"./_baseSortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\stubArray.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -39804,7 +39804,7 @@ function stubArray() {
 
 module.exports = stubArray;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\stubFalse.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\stubFalse.js":[function(require,module,exports){
 "use strict";
 
 /**
@@ -39826,7 +39826,7 @@ function stubFalse() {
 
 module.exports = stubFalse;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sum.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sum.js":[function(require,module,exports){
 'use strict';
 
 var baseSum = require('./_baseSum'),
@@ -39852,7 +39852,7 @@ function sum(array) {
 
 module.exports = sum;
 
-},{"./_baseSum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseSum.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js":[function(require,module,exports){
+},{"./_baseSum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseSum.js","./identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js":[function(require,module,exports){
 'use strict';
 
 var debounce = require('./debounce'),
@@ -39925,7 +39925,7 @@ function throttle(func, wait, options) {
 
 module.exports = throttle;
 
-},{"./debounce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\debounce.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toFinite.js":[function(require,module,exports){
+},{"./debounce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\debounce.js","./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toFinite.js":[function(require,module,exports){
 'use strict';
 
 var toNumber = require('./toNumber');
@@ -39971,7 +39971,7 @@ function toFinite(value) {
 
 module.exports = toFinite;
 
-},{"./toNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toNumber.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toInteger.js":[function(require,module,exports){
+},{"./toNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toNumber.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toInteger.js":[function(require,module,exports){
 'use strict';
 
 var toFinite = require('./toFinite');
@@ -40011,7 +40011,7 @@ function toInteger(value) {
 
 module.exports = toInteger;
 
-},{"./toFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toFinite.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toNumber.js":[function(require,module,exports){
+},{"./toFinite":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toFinite.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toNumber.js":[function(require,module,exports){
 'use strict';
 
 var isObject = require('./isObject'),
@@ -40079,7 +40079,7 @@ function toNumber(value) {
 
 module.exports = toNumber;
 
-},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toPairs.js":[function(require,module,exports){
+},{"./isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","./isSymbol":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isSymbol.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toPairs.js":[function(require,module,exports){
 'use strict';
 
 var createToPairs = require('./_createToPairs'),
@@ -40113,7 +40113,7 @@ var toPairs = createToPairs(keys);
 
 module.exports = toPairs;
 
-},{"./_createToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_createToPairs.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toPlainObject.js":[function(require,module,exports){
+},{"./_createToPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_createToPairs.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toPlainObject.js":[function(require,module,exports){
 'use strict';
 
 var copyObject = require('./_copyObject'),
@@ -40149,7 +40149,7 @@ function toPlainObject(value) {
 
 module.exports = toPlainObject;
 
-},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_copyObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toString.js":[function(require,module,exports){
+},{"./_copyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_copyObject.js","./keysIn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keysIn.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toString.js":[function(require,module,exports){
 'use strict';
 
 var baseToString = require('./_baseToString');
@@ -40181,7 +40181,7 @@ function toString(value) {
 
 module.exports = toString;
 
-},{"./_baseToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniq.js":[function(require,module,exports){
+},{"./_baseToString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseToString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniq.js":[function(require,module,exports){
 'use strict';
 
 var baseUniq = require('./_baseUniq');
@@ -40210,7 +40210,7 @@ function uniq(array) {
 
 module.exports = uniq;
 
-},{"./_baseUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqBy.js":[function(require,module,exports){
+},{"./_baseUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqBy.js":[function(require,module,exports){
 'use strict';
 
 var baseIteratee = require('./_baseIteratee'),
@@ -40245,7 +40245,7 @@ function uniqBy(array, iteratee) {
 
 module.exports = uniqBy;
 
-},{"./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseIteratee.js","./_baseUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js":[function(require,module,exports){
+},{"./_baseIteratee":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseIteratee.js","./_baseUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js":[function(require,module,exports){
 'use strict';
 
 var toString = require('./toString');
@@ -40277,7 +40277,7 @@ function uniqueId(prefix) {
 
 module.exports = uniqueId;
 
-},{"./toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\values.js":[function(require,module,exports){
+},{"./toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\values.js":[function(require,module,exports){
 'use strict';
 
 var baseValues = require('./_baseValues'),
@@ -40315,7 +40315,7 @@ function values(object) {
 
 module.exports = values;
 
-},{"./_baseValues":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseValues.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js":[function(require,module,exports){
+},{"./_baseValues":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseValues.js","./keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js":[function(require,module,exports){
 'use strict';
 
 var baseDifference = require('./_baseDifference'),
@@ -40348,7 +40348,7 @@ var without = baseRest(function (array, values) {
 
 module.exports = without;
 
-},{"./_baseDifference":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseDifference.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseRest.js","./isArrayLikeObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArrayLikeObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\wrapperLodash.js":[function(require,module,exports){
+},{"./_baseDifference":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseDifference.js","./_baseRest":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseRest.js","./isArrayLikeObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArrayLikeObject.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\wrapperLodash.js":[function(require,module,exports){
 'use strict';
 
 var LazyWrapper = require('./_LazyWrapper'),
@@ -40499,7 +40499,7 @@ lodash.prototype.constructor = lodash;
 
 module.exports = lodash;
 
-},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LazyWrapper.js","./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_LodashWrapper.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_baseLodash.js","./_wrapperClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\_wrapperClone.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case-first\\lower-case-first.js":[function(require,module,exports){
+},{"./_LazyWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LazyWrapper.js","./_LodashWrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_LodashWrapper.js","./_baseLodash":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_baseLodash.js","./_wrapperClone":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\_wrapperClone.js","./isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","./isObjectLike":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObjectLike.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case-first\\lower-case-first.js":[function(require,module,exports){
 'use strict';
 
 var lowerCase = require('lower-case');
@@ -40520,7 +40520,7 @@ module.exports = function (str, locale) {
   return lowerCase(str.charAt(0), locale) + str.substr(1);
 };
 
-},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js":[function(require,module,exports){
+},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -40579,7 +40579,7 @@ var LANGUAGES = {
   return str.toLowerCase();
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\nearley\\lib\\nearley.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\nearley\\lib\\nearley.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -40963,7 +40963,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     };
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js":[function(require,module,exports){
 'use strict';
 
 var lowerCase = require('lower-case');
@@ -41007,22 +41007,22 @@ module.exports = function (str, locale, replacement) {
   return lowerCase(str, locale);
 };
 
-},{"./vendor/camel-case-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\camel-case-regexp.js","./vendor/camel-case-upper-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\camel-case-upper-regexp.js","./vendor/non-word-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\non-word-regexp.js","lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\camel-case-regexp.js":[function(require,module,exports){
+},{"./vendor/camel-case-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\camel-case-regexp.js","./vendor/camel-case-upper-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\camel-case-upper-regexp.js","./vendor/non-word-regexp":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\non-word-regexp.js","lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\camel-case-regexp.js":[function(require,module,exports){
 "use strict";
 
 module.exports = /([a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0561-\u0587\u13F8-\u13FD\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5E\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7B5\uA7B7\uA7FA\uAB30-\uAB5A\uAB60-\uAB65\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A0-9\xB2\xB3\xB9\xBC-\xBE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0DE6-\u0DEF\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uA9F0-\uA9F9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])([A-Z\xC0-\xD6\xD8-\xDE\u0100\u0102\u0104\u0106\u0108\u010A\u010C\u010E\u0110\u0112\u0114\u0116\u0118\u011A\u011C\u011E\u0120\u0122\u0124\u0126\u0128\u012A\u012C\u012E\u0130\u0132\u0134\u0136\u0139\u013B\u013D\u013F\u0141\u0143\u0145\u0147\u014A\u014C\u014E\u0150\u0152\u0154\u0156\u0158\u015A\u015C\u015E\u0160\u0162\u0164\u0166\u0168\u016A\u016C\u016E\u0170\u0172\u0174\u0176\u0178\u0179\u017B\u017D\u0181\u0182\u0184\u0186\u0187\u0189-\u018B\u018E-\u0191\u0193\u0194\u0196-\u0198\u019C\u019D\u019F\u01A0\u01A2\u01A4\u01A6\u01A7\u01A9\u01AC\u01AE\u01AF\u01B1-\u01B3\u01B5\u01B7\u01B8\u01BC\u01C4\u01C7\u01CA\u01CD\u01CF\u01D1\u01D3\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u01E2\u01E4\u01E6\u01E8\u01EA\u01EC\u01EE\u01F1\u01F4\u01F6-\u01F8\u01FA\u01FC\u01FE\u0200\u0202\u0204\u0206\u0208\u020A\u020C\u020E\u0210\u0212\u0214\u0216\u0218\u021A\u021C\u021E\u0220\u0222\u0224\u0226\u0228\u022A\u022C\u022E\u0230\u0232\u023A\u023B\u023D\u023E\u0241\u0243-\u0246\u0248\u024A\u024C\u024E\u0370\u0372\u0376\u037F\u0386\u0388-\u038A\u038C\u038E\u038F\u0391-\u03A1\u03A3-\u03AB\u03CF\u03D2-\u03D4\u03D8\u03DA\u03DC\u03DE\u03E0\u03E2\u03E4\u03E6\u03E8\u03EA\u03EC\u03EE\u03F4\u03F7\u03F9\u03FA\u03FD-\u042F\u0460\u0462\u0464\u0466\u0468\u046A\u046C\u046E\u0470\u0472\u0474\u0476\u0478\u047A\u047C\u047E\u0480\u048A\u048C\u048E\u0490\u0492\u0494\u0496\u0498\u049A\u049C\u049E\u04A0\u04A2\u04A4\u04A6\u04A8\u04AA\u04AC\u04AE\u04B0\u04B2\u04B4\u04B6\u04B8\u04BA\u04BC\u04BE\u04C0\u04C1\u04C3\u04C5\u04C7\u04C9\u04CB\u04CD\u04D0\u04D2\u04D4\u04D6\u04D8\u04DA\u04DC\u04DE\u04E0\u04E2\u04E4\u04E6\u04E8\u04EA\u04EC\u04EE\u04F0\u04F2\u04F4\u04F6\u04F8\u04FA\u04FC\u04FE\u0500\u0502\u0504\u0506\u0508\u050A\u050C\u050E\u0510\u0512\u0514\u0516\u0518\u051A\u051C\u051E\u0520\u0522\u0524\u0526\u0528\u052A\u052C\u052E\u0531-\u0556\u10A0-\u10C5\u10C7\u10CD\u13A0-\u13F5\u1E00\u1E02\u1E04\u1E06\u1E08\u1E0A\u1E0C\u1E0E\u1E10\u1E12\u1E14\u1E16\u1E18\u1E1A\u1E1C\u1E1E\u1E20\u1E22\u1E24\u1E26\u1E28\u1E2A\u1E2C\u1E2E\u1E30\u1E32\u1E34\u1E36\u1E38\u1E3A\u1E3C\u1E3E\u1E40\u1E42\u1E44\u1E46\u1E48\u1E4A\u1E4C\u1E4E\u1E50\u1E52\u1E54\u1E56\u1E58\u1E5A\u1E5C\u1E5E\u1E60\u1E62\u1E64\u1E66\u1E68\u1E6A\u1E6C\u1E6E\u1E70\u1E72\u1E74\u1E76\u1E78\u1E7A\u1E7C\u1E7E\u1E80\u1E82\u1E84\u1E86\u1E88\u1E8A\u1E8C\u1E8E\u1E90\u1E92\u1E94\u1E9E\u1EA0\u1EA2\u1EA4\u1EA6\u1EA8\u1EAA\u1EAC\u1EAE\u1EB0\u1EB2\u1EB4\u1EB6\u1EB8\u1EBA\u1EBC\u1EBE\u1EC0\u1EC2\u1EC4\u1EC6\u1EC8\u1ECA\u1ECC\u1ECE\u1ED0\u1ED2\u1ED4\u1ED6\u1ED8\u1EDA\u1EDC\u1EDE\u1EE0\u1EE2\u1EE4\u1EE6\u1EE8\u1EEA\u1EEC\u1EEE\u1EF0\u1EF2\u1EF4\u1EF6\u1EF8\u1EFA\u1EFC\u1EFE\u1F08-\u1F0F\u1F18-\u1F1D\u1F28-\u1F2F\u1F38-\u1F3F\u1F48-\u1F4D\u1F59\u1F5B\u1F5D\u1F5F\u1F68-\u1F6F\u1FB8-\u1FBB\u1FC8-\u1FCB\u1FD8-\u1FDB\u1FE8-\u1FEC\u1FF8-\u1FFB\u2102\u2107\u210B-\u210D\u2110-\u2112\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u2130-\u2133\u213E\u213F\u2145\u2183\u2C00-\u2C2E\u2C60\u2C62-\u2C64\u2C67\u2C69\u2C6B\u2C6D-\u2C70\u2C72\u2C75\u2C7E-\u2C80\u2C82\u2C84\u2C86\u2C88\u2C8A\u2C8C\u2C8E\u2C90\u2C92\u2C94\u2C96\u2C98\u2C9A\u2C9C\u2C9E\u2CA0\u2CA2\u2CA4\u2CA6\u2CA8\u2CAA\u2CAC\u2CAE\u2CB0\u2CB2\u2CB4\u2CB6\u2CB8\u2CBA\u2CBC\u2CBE\u2CC0\u2CC2\u2CC4\u2CC6\u2CC8\u2CCA\u2CCC\u2CCE\u2CD0\u2CD2\u2CD4\u2CD6\u2CD8\u2CDA\u2CDC\u2CDE\u2CE0\u2CE2\u2CEB\u2CED\u2CF2\uA640\uA642\uA644\uA646\uA648\uA64A\uA64C\uA64E\uA650\uA652\uA654\uA656\uA658\uA65A\uA65C\uA65E\uA660\uA662\uA664\uA666\uA668\uA66A\uA66C\uA680\uA682\uA684\uA686\uA688\uA68A\uA68C\uA68E\uA690\uA692\uA694\uA696\uA698\uA69A\uA722\uA724\uA726\uA728\uA72A\uA72C\uA72E\uA732\uA734\uA736\uA738\uA73A\uA73C\uA73E\uA740\uA742\uA744\uA746\uA748\uA74A\uA74C\uA74E\uA750\uA752\uA754\uA756\uA758\uA75A\uA75C\uA75E\uA760\uA762\uA764\uA766\uA768\uA76A\uA76C\uA76E\uA779\uA77B\uA77D\uA77E\uA780\uA782\uA784\uA786\uA78B\uA78D\uA790\uA792\uA796\uA798\uA79A\uA79C\uA79E\uA7A0\uA7A2\uA7A4\uA7A6\uA7A8\uA7AA-\uA7AD\uA7B0-\uA7B4\uA7B6\uFF21-\uFF3A])/g;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\camel-case-upper-regexp.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\camel-case-upper-regexp.js":[function(require,module,exports){
 "use strict";
 
 module.exports = /([A-Z\xC0-\xD6\xD8-\xDE\u0100\u0102\u0104\u0106\u0108\u010A\u010C\u010E\u0110\u0112\u0114\u0116\u0118\u011A\u011C\u011E\u0120\u0122\u0124\u0126\u0128\u012A\u012C\u012E\u0130\u0132\u0134\u0136\u0139\u013B\u013D\u013F\u0141\u0143\u0145\u0147\u014A\u014C\u014E\u0150\u0152\u0154\u0156\u0158\u015A\u015C\u015E\u0160\u0162\u0164\u0166\u0168\u016A\u016C\u016E\u0170\u0172\u0174\u0176\u0178\u0179\u017B\u017D\u0181\u0182\u0184\u0186\u0187\u0189-\u018B\u018E-\u0191\u0193\u0194\u0196-\u0198\u019C\u019D\u019F\u01A0\u01A2\u01A4\u01A6\u01A7\u01A9\u01AC\u01AE\u01AF\u01B1-\u01B3\u01B5\u01B7\u01B8\u01BC\u01C4\u01C7\u01CA\u01CD\u01CF\u01D1\u01D3\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u01E2\u01E4\u01E6\u01E8\u01EA\u01EC\u01EE\u01F1\u01F4\u01F6-\u01F8\u01FA\u01FC\u01FE\u0200\u0202\u0204\u0206\u0208\u020A\u020C\u020E\u0210\u0212\u0214\u0216\u0218\u021A\u021C\u021E\u0220\u0222\u0224\u0226\u0228\u022A\u022C\u022E\u0230\u0232\u023A\u023B\u023D\u023E\u0241\u0243-\u0246\u0248\u024A\u024C\u024E\u0370\u0372\u0376\u037F\u0386\u0388-\u038A\u038C\u038E\u038F\u0391-\u03A1\u03A3-\u03AB\u03CF\u03D2-\u03D4\u03D8\u03DA\u03DC\u03DE\u03E0\u03E2\u03E4\u03E6\u03E8\u03EA\u03EC\u03EE\u03F4\u03F7\u03F9\u03FA\u03FD-\u042F\u0460\u0462\u0464\u0466\u0468\u046A\u046C\u046E\u0470\u0472\u0474\u0476\u0478\u047A\u047C\u047E\u0480\u048A\u048C\u048E\u0490\u0492\u0494\u0496\u0498\u049A\u049C\u049E\u04A0\u04A2\u04A4\u04A6\u04A8\u04AA\u04AC\u04AE\u04B0\u04B2\u04B4\u04B6\u04B8\u04BA\u04BC\u04BE\u04C0\u04C1\u04C3\u04C5\u04C7\u04C9\u04CB\u04CD\u04D0\u04D2\u04D4\u04D6\u04D8\u04DA\u04DC\u04DE\u04E0\u04E2\u04E4\u04E6\u04E8\u04EA\u04EC\u04EE\u04F0\u04F2\u04F4\u04F6\u04F8\u04FA\u04FC\u04FE\u0500\u0502\u0504\u0506\u0508\u050A\u050C\u050E\u0510\u0512\u0514\u0516\u0518\u051A\u051C\u051E\u0520\u0522\u0524\u0526\u0528\u052A\u052C\u052E\u0531-\u0556\u10A0-\u10C5\u10C7\u10CD\u13A0-\u13F5\u1E00\u1E02\u1E04\u1E06\u1E08\u1E0A\u1E0C\u1E0E\u1E10\u1E12\u1E14\u1E16\u1E18\u1E1A\u1E1C\u1E1E\u1E20\u1E22\u1E24\u1E26\u1E28\u1E2A\u1E2C\u1E2E\u1E30\u1E32\u1E34\u1E36\u1E38\u1E3A\u1E3C\u1E3E\u1E40\u1E42\u1E44\u1E46\u1E48\u1E4A\u1E4C\u1E4E\u1E50\u1E52\u1E54\u1E56\u1E58\u1E5A\u1E5C\u1E5E\u1E60\u1E62\u1E64\u1E66\u1E68\u1E6A\u1E6C\u1E6E\u1E70\u1E72\u1E74\u1E76\u1E78\u1E7A\u1E7C\u1E7E\u1E80\u1E82\u1E84\u1E86\u1E88\u1E8A\u1E8C\u1E8E\u1E90\u1E92\u1E94\u1E9E\u1EA0\u1EA2\u1EA4\u1EA6\u1EA8\u1EAA\u1EAC\u1EAE\u1EB0\u1EB2\u1EB4\u1EB6\u1EB8\u1EBA\u1EBC\u1EBE\u1EC0\u1EC2\u1EC4\u1EC6\u1EC8\u1ECA\u1ECC\u1ECE\u1ED0\u1ED2\u1ED4\u1ED6\u1ED8\u1EDA\u1EDC\u1EDE\u1EE0\u1EE2\u1EE4\u1EE6\u1EE8\u1EEA\u1EEC\u1EEE\u1EF0\u1EF2\u1EF4\u1EF6\u1EF8\u1EFA\u1EFC\u1EFE\u1F08-\u1F0F\u1F18-\u1F1D\u1F28-\u1F2F\u1F38-\u1F3F\u1F48-\u1F4D\u1F59\u1F5B\u1F5D\u1F5F\u1F68-\u1F6F\u1FB8-\u1FBB\u1FC8-\u1FCB\u1FD8-\u1FDB\u1FE8-\u1FEC\u1FF8-\u1FFB\u2102\u2107\u210B-\u210D\u2110-\u2112\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u2130-\u2133\u213E\u213F\u2145\u2183\u2C00-\u2C2E\u2C60\u2C62-\u2C64\u2C67\u2C69\u2C6B\u2C6D-\u2C70\u2C72\u2C75\u2C7E-\u2C80\u2C82\u2C84\u2C86\u2C88\u2C8A\u2C8C\u2C8E\u2C90\u2C92\u2C94\u2C96\u2C98\u2C9A\u2C9C\u2C9E\u2CA0\u2CA2\u2CA4\u2CA6\u2CA8\u2CAA\u2CAC\u2CAE\u2CB0\u2CB2\u2CB4\u2CB6\u2CB8\u2CBA\u2CBC\u2CBE\u2CC0\u2CC2\u2CC4\u2CC6\u2CC8\u2CCA\u2CCC\u2CCE\u2CD0\u2CD2\u2CD4\u2CD6\u2CD8\u2CDA\u2CDC\u2CDE\u2CE0\u2CE2\u2CEB\u2CED\u2CF2\uA640\uA642\uA644\uA646\uA648\uA64A\uA64C\uA64E\uA650\uA652\uA654\uA656\uA658\uA65A\uA65C\uA65E\uA660\uA662\uA664\uA666\uA668\uA66A\uA66C\uA680\uA682\uA684\uA686\uA688\uA68A\uA68C\uA68E\uA690\uA692\uA694\uA696\uA698\uA69A\uA722\uA724\uA726\uA728\uA72A\uA72C\uA72E\uA732\uA734\uA736\uA738\uA73A\uA73C\uA73E\uA740\uA742\uA744\uA746\uA748\uA74A\uA74C\uA74E\uA750\uA752\uA754\uA756\uA758\uA75A\uA75C\uA75E\uA760\uA762\uA764\uA766\uA768\uA76A\uA76C\uA76E\uA779\uA77B\uA77D\uA77E\uA780\uA782\uA784\uA786\uA78B\uA78D\uA790\uA792\uA796\uA798\uA79A\uA79C\uA79E\uA7A0\uA7A2\uA7A4\uA7A6\uA7A8\uA7AA-\uA7AD\uA7B0-\uA7B4\uA7B6\uFF21-\uFF3A])([A-Z\xC0-\xD6\xD8-\xDE\u0100\u0102\u0104\u0106\u0108\u010A\u010C\u010E\u0110\u0112\u0114\u0116\u0118\u011A\u011C\u011E\u0120\u0122\u0124\u0126\u0128\u012A\u012C\u012E\u0130\u0132\u0134\u0136\u0139\u013B\u013D\u013F\u0141\u0143\u0145\u0147\u014A\u014C\u014E\u0150\u0152\u0154\u0156\u0158\u015A\u015C\u015E\u0160\u0162\u0164\u0166\u0168\u016A\u016C\u016E\u0170\u0172\u0174\u0176\u0178\u0179\u017B\u017D\u0181\u0182\u0184\u0186\u0187\u0189-\u018B\u018E-\u0191\u0193\u0194\u0196-\u0198\u019C\u019D\u019F\u01A0\u01A2\u01A4\u01A6\u01A7\u01A9\u01AC\u01AE\u01AF\u01B1-\u01B3\u01B5\u01B7\u01B8\u01BC\u01C4\u01C7\u01CA\u01CD\u01CF\u01D1\u01D3\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u01E2\u01E4\u01E6\u01E8\u01EA\u01EC\u01EE\u01F1\u01F4\u01F6-\u01F8\u01FA\u01FC\u01FE\u0200\u0202\u0204\u0206\u0208\u020A\u020C\u020E\u0210\u0212\u0214\u0216\u0218\u021A\u021C\u021E\u0220\u0222\u0224\u0226\u0228\u022A\u022C\u022E\u0230\u0232\u023A\u023B\u023D\u023E\u0241\u0243-\u0246\u0248\u024A\u024C\u024E\u0370\u0372\u0376\u037F\u0386\u0388-\u038A\u038C\u038E\u038F\u0391-\u03A1\u03A3-\u03AB\u03CF\u03D2-\u03D4\u03D8\u03DA\u03DC\u03DE\u03E0\u03E2\u03E4\u03E6\u03E8\u03EA\u03EC\u03EE\u03F4\u03F7\u03F9\u03FA\u03FD-\u042F\u0460\u0462\u0464\u0466\u0468\u046A\u046C\u046E\u0470\u0472\u0474\u0476\u0478\u047A\u047C\u047E\u0480\u048A\u048C\u048E\u0490\u0492\u0494\u0496\u0498\u049A\u049C\u049E\u04A0\u04A2\u04A4\u04A6\u04A8\u04AA\u04AC\u04AE\u04B0\u04B2\u04B4\u04B6\u04B8\u04BA\u04BC\u04BE\u04C0\u04C1\u04C3\u04C5\u04C7\u04C9\u04CB\u04CD\u04D0\u04D2\u04D4\u04D6\u04D8\u04DA\u04DC\u04DE\u04E0\u04E2\u04E4\u04E6\u04E8\u04EA\u04EC\u04EE\u04F0\u04F2\u04F4\u04F6\u04F8\u04FA\u04FC\u04FE\u0500\u0502\u0504\u0506\u0508\u050A\u050C\u050E\u0510\u0512\u0514\u0516\u0518\u051A\u051C\u051E\u0520\u0522\u0524\u0526\u0528\u052A\u052C\u052E\u0531-\u0556\u10A0-\u10C5\u10C7\u10CD\u13A0-\u13F5\u1E00\u1E02\u1E04\u1E06\u1E08\u1E0A\u1E0C\u1E0E\u1E10\u1E12\u1E14\u1E16\u1E18\u1E1A\u1E1C\u1E1E\u1E20\u1E22\u1E24\u1E26\u1E28\u1E2A\u1E2C\u1E2E\u1E30\u1E32\u1E34\u1E36\u1E38\u1E3A\u1E3C\u1E3E\u1E40\u1E42\u1E44\u1E46\u1E48\u1E4A\u1E4C\u1E4E\u1E50\u1E52\u1E54\u1E56\u1E58\u1E5A\u1E5C\u1E5E\u1E60\u1E62\u1E64\u1E66\u1E68\u1E6A\u1E6C\u1E6E\u1E70\u1E72\u1E74\u1E76\u1E78\u1E7A\u1E7C\u1E7E\u1E80\u1E82\u1E84\u1E86\u1E88\u1E8A\u1E8C\u1E8E\u1E90\u1E92\u1E94\u1E9E\u1EA0\u1EA2\u1EA4\u1EA6\u1EA8\u1EAA\u1EAC\u1EAE\u1EB0\u1EB2\u1EB4\u1EB6\u1EB8\u1EBA\u1EBC\u1EBE\u1EC0\u1EC2\u1EC4\u1EC6\u1EC8\u1ECA\u1ECC\u1ECE\u1ED0\u1ED2\u1ED4\u1ED6\u1ED8\u1EDA\u1EDC\u1EDE\u1EE0\u1EE2\u1EE4\u1EE6\u1EE8\u1EEA\u1EEC\u1EEE\u1EF0\u1EF2\u1EF4\u1EF6\u1EF8\u1EFA\u1EFC\u1EFE\u1F08-\u1F0F\u1F18-\u1F1D\u1F28-\u1F2F\u1F38-\u1F3F\u1F48-\u1F4D\u1F59\u1F5B\u1F5D\u1F5F\u1F68-\u1F6F\u1FB8-\u1FBB\u1FC8-\u1FCB\u1FD8-\u1FDB\u1FE8-\u1FEC\u1FF8-\u1FFB\u2102\u2107\u210B-\u210D\u2110-\u2112\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u2130-\u2133\u213E\u213F\u2145\u2183\u2C00-\u2C2E\u2C60\u2C62-\u2C64\u2C67\u2C69\u2C6B\u2C6D-\u2C70\u2C72\u2C75\u2C7E-\u2C80\u2C82\u2C84\u2C86\u2C88\u2C8A\u2C8C\u2C8E\u2C90\u2C92\u2C94\u2C96\u2C98\u2C9A\u2C9C\u2C9E\u2CA0\u2CA2\u2CA4\u2CA6\u2CA8\u2CAA\u2CAC\u2CAE\u2CB0\u2CB2\u2CB4\u2CB6\u2CB8\u2CBA\u2CBC\u2CBE\u2CC0\u2CC2\u2CC4\u2CC6\u2CC8\u2CCA\u2CCC\u2CCE\u2CD0\u2CD2\u2CD4\u2CD6\u2CD8\u2CDA\u2CDC\u2CDE\u2CE0\u2CE2\u2CEB\u2CED\u2CF2\uA640\uA642\uA644\uA646\uA648\uA64A\uA64C\uA64E\uA650\uA652\uA654\uA656\uA658\uA65A\uA65C\uA65E\uA660\uA662\uA664\uA666\uA668\uA66A\uA66C\uA680\uA682\uA684\uA686\uA688\uA68A\uA68C\uA68E\uA690\uA692\uA694\uA696\uA698\uA69A\uA722\uA724\uA726\uA728\uA72A\uA72C\uA72E\uA732\uA734\uA736\uA738\uA73A\uA73C\uA73E\uA740\uA742\uA744\uA746\uA748\uA74A\uA74C\uA74E\uA750\uA752\uA754\uA756\uA758\uA75A\uA75C\uA75E\uA760\uA762\uA764\uA766\uA768\uA76A\uA76C\uA76E\uA779\uA77B\uA77D\uA77E\uA780\uA782\uA784\uA786\uA78B\uA78D\uA790\uA792\uA796\uA798\uA79A\uA79C\uA79E\uA7A0\uA7A2\uA7A4\uA7A6\uA7A8\uA7AA-\uA7AD\uA7B0-\uA7B4\uA7B6\uFF21-\uFF3A][a-z\xB5\xDF-\xF6\xF8-\xFF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0529\u052B\u052D\u052F\u0561-\u0587\u13F8-\u13FD\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5E\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA699\uA69B\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793-\uA795\uA797\uA799\uA79B\uA79D\uA79F\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7B5\uA7B7\uA7FA\uAB30-\uAB5A\uAB60-\uAB65\uAB70-\uABBF\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A])/g;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\vendor\\non-word-regexp.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\vendor\\non-word-regexp.js":[function(require,module,exports){
 "use strict";
 
 module.exports = /[^A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u08A0-\u08B4\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312D\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FD5\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AD\uA7B0-\uA7B7\uA7F7-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC0-9\xB2\xB3\xB9\xBC-\xBE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0DE6-\u0DEF\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uA9F0-\uA9F9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19]+/g;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js":[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -41114,7 +41114,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-keys\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-keys\\index.js":[function(require,module,exports){
 'use strict';
 
 // modified from https://github.com/es-shims/es5-shim
@@ -41255,7 +41255,7 @@ keysShim.shim = function shimObjectKeys() {
 
 module.exports = keysShim;
 
-},{"./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-keys\\isArguments.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-keys\\isArguments.js":[function(require,module,exports){
+},{"./isArguments":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-keys\\isArguments.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-keys\\isArguments.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -41271,7 +41271,7 @@ module.exports = function isArguments(value) {
 	return isArgs;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\implementation.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\implementation.js":[function(require,module,exports){
 'use strict';
 
 var ES = require('es-abstract/es7');
@@ -41290,7 +41290,7 @@ module.exports = function entries(O) {
 	return entrys;
 };
 
-},{"es-abstract/es7":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es7.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\index.js":[function(require,module,exports){
+},{"es-abstract/es7":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es7.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\index.js":[function(require,module,exports){
 'use strict';
 
 var define = require('define-properties');
@@ -41309,7 +41309,7 @@ define(polyfill, {
 
 module.exports = polyfill;
 
-},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\implementation.js","./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\polyfill.js","./shim":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\shim.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\polyfill.js":[function(require,module,exports){
+},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\implementation.js","./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\polyfill.js","./shim":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\shim.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\polyfill.js":[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
@@ -41318,7 +41318,7 @@ module.exports = function getPolyfill() {
 	return typeof Object.entries === 'function' ? Object.entries : implementation;
 };
 
-},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\shim.js":[function(require,module,exports){
+},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\shim.js":[function(require,module,exports){
 'use strict';
 
 var getPolyfill = require('./polyfill');
@@ -41334,7 +41334,7 @@ module.exports = function shimEntries() {
 	return polyfill;
 };
 
-},{"./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\polyfill.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\implementation.js":[function(require,module,exports){
+},{"./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\polyfill.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\implementation.js":[function(require,module,exports){
 'use strict';
 
 var ES = require('es-abstract/es7');
@@ -41353,9 +41353,9 @@ module.exports = function values(O) {
 	return vals;
 };
 
-},{"es-abstract/es7":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\es-abstract\\es7.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.entries\\index.js"][0].apply(exports,arguments)
-},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\implementation.js","./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\polyfill.js","./shim":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\shim.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\polyfill.js":[function(require,module,exports){
+},{"es-abstract/es7":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\es-abstract\\es7.js","function-bind":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\function-bind\\index.js","has":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\has\\src\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.entries\\index.js"][0].apply(exports,arguments)
+},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\implementation.js","./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\polyfill.js","./shim":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\shim.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\polyfill.js":[function(require,module,exports){
 'use strict';
 
 var implementation = require('./implementation');
@@ -41364,7 +41364,7 @@ module.exports = function getPolyfill() {
 	return typeof Object.values === 'function' ? Object.values : implementation;
 };
 
-},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\shim.js":[function(require,module,exports){
+},{"./implementation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\implementation.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\shim.js":[function(require,module,exports){
 'use strict';
 
 var getPolyfill = require('./polyfill');
@@ -41380,7 +41380,7 @@ module.exports = function shimValues() {
 	return polyfill;
 };
 
-},{"./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object.values\\polyfill.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\param-case\\param-case.js":[function(require,module,exports){
+},{"./polyfill":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object.values\\polyfill.js","define-properties":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\define-properties\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\param-case\\param-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -41396,7 +41396,7 @@ module.exports = function (value, locale) {
   return noCase(value, locale, '-');
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\pascal-case\\pascal-case.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\pascal-case\\pascal-case.js":[function(require,module,exports){
 'use strict';
 
 var camelCase = require('camel-case');
@@ -41414,7 +41414,7 @@ module.exports = function (value, locale, mergeNumbers) {
   return upperCaseFirst(camelCase(value, locale, mergeNumbers), locale);
 };
 
-},{"camel-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\camel-case\\camel-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\path-case\\path-case.js":[function(require,module,exports){
+},{"camel-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\camel-case\\camel-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\path-case\\path-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -41430,7 +41430,7 @@ module.exports = function (value, locale) {
   return noCase(value, locale, '/');
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\process\\browser.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\process\\browser.js":[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -41616,7 +41616,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\checkPropTypes.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\checkPropTypes.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -41698,7 +41698,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 
 module.exports = checkPropTypes;
 
-},{"./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\factoryWithThrowingShims.js":[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\factoryWithThrowingShims.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -41755,7 +41755,7 @@ module.exports = function () {
   return ReactPropTypes;
 };
 
-},{"./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\factoryWithTypeCheckers.js":[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\factoryWithTypeCheckers.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -42295,7 +42295,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
   return ReactPropTypes;
 };
 
-},{"./checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\checkPropTypes.js","./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js":[function(require,module,exports){
+},{"./checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\checkPropTypes.js","./lib/ReactPropTypesSecret":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -42324,7 +42324,7 @@ if ("development" !== 'production') {
   module.exports = require('./factoryWithThrowingShims')();
 }
 
-},{"./factoryWithThrowingShims":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\factoryWithThrowingShims.js","./factoryWithTypeCheckers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\factoryWithTypeCheckers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js":[function(require,module,exports){
+},{"./factoryWithThrowingShims":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\factoryWithThrowingShims.js","./factoryWithTypeCheckers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\factoryWithTypeCheckers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js":[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -42338,7 +42338,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom-factories\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom-factories\\index.js":[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -42538,7 +42538,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom\\cjs\\react-dom.development.js":[function(require,module,exports){
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom\\cjs\\react-dom.development.js":[function(require,module,exports){
 /** @license React v16.4.2
  * react-dom.development.js
  *
@@ -45699,7 +45699,7 @@ if(/^(https?|file):$/.test(protocol)){console.info('%cDownload the React DevTool
 // This is hacky but makes it work with both Rollup and Jest.
 var reactDom=ReactDOM$3.default?ReactDOM$3.default:ReactDOM$3;module.exports=reactDom;})();}
 
-},{"fbjs/lib/ExecutionEnvironment":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js","fbjs/lib/camelizeStyleName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\camelizeStyleName.js","fbjs/lib/containsNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\containsNode.js","fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/getActiveElement":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\getActiveElement.js","fbjs/lib/hyphenateStyleName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\hyphenateStyleName.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/shallowEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\shallowEqual.js","fbjs/lib/warning":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\warning.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js","prop-types/checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\checkPropTypes.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom\\cjs\\react-dom.production.min.js":[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js","fbjs/lib/camelizeStyleName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\camelizeStyleName.js","fbjs/lib/containsNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\containsNode.js","fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/getActiveElement":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\getActiveElement.js","fbjs/lib/hyphenateStyleName":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\hyphenateStyleName.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/shallowEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\shallowEqual.js","fbjs/lib/warning":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\warning.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js","prop-types/checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\checkPropTypes.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom\\cjs\\react-dom.production.min.js":[function(require,module,exports){
 /** @license React v16.4.2
  * react-dom.production.min.js
  *
@@ -47788,7 +47788,7 @@ var wi = { createPortal: vi, findDOMNode: function findDOMNode(a) {
 var Bi = { default: wi },
     Ci = Bi && wi || Bi;module.exports = Ci.default ? Ci.default : Ci;
 
-},{"fbjs/lib/ExecutionEnvironment":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js","fbjs/lib/containsNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\containsNode.js","fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/getActiveElement":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\getActiveElement.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/shallowEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\shallowEqual.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-latex-patched\\build\\latex.js":[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\ExecutionEnvironment.js","fbjs/lib/containsNode":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\containsNode.js","fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/getActiveElement":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\getActiveElement.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/shallowEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\shallowEqual.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-latex-patched\\build\\latex.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -47949,7 +47949,7 @@ if (module && module.exports) {
     window.Latex = Latex;
 }
 
-},{"katex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\katex\\dist\\katex.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react\\cjs\\react.development.js":[function(require,module,exports){
+},{"katex":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\katex\\dist\\katex.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react\\cjs\\react.development.js":[function(require,module,exports){
 /** @license React v16.4.2
  * react.development.js
  *
@@ -49433,7 +49433,7 @@ if ("development" !== "production") {
   })();
 }
 
-},{"fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/warning":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\warning.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js","prop-types/checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\checkPropTypes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react\\cjs\\react.production.min.js":[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\invariant.js","fbjs/lib/warning":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\warning.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js","prop-types/checkPropTypes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\checkPropTypes.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react\\cjs\\react.production.min.js":[function(require,module,exports){
 /** @license React v16.4.2
  * react.production.min.js
  *
@@ -49565,7 +49565,7 @@ var X = { Children: { map: function map(a, b, e) {
     Y = { default: X },
     Z = Y && X || Y;module.exports = Z.default ? Z.default : Z;
 
-},{"fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\fbjs\\lib\\invariant.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\object-assign\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\scrollmonitor\\scrollMonitor.js":[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyFunction.js","fbjs/lib/emptyObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\emptyObject.js","fbjs/lib/invariant":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\fbjs\\lib\\invariant.js","object-assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\object-assign\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\scrollmonitor\\scrollMonitor.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -49723,7 +49723,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\scrollparent\\scrollparent.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\scrollparent\\scrollparent.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -49778,7 +49778,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   return scrollParent;
 });
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\sentence-case\\sentence-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\sentence-case\\sentence-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -49795,7 +49795,7 @@ module.exports = function (value, locale) {
   return upperCaseFirst(noCase(value, locale), locale);
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\smartquotes\\dist\\smartquotes.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js","upper-case-first":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case-first\\upper-case-first.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\smartquotes\\dist\\smartquotes.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -49896,7 +49896,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\snake-case\\snake-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\snake-case\\snake-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -49912,7 +49912,7 @@ module.exports = function (value, locale) {
   return noCase(value, locale, '_');
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\strip-bom-string\\index.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\strip-bom-string\\index.js":[function(require,module,exports){
 /*!
  * strip-bom-string <https://github.com/jonschlinkert/strip-bom-string>
  *
@@ -49929,7 +49929,7 @@ module.exports = function (str) {
   return str;
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\swap-case\\swap-case.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\swap-case\\swap-case.js":[function(require,module,exports){
 'use strict';
 
 var upperCase = require('upper-case');
@@ -49960,7 +49960,7 @@ module.exports = function (str, locale) {
   return result;
 };
 
-},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lower-case\\lower-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\title-case\\title-case.js":[function(require,module,exports){
+},{"lower-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lower-case\\lower-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\title-case\\title-case.js":[function(require,module,exports){
 'use strict';
 
 var noCase = require('no-case');
@@ -49979,7 +49979,7 @@ module.exports = function (value, locale) {
   });
 };
 
-},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case-first\\upper-case-first.js":[function(require,module,exports){
+},{"no-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\no-case\\no-case.js","upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case-first\\upper-case-first.js":[function(require,module,exports){
 'use strict';
 
 var upperCase = require('upper-case');
@@ -50000,7 +50000,7 @@ module.exports = function (str, locale) {
   return upperCase(str.charAt(0), locale) + str.substr(1);
 };
 
-},{"upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\upper-case\\upper-case.js":[function(require,module,exports){
+},{"upper-case":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\upper-case\\upper-case.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -50055,7 +50055,7 @@ var LANGUAGES = {
   return str.toUpperCase();
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -50423,7 +50423,7 @@ exports.default = _extends({}, Helpers, {
   { leading: true, trailing: false })
 });
 
-},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\create-container.js":[function(require,module,exports){
+},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\create-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -50681,7 +50681,7 @@ exports.default = makeCreateContainerFunction({
   brush: [_victoryBrushContainer.brushContainerMixin]
 }, _victoryCore.VictoryContainer);
 
-},{"./victory-brush-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js","./victory-cursor-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js","./victory-selection-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js","./victory-voronoi-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js","./victory-zoom-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js","lodash/flow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flow.js","lodash/forOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\forOwn.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\groupBy.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/toPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toPairs.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js":[function(require,module,exports){
+},{"./victory-brush-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js","./victory-cursor-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js","./victory-selection-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js","./victory-voronoi-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js","./victory-zoom-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js","lodash/flow":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flow.js","lodash/forOwn":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\forOwn.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\groupBy.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/toPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toPairs.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -50752,7 +50752,7 @@ exports.default = {
   { leading: true, trailing: false })
 };
 
-},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","./brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js":[function(require,module,exports){
+},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","./brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -50950,7 +50950,7 @@ exports.default = {
   { leading: true, trailing: false })
 };
 
-},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js":[function(require,module,exports){
+},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -51198,7 +51198,7 @@ var brushContainerMixin = exports.brushContainerMixin = function (base) {
 
 exports.default = brushContainerMixin(_victoryCore.VictoryContainer);
 
-},{"./brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js":[function(require,module,exports){
+},{"./brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -51481,7 +51481,7 @@ var cursorContainerMixin = exports.cursorContainerMixin = function (base) {
 
 exports.default = cursorContainerMixin(_victoryCore.VictoryContainer);
 
-},{"./cursor-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isNumber.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/isUndefined":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isUndefined.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js":[function(require,module,exports){
+},{"./cursor-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isNumber":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isNumber.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/isUndefined":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isUndefined.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -51657,7 +51657,7 @@ var selectionContainerMixin = exports.selectionContainerMixin = function (base) 
 
 exports.default = selectionContainerMixin(_victoryCore.VictoryContainer);
 
-},{"./selection-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js":[function(require,module,exports){
+},{"./selection-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -52003,7 +52003,7 @@ var voronoiContainerMixin = exports.voronoiContainerMixin = function (base) {
 
 exports.default = voronoiContainerMixin(_victoryCore.VictoryContainer);
 
-},{"./voronoi-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js":[function(require,module,exports){
+},{"./voronoi-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -52333,7 +52333,7 @@ var zoomContainerMixin = exports.zoomContainerMixin = function (base) {
 
 exports.default = zoomContainerMixin(_victoryCore.VictoryContainer);
 
-},{"./zoom-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/get":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\get.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js":[function(require,module,exports){
+},{"./zoom-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/get":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\get.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -52593,7 +52593,7 @@ exports.default = {
   { leading: true, trailing: false })
 };
 
-},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","d3-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-voronoi\\build\\d3-voronoi.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\groupBy.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js":[function(require,module,exports){
+},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","d3-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-voronoi\\build\\d3-voronoi.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\groupBy.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53002,7 +53002,7 @@ exports.default = {
   { leading: true, trailing: false })
 };
 
-},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-area\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/event-handlers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/throttle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\throttle.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-area\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53108,7 +53108,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-area\\victory-area.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-area\\victory-area.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -53251,7 +53251,7 @@ VictoryArea.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default.g
 VictoryArea.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryArea, options);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-area\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-axis\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-area\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-axis\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53712,7 +53712,7 @@ exports.default = {
   }
 };
 
-},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/defaultsDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaultsDeep.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js":[function(require,module,exports){
+},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/defaultsDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaultsDeep.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -53992,7 +53992,7 @@ VictoryAxis.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default.g
 VictoryAxis.expectedComponents = ["axisComponent", "axisLabelComponent", "groupComponent", "containerComponent", "tickComponent", "tickLabelComponent", "gridComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryAxis, options);
 
-},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-axis\\helper-methods.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-bar\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-axis\\helper-methods.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-bar\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -54111,7 +54111,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-bar\\victory-bar.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-bar\\victory-bar.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -54273,7 +54273,7 @@ VictoryBar.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default.ge
 VictoryBar.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryBar);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-bar\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-bar\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -54483,7 +54483,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\victory-candlestick.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\victory-candlestick.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -54630,7 +54630,7 @@ VictoryCandlestick.getBaseProps = (0, _partialRight3.default)(_helperMethods2.de
 VictoryCandlestick.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryCandlestick);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-chart\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-chart\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -54823,7 +54823,7 @@ exports.default = {
   }
 };
 
-},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/invert":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\invert.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js","lodash/values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\values.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-chart\\victory-chart.js":[function(require,module,exports){
+},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/invert":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\invert.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js","lodash/values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\values.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-chart\\victory-chart.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -55169,7 +55169,7 @@ VictoryChart.defaultProps = {
 VictoryChart.expectedComponents = ["groupComponent", "containerComponent"];
 exports.default = VictoryChart;
 
-},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","../victory-axis/victory-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js","../victory-polar-axis/victory-polar-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-chart\\helper-methods.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js","../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","../victory-axis/victory-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js","../victory-polar-axis/victory-polar-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-chart\\helper-methods.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -55446,7 +55446,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js","lodash/isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isArray.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\victory-errorbar.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js","lodash/isArray":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isArray.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\victory-errorbar.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -55585,7 +55585,7 @@ VictoryErrorBar.getBaseProps = (0, _partialRight3.default)(_helperMethods2.defau
 VictoryErrorBar.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryErrorBar);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-group\\victory-group.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-group\\victory-group.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -55955,7 +55955,7 @@ VictoryGroup.getDomain = _wrapper2.default.getDomain.bind(_wrapper2.default);
 VictoryGroup.getData = _wrapper2.default.getData.bind(_wrapper2.default);
 exports.default = VictoryGroup;
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-line\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-line\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -56036,7 +56036,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-line\\victory-line.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-line\\victory-line.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -56179,7 +56179,7 @@ VictoryLine.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default.g
 VictoryLine.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryLine, options);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-line\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-line\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -56617,7 +56617,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/defaultsDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaultsDeep.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/uniqBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqBy.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/defaultsDeep":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaultsDeep.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/uniqBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqBy.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -56872,7 +56872,7 @@ VictoryPolarAxis.getBaseProps = (0, _partialRight3.default)(_helperMethods2.defa
 VictoryPolarAxis.expectedComponents = ["axisComponent", "circularAxisComponent", "groupComponent", "containerComponent", "tickComponent", "tickLabelComponent", "gridComponent", "circularGridComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryPolarAxis, options);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\helper-methods.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\helper-methods.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57030,7 +57030,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\values.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\victory-scatter.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/values":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\values.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\victory-scatter.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -57170,7 +57170,7 @@ VictoryScatter.getBaseProps = (0, _partialRight3.default)(_helperMethods2.defaul
 VictoryScatter.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryScatter);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-stack\\victory-stack.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-stack\\victory-stack.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -57490,7 +57490,7 @@ VictoryStack.getDomain = _wrapper2.default.getStackedDomain.bind(_wrapper2.defau
 VictoryStack.getData = _wrapper2.default.getData.bind(_wrapper2.default);
 exports.default = VictoryStack;
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\helper-methods.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","../../helpers/wrapper":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57624,7 +57624,7 @@ exports.default = {
   }
 };
 
-},{"d3-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-voronoi\\build\\d3-voronoi.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\victory-voronoi.js":[function(require,module,exports){
+},{"d3-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-voronoi\\build\\d3-voronoi.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\victory-voronoi.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -57754,7 +57754,7 @@ VictoryVoronoi.getBaseProps = (0, _partialRight3.default)(_helperMethods2.defaul
 VictoryVoronoi.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryVoronoi);
 
-},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js":[function(require,module,exports){
+},{"../../helpers/common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57983,7 +57983,7 @@ exports.default = {
   }
 };
 
-},{"lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js","lodash/invert":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\invert.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\common-props.js":[function(require,module,exports){
+},{"lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js","lodash/invert":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\invert.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\common-props.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58053,7 +58053,7 @@ var BaseProps = exports.BaseProps = {
   width: _victoryCore.PropTypes.nonNegative
 };
 
-},{"prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js":[function(require,module,exports){
+},{"prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\event-handlers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58078,7 +58078,7 @@ var attachId = exports.attachId = function (func) {
   };
 };
 
-},{"lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js":[function(require,module,exports){
+},{"lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\wrapper.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58497,7 +58497,7 @@ exports.default = {
   }
 };
 
-},{"./axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\helpers\\axis.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","lodash/some":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\some.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniq.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\index.js":[function(require,module,exports){
+},{"./axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\helpers\\axis.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","lodash/some":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\some.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniq.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\index.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -58763,7 +58763,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-},{"./components/containers/brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","./components/containers/create-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\create-container.js","./components/containers/cursor-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js","./components/containers/selection-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js","./components/containers/victory-brush-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js","./components/containers/victory-cursor-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js","./components/containers/victory-selection-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js","./components/containers/victory-voronoi-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js","./components/containers/victory-zoom-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js","./components/containers/voronoi-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js","./components/containers/zoom-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js","./components/victory-area/victory-area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-area\\victory-area.js","./components/victory-axis/victory-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js","./components/victory-bar/victory-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-bar\\victory-bar.js","./components/victory-candlestick/victory-candlestick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\victory-candlestick.js","./components/victory-chart/victory-chart":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-chart\\victory-chart.js","./components/victory-errorbar/victory-errorbar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\victory-errorbar.js","./components/victory-group/victory-group":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-group\\victory-group.js","./components/victory-line/victory-line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-line\\victory-line.js","./components/victory-polar-axis/victory-polar-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js","./components/victory-scatter/victory-scatter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\victory-scatter.js","./components/victory-stack/victory-stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-stack\\victory-stack.js","./components/victory-voronoi/victory-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\victory-voronoi.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js":[function(require,module,exports){
+},{"./components/containers/brush-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\brush-helpers.js","./components/containers/create-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\create-container.js","./components/containers/cursor-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\cursor-helpers.js","./components/containers/selection-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\selection-helpers.js","./components/containers/victory-brush-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-brush-container.js","./components/containers/victory-cursor-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-cursor-container.js","./components/containers/victory-selection-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-selection-container.js","./components/containers/victory-voronoi-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-voronoi-container.js","./components/containers/victory-zoom-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\victory-zoom-container.js","./components/containers/voronoi-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\voronoi-helpers.js","./components/containers/zoom-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\containers\\zoom-helpers.js","./components/victory-area/victory-area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-area\\victory-area.js","./components/victory-axis/victory-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-axis\\victory-axis.js","./components/victory-bar/victory-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-bar\\victory-bar.js","./components/victory-candlestick/victory-candlestick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-candlestick\\victory-candlestick.js","./components/victory-chart/victory-chart":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-chart\\victory-chart.js","./components/victory-errorbar/victory-errorbar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-errorbar\\victory-errorbar.js","./components/victory-group/victory-group":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-group\\victory-group.js","./components/victory-line/victory-line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-line\\victory-line.js","./components/victory-polar-axis/victory-polar-axis":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-polar-axis\\victory-polar-axis.js","./components/victory-scatter/victory-scatter":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-scatter\\victory-scatter.js","./components/victory-stack/victory-stack":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-stack\\victory-stack.js","./components/victory-voronoi/victory-voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\components\\victory-voronoi\\victory-voronoi.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -59134,7 +59134,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-},{"./victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","./victory-clip-container/victory-clip-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js","./victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","./victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","./victory-legend/victory-legend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js","./victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","./victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","./victory-primitives/arc":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js","./victory-primitives/area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\area.js","./victory-primitives/bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js","./victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","./victory-primitives/candle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js","./victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","./victory-primitives/curve":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js","./victory-primitives/error-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js","./victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","./victory-primitives/line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\line.js","./victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","./victory-primitives/slice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js","./victory-primitives/voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js","./victory-shared-events/victory-shared-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js","./victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","./victory-tooltip/victory-tooltip":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js","./victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","./victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./victory-util/data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\data.js","./victory-util/default-transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js","./victory-util/domain":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\domain.js","./victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\events.js","./victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","./victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\log.js","./victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./victory-util/scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\scale.js","./victory-util/selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\selection.js","./victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\style.js","./victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","./victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\transitions.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-animation\\util.js":[function(require,module,exports){
+},{"./victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","./victory-clip-container/victory-clip-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js","./victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","./victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","./victory-legend/victory-legend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js","./victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","./victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","./victory-primitives/arc":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js","./victory-primitives/area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\area.js","./victory-primitives/bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js","./victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","./victory-primitives/candle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js","./victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","./victory-primitives/curve":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js","./victory-primitives/error-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js","./victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","./victory-primitives/line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\line.js","./victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","./victory-primitives/slice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js","./victory-primitives/voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js","./victory-shared-events/victory-shared-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js","./victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","./victory-tooltip/victory-tooltip":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js","./victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","./victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./victory-util/data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\data.js","./victory-util/default-transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js","./victory-util/domain":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\domain.js","./victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\events.js","./victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","./victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\log.js","./victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./victory-util/scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\scale.js","./victory-util/selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\selection.js","./victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\style.js","./victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","./victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\transitions.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-animation\\util.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -59353,7 +59353,7 @@ var victoryInterpolator = exports.victoryInterpolator = function (a, b) {
   return (0, _d3Interpolate.interpolate)(a, b);
 };
 
-},{"d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js":[function(require,module,exports){
+},{"d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -59619,7 +59619,7 @@ VictoryAnimation.contextTypes = {
 };
 exports.default = VictoryAnimation;
 
-},{"../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./util":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-animation\\util.js","d3-ease":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-ease\\build\\d3-ease.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js":[function(require,module,exports){
+},{"../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./util":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-animation\\util.js","d3-ease":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-ease\\build\\d3-ease.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -59849,7 +59849,7 @@ VictoryClipContainer.defaultProps = {
 };
 exports.default = VictoryClipContainer;
 
-},{"../victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js":[function(require,module,exports){
+},{"../victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -60095,7 +60095,7 @@ VictoryContainer.childContextTypes = {
 };
 exports.default = VictoryContainer;
 
-},{"../victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js":[function(require,module,exports){
+},{"../victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -60444,7 +60444,7 @@ VictoryLabel.defaultProps = {
 };
 exports.default = VictoryLabel;
 
-},{"../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\log.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\style.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js":[function(require,module,exports){
+},{"../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\log.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\style.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -60784,7 +60784,7 @@ exports.default = function (props, fallbackProps) {
   }, initialProps);
 };
 
-},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\style.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\groupBy.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/sum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sum.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js":[function(require,module,exports){
+},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\style.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\groupBy.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/sum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sum.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -61020,7 +61020,7 @@ VictoryLegend.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default
 VictoryLegend.expectedComponents = ["borderComponent", "containerComponent", "dataComponent", "groupComponent", "labelComponent", "titleComponent"];
 exports.default = (0, _addEvents2.default)(VictoryLegend);
 
-},{"../victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","../victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\portal.js":[function(require,module,exports){
+},{"../victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","../victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\portal.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -61138,7 +61138,7 @@ Portal.propTypes = {
 };
 exports.default = Portal;
 
-},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js":[function(require,module,exports){
+},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -61281,7 +61281,7 @@ VictoryPortal.contextTypes = {
 };
 exports.default = VictoryPortal;
 
-},{"../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js":[function(require,module,exports){
+},{"../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -61463,7 +61463,7 @@ Arc.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Arc;
 
-},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\area.js":[function(require,module,exports){
+},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\area.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -61725,7 +61725,7 @@ Area.defaultProps = {
 };
 exports.default = Area;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -62083,7 +62083,7 @@ Bar.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Bar;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\border.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\border.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -62240,7 +62240,7 @@ Line.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Line;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -62444,7 +62444,7 @@ Candle.defaultProps = {
 };
 exports.default = Candle;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -62607,7 +62607,7 @@ ClipPath.propTypes = {
 };
 exports.default = ClipPath;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -62640,7 +62640,7 @@ exports.default = {
   style: _propTypes2.default.object
 };
 
-},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js":[function(require,module,exports){
+},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -62845,7 +62845,7 @@ Curve.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Curve;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -63095,7 +63095,7 @@ ErrorBar.defaultProps = {
 };
 exports.default = ErrorBar;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -63317,7 +63317,7 @@ Flyout.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Flyout;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63359,7 +63359,7 @@ exports.getYAccessor = getYAccessor;
 exports.getY0Accessor = getY0Accessor;
 exports.getAngleAccessor = getAngleAccessor;
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\line.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\line.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -63520,7 +63520,7 @@ Line.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Line;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -63599,7 +63599,7 @@ exports.default = {
   }
 };
 
-},{"lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\point.js":[function(require,module,exports){
+},{"lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\point.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -63787,7 +63787,7 @@ Point.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Point;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./path-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./path-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -63949,7 +63949,7 @@ Slice.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Slice;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -64143,7 +64143,7 @@ Voronoi.propTypes = _extends({}, _commonProps2.default, {
 });
 exports.default = Voronoi;
 
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -64414,7 +64414,7 @@ VictorySharedEvents.childContextTypes = {
 };
 exports.default = VictorySharedEvents;
 
-},{"../victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/fromPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\fromPairs.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js":[function(require,module,exports){
+},{"../victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/fromPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\fromPairs.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64620,7 +64620,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\material.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\material.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64844,7 +64844,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -64868,7 +64868,7 @@ exports.default = {
   grayscale: _grayscale2.default
 };
 
-},{"./grayscale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js","./material":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\material.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js":[function(require,module,exports){
+},{"./grayscale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js","./material":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\material.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -65359,7 +65359,7 @@ VictoryTooltip.defaultEvents = function (props) {
 
 exports.default = VictoryTooltip;
 
-},{"../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js":[function(require,module,exports){
+},{"../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -65630,7 +65630,7 @@ VictoryTransition.propTypes = {
 };
 exports.default = VictoryTransition;
 
-},{"../victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js","../victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\transitions.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pick.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\add-events.js":[function(require,module,exports){
+},{"../victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js","../victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\transitions.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pick.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\add-events.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -65968,7 +65968,7 @@ exports.default = function (WrappedComponent, options) {
   }(WrappedComponent);
 };
 
-},{"../victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\events.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pick.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js":[function(require,module,exports){
+},{"../victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\events.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pick.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -66175,7 +66175,7 @@ exports.default = {
   }
 };
 
-},{"lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\data.js":[function(require,module,exports){
+},{"lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\data.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66506,7 +66506,7 @@ exports.default = {
   }
 };
 
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\last.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\last.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -66593,7 +66593,7 @@ exports.default = {
   }
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\domain.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\domain.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -67009,7 +67009,7 @@ exports.default = {
   }
 };
 
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\data.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/sortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\events.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\data.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/sortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\events.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -67286,7 +67286,7 @@ exports.default = {
   }
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/extend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\extend.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js","lodash/partial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partial.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/extend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\extend.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js","lodash/partial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partial.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -67555,7 +67555,7 @@ exports.default = {
   }
 };
 
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js","lodash/reduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\reduce.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js","lodash/reduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\reduce.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -67742,7 +67742,7 @@ exports.default = {
   }
 };
 
-},{"./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\log.js":[function(require,module,exports){
+},{"./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\log.js":[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -67764,7 +67764,7 @@ exports.default = {
 };
 
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\process\\browser.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\process\\browser.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68008,7 +68008,7 @@ exports.default = {
   })
 };
 
-},{"./log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/find":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\find.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\scale.js":[function(require,module,exports){
+},{"./log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/find":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\find.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\scale.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68127,7 +68127,7 @@ exports.default = {
   }
 };
 
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","d3-scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-scale\\build\\d3-scale.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\selection.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","d3-scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-scale\\build\\d3-scale.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\selection.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68312,7 +68312,7 @@ exports.default = {
   }
 };
 
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\data.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\style.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\data.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\style.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68377,7 +68377,7 @@ exports.default = {
   }
 };
 
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\textsize.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\textsize.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68561,7 +68561,7 @@ exports.default = {
   convertLengthToPixels: convertLengthToPixels
 };
 
-},{"lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\timer.js":[function(require,module,exports){
+},{"lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\timer.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -68647,7 +68647,7 @@ var Timer = function () {
 
 exports.default = Timer;
 
-},{"d3-timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-timer\\build\\d3-timer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\victory-util\\transitions.js":[function(require,module,exports){
+},{"d3-timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-timer\\build\\d3-timer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\victory-util\\transitions.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69015,7 +69015,7 @@ exports.default = {
   getTransitionPropsFactory: getTransitionPropsFactory
 };
 
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\components\\helper-methods.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\components\\helper-methods.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69218,7 +69218,7 @@ exports.default = {
   }
 };
 
-},{"d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\components\\victory-pie.js":[function(require,module,exports){
+},{"d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\components\\victory-pie.js":[function(require,module,exports){
 "use strict";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -69408,7 +69408,7 @@ VictoryPie.getData = _victoryCore.Data.getData.bind(_victoryCore.Data);
 VictoryPie.expectedComponents = ["dataComponent", "labelComponent", "groupComponent", "containerComponent"];
 exports.default = (0, _victoryCore.addEvents)(VictoryPie);
 
-},{"./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\components\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\index.js":[function(require,module,exports){
+},{"./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\components\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\index.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -69426,7 +69426,7 @@ function _interopRequireDefault(obj) {
 
 exports.VictoryPie = _victoryPie2.default;
 
-},{"./components/victory-pie":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\components\\victory-pie.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js":[function(require,module,exports){
+},{"./components/victory-pie":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\components\\victory-pie.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\index.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -69801,7 +69801,7 @@ Object.defineProperty(exports, "Transitions", {
 });
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","./victory-clip-container/victory-clip-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js","./victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","./victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","./victory-legend/victory-legend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js","./victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","./victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","./victory-primitives/arc":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js","./victory-primitives/area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\area.js","./victory-primitives/bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js","./victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","./victory-primitives/candle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js","./victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","./victory-primitives/curve":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js","./victory-primitives/error-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js","./victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","./victory-primitives/line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\line.js","./victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","./victory-primitives/slice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js","./victory-primitives/voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js","./victory-shared-events/victory-shared-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js","./victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","./victory-tooltip/victory-tooltip":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js","./victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","./victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./victory-util/data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","./victory-util/default-transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js","./victory-util/domain":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\domain.js","./victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","./victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./victory-util/immutable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js","./victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","./victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","./victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./victory-util/scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","./victory-util/selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\selection.js","./victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","./victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","./victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\util.js":[function(require,module,exports){
+},{"./victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","./victory-clip-container/victory-clip-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js","./victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","./victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","./victory-legend/victory-legend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js","./victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","./victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","./victory-primitives/arc":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js","./victory-primitives/area":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\area.js","./victory-primitives/bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js","./victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","./victory-primitives/candle":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js","./victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","./victory-primitives/curve":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js","./victory-primitives/error-bar":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js","./victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","./victory-primitives/line":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\line.js","./victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","./victory-primitives/slice":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js","./victory-primitives/voronoi":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js","./victory-shared-events/victory-shared-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js","./victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","./victory-tooltip/victory-tooltip":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js","./victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","./victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./victory-util/data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","./victory-util/default-transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js","./victory-util/domain":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\domain.js","./victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","./victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./victory-util/immutable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js","./victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","./victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","./victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./victory-util/scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","./victory-util/selection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\selection.js","./victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","./victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","./victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\util.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -70013,7 +70013,7 @@ var victoryInterpolator = exports.victoryInterpolator = function (a, b) {
   }
   return (0, _d3Interpolate.interpolate)(a, b);
 };
-},{"d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js":[function(require,module,exports){
+},{"d3-interpolate":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-interpolate\\build\\d3-interpolate.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -70235,7 +70235,7 @@ VictoryAnimation.contextTypes = {
   getTimer: _propTypes2.default.func
 };
 exports.default = VictoryAnimation;
-},{"../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./util":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\util.js","d3-ease":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-ease\\build\\d3-ease.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js":[function(require,module,exports){
+},{"../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","./util":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\util.js","d3-ease":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-ease\\build\\d3-ease.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-clip-container\\victory-clip-container.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -70435,7 +70435,7 @@ VictoryClipContainer.defaultProps = {
   clipPathComponent: _react2.default.createElement(_clipPath2.default, null)
 };
 exports.default = VictoryClipContainer;
-},{"../victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js":[function(require,module,exports){
+},{"../victory-primitives/clip-path":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -70669,7 +70669,7 @@ VictoryContainer.childContextTypes = {
   getTimer: _propTypes2.default.func
 };
 exports.default = VictoryContainer;
-},{"../victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js":[function(require,module,exports){
+},{"../victory-portal/portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/uniqueId":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniqueId.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71005,7 +71005,7 @@ VictoryLabel.defaultProps = {
   lineHeight: 1
 };
 exports.default = VictoryLabel;
-},{"../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js":[function(require,module,exports){
+},{"../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71336,7 +71336,7 @@ exports.default = function (props, fallbackProps) {
     return childProps;
   }, initialProps);
 };
-},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\groupBy.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/sum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sum.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js":[function(require,module,exports){
+},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/style":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/groupBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\groupBy.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/sum":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sum.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\victory-legend.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71551,7 +71551,7 @@ VictoryLegend.defaultProps = {
 VictoryLegend.getBaseProps = (0, _partialRight3.default)(_helperMethods2.default, fallbackProps);
 VictoryLegend.expectedComponents = ["borderComponent", "containerComponent", "dataComponent", "groupComponent", "labelComponent", "titleComponent"];
 exports.default = (0, _addEvents2.default)(VictoryLegend);
-},{"../victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","../victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js":[function(require,module,exports){
+},{"../victory-container/victory-container":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-container\\victory-container.js","../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-primitives/border":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js","../victory-primitives/point":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/add-events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","./helper-methods":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-legend\\helper-methods.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\portal.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71646,7 +71646,7 @@ Portal.propTypes = {
   width: _propTypes4.default.nonNegative
 };
 exports.default = Portal;
-},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js":[function(require,module,exports){
+},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71762,7 +71762,7 @@ VictoryPortal.contextTypes = {
   portalUpdate: _propTypes2.default.func
 };
 exports.default = VictoryPortal;
-},{"../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js":[function(require,module,exports){
+},{"../victory-util/log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\arc.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -71910,7 +71910,7 @@ Arc.propTypes = _extends({}, _commonProps2.default, {
   startAngle: _propTypes2.default.number
 });
 exports.default = Arc;
-},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\area.js":[function(require,module,exports){
+},{"../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\area.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72128,7 +72128,7 @@ Area.defaultProps = {
   groupComponent: _react2.default.createElement("g", null)
 };
 exports.default = Area;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\bar.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72463,7 +72463,7 @@ Bar.propTypes = _extends({}, _commonProps2.default, {
   y0: _propTypes2.default.number
 });
 exports.default = Bar;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\border.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72585,7 +72585,7 @@ Line.propTypes = _extends({}, _commonProps2.default, {
   y: _propTypes2.default.number
 });
 exports.default = Line;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\candle.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72755,7 +72755,7 @@ Candle.defaultProps = {
   groupComponent: _react2.default.createElement("g", null)
 };
 exports.default = Candle;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\clip-path.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72907,7 +72907,7 @@ ClipPath.propTypes = {
   translateY: _propTypes2.default.number
 };
 exports.default = ClipPath;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -72935,7 +72935,7 @@ exports.default = {
   shapeRendering: _propTypes2.default.string,
   style: _propTypes2.default.object
 };
-},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js":[function(require,module,exports){
+},{"../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\curve.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73096,7 +73096,7 @@ Curve.propTypes = _extends({}, _commonProps2.default, {
   polar: _propTypes2.default.bool
 });
 exports.default = Curve;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js","d3-shape":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-shape\\build\\d3-shape.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\error-bar.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73312,7 +73312,7 @@ ErrorBar.defaultProps = {
   groupComponent: _react2.default.createElement("g", null)
 };
 exports.default = ErrorBar;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73500,7 +73500,7 @@ Flyout.propTypes = _extends({}, _commonProps2.default, {
   y: _propTypes2.default.number
 });
 exports.default = Flyout;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\helpers.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73539,7 +73539,7 @@ exports.getXAccessor = getXAccessor;
 exports.getYAccessor = getYAccessor;
 exports.getY0Accessor = getY0Accessor;
 exports.getAngleAccessor = getAngleAccessor;
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\line.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\line.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73665,7 +73665,7 @@ Line.propTypes = _extends({}, _commonProps2.default, {
   y2: _propTypes2.default.number
 });
 exports.default = Line;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73725,7 +73725,7 @@ exports.default = {
     return "M " + starCoords.join("L") + " z";
   }
 };
-},{"lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js":[function(require,module,exports){
+},{"lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\point.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -73882,7 +73882,7 @@ Point.propTypes = _extends({}, _commonProps2.default, {
   y: _propTypes2.default.number
 });
 exports.default = Point;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./path-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","./path-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\path-helpers.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\slice.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74009,7 +74009,7 @@ Slice.propTypes = _extends({}, _commonProps2.default, {
   slice: _propTypes2.default.object
 });
 exports.default = Slice;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\voronoi.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74182,7 +74182,7 @@ Voronoi.propTypes = _extends({}, _commonProps2.default, {
   y: _propTypes2.default.number
 });
 exports.default = Voronoi;
-},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js":[function(require,module,exports){
+},{"../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./common-props":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\common-props.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-shared-events\\victory-shared-events.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74448,7 +74448,7 @@ VictorySharedEvents.childContextTypes = {
   getTimer: _propTypes2.default.func
 };
 exports.default = VictorySharedEvents;
-},{"../victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/fromPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\fromPairs.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js":[function(require,module,exports){
+},{"../victory-util/events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/fromPairs":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\fromPairs.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74649,7 +74649,7 @@ exports.default = {
     }
   }
 };
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\material.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\material.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74868,7 +74868,7 @@ exports.default = {
     }
   }
 };
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -74887,7 +74887,7 @@ exports.default = {
   material: _material2.default,
   grayscale: _grayscale2.default
 };
-},{"./grayscale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js","./material":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\material.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js":[function(require,module,exports){
+},{"./grayscale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\grayscale.js","./material":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\material.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-tooltip\\victory-tooltip.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -75352,7 +75352,7 @@ VictoryTooltip.defaultEvents = function (props) {
 };
 
 exports.default = VictoryTooltip;
-},{"../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js":[function(require,module,exports){
+},{"../victory-label/victory-label":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-label\\victory-label.js","../victory-portal/victory-portal":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-portal\\victory-portal.js","../victory-primitives/flyout":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-primitives\\flyout.js","../victory-theme/victory-theme":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-theme\\victory-theme.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/label-helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js","../victory-util/prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js","../victory-util/textsize":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -75592,7 +75592,7 @@ VictoryTransition.propTypes = {
   children: _propTypes2.default.node
 };
 exports.default = VictoryTransition;
-},{"../victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","../victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isObject.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pick.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js":[function(require,module,exports){
+},{"../victory-animation/victory-animation":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-animation\\victory-animation.js","../victory-util/collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","../victory-util/helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","../victory-util/timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js","../victory-util/transitions":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/isObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isObject.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pick.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\add-events.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -75923,7 +75923,7 @@ exports.default = function (WrappedComponent, options) {
     return addEvents;
   }(WrappedComponent);
 };
-},{"../victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partialRight.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pick.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js":[function(require,module,exports){
+},{"../victory-transition/victory-transition":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-transition\\victory-transition.js","./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./events":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js","lodash/partialRight":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partialRight.js","lodash/pick":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pick.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -76119,7 +76119,7 @@ exports.default = {
     }, true);
   }
 };
-},{"lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEqual.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js":[function(require,module,exports){
+},{"lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isEqual":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEqual.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/keys":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\keys.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -76501,7 +76501,7 @@ exports.default = {
     return _immutable2.default.isImmutable(datum) ? _immutable2.default.shallowToJS(datum, this.immutableDatumWhitelist) : datum;
   }
 };
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./immutable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\last.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\range.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./immutable":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/last":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\last.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js","lodash/range":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\range.js","lodash/sortBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\default-transitions.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -76585,7 +76585,7 @@ exports.default = {
     };
   }
 };
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\domain.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\domain.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -76975,7 +76975,7 @@ exports.default = {
     return domainMin instanceof Date || domainMax instanceof Date ? [new Date(finalDomain.min), new Date(finalDomain.max)] : [finalDomain.min, finalDomain.max];
   }
 };
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\flatten.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isPlainObject.js","lodash/sortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\sortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","./scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js","lodash/flatten":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\flatten.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isPlainObject":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isPlainObject.js","lodash/sortedUniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\sortedUniq.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\events.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -77376,7 +77376,7 @@ exports.default = {
     return events && events.length ? events : undefined;
   }
 };
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/extend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\extend.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js","lodash/partial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\partial.js","lodash/pickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\pickBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\uniq.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\without.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/extend":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\extend.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isEmpty":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isEmpty.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js","lodash/partial":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\partial.js","lodash/pickBy":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\pickBy.js","lodash/uniq":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\uniq.js","lodash/without":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\without.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -77642,7 +77642,7 @@ exports.default = {
     return traverseChildren(children);
   }
 };
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\omit.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\property.js","lodash/reduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\reduce.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","lodash/omit":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\omit.js","lodash/property":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\property.js","lodash/reduce":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\reduce.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\immutable.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -77679,7 +77679,7 @@ exports.default = {
     }, this.isList(x) ? [] : {}) : x;
   }
 };
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\label-helpers.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -77861,7 +77861,7 @@ exports.default = {
     };
   }
 };
-},{"./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js":[function(require,module,exports){
+},{"./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js":[function(require,module,exports){
 (function (process){
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -77880,7 +77880,7 @@ exports.default = {
   }
 };
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\process\\browser.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\process\\browser.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\prop-types.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78116,7 +78116,7 @@ exports.default = {
     return undefined;
   })
 };
-},{"./log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/find":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\find.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js":[function(require,module,exports){
+},{"./log":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\log.js","lodash/find":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\find.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","prop-types":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\prop-types\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\scale.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78220,7 +78220,7 @@ exports.default = {
     return this.getScaleTypeFromProps(props, axis) || this.getScaleTypeFromData(props, axis);
   }
 };
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","d3-scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-scale\\build\\d3-scale.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\selection.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./helpers":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\helpers.js","d3-scale":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-scale\\build\\d3-scale.js","lodash/includes":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\includes.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\selection.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78401,7 +78401,7 @@ exports.default = {
     return selectedData.data.length > 0 ? selectedData : null;
   }
 };
-},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\isFunction.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js":[function(require,module,exports){
+},{"./collection":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\collection.js","./data":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\data.js","lodash/isFunction":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\isFunction.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\style.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78463,7 +78463,7 @@ exports.default = {
     return name ? scales[name] : scales.grayscale;
   }
 };
-},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js":[function(require,module,exports){
+},{}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\textsize.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78638,7 +78638,7 @@ exports.default = {
   approximateTextSize: approximateTextSize,
   convertLengthToPixels: convertLengthToPixels
 };
-},{"lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\merge.js","lodash/toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js":[function(require,module,exports){
+},{"lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/merge":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\merge.js","lodash/toString":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\toString.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\timer.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -78709,7 +78709,7 @@ var Timer = function () {
 }();
 
 exports.default = Timer;
-},{"d3-timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\d3-timer\\build\\d3-timer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js":[function(require,module,exports){
+},{"d3-timer":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-timer\\build\\d3-timer.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\node_modules\\victory-core\\lib\\victory-util\\transitions.js":[function(require,module,exports){
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -79073,7 +79073,7 @@ exports.default = {
   getInitialTransitionState: getInitialTransitionState,
   getTransitionPropsFactory: getTransitionPropsFactory
 };
-},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\defaults.js","lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\lodash\\identity.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory\\lib\\index.js":[function(require,module,exports){
+},{"lodash/assign":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\assign.js","lodash/defaults":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\defaults.js","lodash/identity":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\lodash\\identity.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory\\lib\\index.js":[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -79156,7 +79156,7 @@ exports.Transitions = _victoryCore.Transitions;
 exports.Selection = _victoryCore.Selection;
 exports.LabelHelpers = _victoryCore.LabelHelpers;
 
-},{"victory-chart":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-chart\\lib\\index.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-core\\lib\\index.js","victory-pie":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\victory-pie\\lib\\index.js"}],"__IDYLL_AST__":[function(require,module,exports){
+},{"victory-chart":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\index.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js","victory-pie":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\index.js"}],"__IDYLL_AST__":[function(require,module,exports){
 "use strict";
 
 module.exports = [["var", [["name", ["value", "stepperIndex"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "mover"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "roi2"]], ["value", ["expression", "{ x: [-5, 5], y: [-8, 8] }"]]], []], ["var", [["name", ["value", "exampleVar"]], ["value", ["value", 5]]], []], ["TextContainer", [], [["Header", [["title", ["value", "Testing Some Idyll Components"]], ["subtitle", ["value", "This is gonna be fun!"]], ["author", ["value", "Nick Gonzales"]], ["authorLink", ["value", "https://github.com/KingCeolwulf"]]], []], ["p", [], ["I have been working on a set of instructional videos all summer long using the ", ["a", [["href", ["value", "https://github.com/3b1b/manim"]]], ["manim library"]], " and built templates of my own\nto begin production of my own materials. I felt that simply posting the videos to\nYouTube or even simply starting a Patreon campaign would not feel quite... right."]], ["p", [], ["And a shout-out to ", ["a", [["href", ["value", "https://github.com/mathisonian"]]], ["Matthew Conlen"]], ". Without his help, \nand patience, this part of the project would have been a huge disappointment."]], ["h2", [], ["Enter Idyll", "!", "!"]], ["i", [], ["Only time will tell just how far this rabbit hole goes..."]], ["h2", [], [["strong", [], ["And thank you, Heather, for putting up with the constant grind, you are the best", "!"]]]], ["div", [["style", ["expression", "{display: 'flex', flexAlign: 'row', textAlign: 'center'}"]]], [["Chart", [["theme", ["expression", "{ axis: { style: { grid:{fill: \"none\",stroke: \"blue\",strokeDasharray:[10,5],strokeLinecap:\"round\" ,pointerEvents: \"painted\"}} }}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []], ["Chart", [["theme", ["expression", "{axis: { style: { grid: { stroke: '#ddd'} }}}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []]]], ["p", [], ["\nExamples of ", ["equation", [], ["f(x)=x^2+k"]], ["Stepper", [["currentStep", ["variable", "stepperIndex"]]], [["Graphic", [], [["img", [["src", ["expression", "\"static/images/\" + stepperIndex + \".png\""]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2 "]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/r1aghqw203"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+1"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/qumumgp3k0"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+2"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/xakcwurbf2"]]], []]]], ["StepperControl", [], []]]]]], ["IdyllApparatusComponent", [["_url", ["value", "static/plant.json"]], ["_regionOfInterest", ["variable", "roi2"]], ["_width", ["value", 400]], ["_height", ["value", 400]], ["growth", ["variable", "mover"]]], []], ["p", [], ["Move the slider below to move the sun..."]], ["Range", [["value", ["variable", "mover"]], ["min", ["value", -3]], ["max", ["value", 17]]], []], ["Display", [["value", ["variable", "mover"]]], []], ["p", [], ["So this is how you can use a variable:"]], ["Range", [["min", ["value", 0]], ["max", ["value", 10]], ["value", ["variable", "exampleVar"]]], []], ["Display", [["value", ["variable", "exampleVar"]]], []], ["pre", [], [["code", [], ["[var name:\"exampleVar\" value:5 /]\n\n[Range min:0 max:10 value:exampleVar /]\n[Display value:exampleVar /]"]]]], ["ul", [], [["li", [], [["em", [], ["markdown"]], " ", "syntax is supported."]]]], ["p", [], ["You can also load files from your ", ["code", [], ["static/"]], " directory.", ["img", [["src", ["value", "static/images/quill.svg"]], ["style", ["expression", "{ width: 75, display: 'block', margin: '30px auto' }"]]], []]]]]]];
@@ -79165,21 +79165,21 @@ module.exports = [["var", [["name", ["value", "stepperIndex"]], ["value", ["valu
 'use strict';
 
 module.exports = {
-	'header': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/header.js'),
-	'chart': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/chart.js'),
-	'equation': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/equation.js'),
-	'graphic': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/graphic.js'),
-	'link': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/link.js'),
-	'step': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/step.js'),
-	'stepper-control': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/stepper-control.js'),
-	'stepper': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/stepper.js'),
-	'idyll-apparatus-component': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-apparatus-component/lib.js'),
-	'range': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/range.js'),
-	'display': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/display.js'),
-	'text-container': require('C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/text-container.js')
+	'header': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/header.js'),
+	'chart': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/chart.js'),
+	'equation': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/equation.js'),
+	'graphic': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/graphic.js'),
+	'link': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/link.js'),
+	'step': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/step.js'),
+	'stepper-control': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper-control.js'),
+	'stepper': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper.js'),
+	'idyll-apparatus-component': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-apparatus-component/lib.js'),
+	'range': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/range.js'),
+	'display': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/display.js'),
+	'text-container': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/text-container.js')
 };
 
-},{"C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-apparatus-component/lib.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-apparatus-component\\lib.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/chart.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\chart.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/display.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\display.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/equation.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\equation.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/graphic.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\graphic.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/header.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\header.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/link.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\link.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/range.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\range.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/step.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\step.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/stepper-control.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/stepper.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\stepper.js","C:/Users/Nick/Documents/IdyllStuff/stuff2/node_modules/idyll-components/dist/cjs/text-container.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll-components\\dist\\cjs\\text-container.js"}],"__IDYLL_CONTEXT__":[function(require,module,exports){
+},{"C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-apparatus-component/lib.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-apparatus-component\\lib.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/chart.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\chart.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/display.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\display.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/equation.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/graphic.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\graphic.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/header.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\header.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/link.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\link.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/range.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\range.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/step.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\step.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper-control.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/text-container.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\text-container.js"}],"__IDYLL_CONTEXT__":[function(require,module,exports){
 "use strict";
 
 module.exports = function () {};
@@ -79238,7 +79238,7 @@ if ("development" === 'production') {
   module.exports = require('./cjs/react-dom.development.js');
 }
 
-},{"./cjs/react-dom.development.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom\\cjs\\react-dom.development.js","./cjs/react-dom.production.min.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react-dom\\cjs\\react-dom.production.min.js"}],"react":[function(require,module,exports){
+},{"./cjs/react-dom.development.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom\\cjs\\react-dom.development.js","./cjs/react-dom.production.min.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react-dom\\cjs\\react-dom.production.min.js"}],"react":[function(require,module,exports){
 'use strict';
 
 if ("development" === 'production') {
@@ -79247,4 +79247,4 @@ if ("development" === 'production') {
   module.exports = require('./cjs/react.development.js');
 }
 
-},{"./cjs/react.development.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react\\cjs\\react.development.js","./cjs/react.production.min.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\react\\cjs\\react.production.min.js"}]},{},["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff2\\node_modules\\idyll\\src\\client\\build.js"]);
+},{"./cjs/react.development.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react\\cjs\\react.development.js","./cjs/react.production.min.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\react\\cjs\\react.production.min.js"}]},{},["C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll\\src\\client\\build.js"]);
