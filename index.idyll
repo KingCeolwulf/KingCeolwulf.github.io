@@ -1,5 +1,5 @@
 [meta title:"Mr G's MatheMagic" description:"Short description of your project" /]
-.
+
 [Header
   title:"Testing Some Idyll Components"
   subtitle:"This is gonna be fun!"
@@ -7,19 +7,79 @@
   authorLink:"https://github.com/KingCeolwulf"
   /]
 
-[aside]
-[Chart equation:`d => d**2` theme: 'material' domain:`[-5, 5]` range:`[-10, 10]` /]
-[caption] Apparently, this is how to graph a parabola [/caption]
-[/aside]
-  
-I have been working on a set of instructional videos all summer long using the 
-[manim library](https://github.com/3b1b/manim) and have a small library of my own
+  I have been working on a set of instructional videos all summer long using the 
+[manim library](https://github.com/3b1b/manim) and built templates of my own
 to begin production of my own materials. I felt that simply posting the videos to
 YouTube or even simply starting a Patreon campaign would not feel quite... right.
 
-Only time will tell just how far this rabbit hole goes...
+And a shout-out to [Matthew Conlen](https://github.com/mathisonian). Without his help, 
+and patience, this part of the project would have been a huge disappointment.
+
+## Enter Idyll!!
+
+[i]Only time will tell just how far this rabbit hole goes...[/i]
 
 ## **And thank you, Heather, for putting up with the constant grind, you are the best!**
+
+
+[div style:`{display: 'flex', flexAlign: 'row', textAlign: 'center'}`]
+[Chart 
+    theme:`{ axis: { style: { grid:{fill: "none",stroke: "blue",strokeDasharray:[10,5],strokeLinecap:"round" ,pointerEvents: "painted"}} }}`
+    equation:`x=>x**2`
+    range:`[-5,5]`
+    domain:`[-5,5]`
+
+/]
+
+[Chart 
+theme:`{axis: { style: { grid: { stroke: '#ddd'} }}}`
+equation:`x=>x**2`
+range:`[-5,5]`
+domain:`[-5,5]`
+
+/]
+[/div]
+
+
+[var name:"stepperIndex" value:0 /]
+Examples of [Equation]f(x)=x^2+k[/Equation]
+[Stepper currentStep:stepperIndex]
+  [Graphic]
+     [img src:`"static/images/" + stepperIndex + ".png"` /]
+  [/Graphic]
+
+  [Step]
+    [Equation] f(x)=x^2 [/Equation]
+    [link target:"_blank" text:"  try it on desmos.com" url:"https://www.desmos.com/calculator/r1aghqw203" /]
+  [/Step]
+  [Step]
+    [Equation] f(x)=x^2+1[/Equation]
+    [link target:"_blank" text:"  try it on desmos.com" url:"https://www.desmos.com/calculator/qumumgp3k0" /]
+  [/Step]
+  [Step]
+    [Equation] f(x)=x^2+2[/Equation]
+    [link target:"_blank" text:"  try it on desmos.com" url:"https://www.desmos.com/calculator/xakcwurbf2" /]
+  [/Step]
+
+  [StepperControl /]
+[/Stepper]
+
+[var name:"mover" value:0 /]
+[var name:"roi2" value:`{ x: [-5, 5], y: [-8, 8] }` /]
+
+[IdyllApparatusComponent
+_url: "static/plant.json"
+_regionOfInterest: roi2
+_width: 400
+_height: 400
+growth:mover /]
+
+
+Move the slider below to move the sun...
+
+[Range value:mover min:-3 max:17 /]
+[Display value:mover /]
+
 
 So this is how you can use a variable:
 
