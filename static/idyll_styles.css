@@ -897,3 +897,7 @@ hr {
     max-height: 200px;
   }
 }
+
+inset {
+    text-align: center;
+}

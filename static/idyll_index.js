@@ -21001,6 +21001,94 @@ var mapChildren = function mapChildren(children, transform) {
 
 module.exports = { filterChildren: filterChildren, mapChildren: mapChildren };
 
+},{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\button.js":[function(require,module,exports){
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }return target;
+};
+
+var _react = require("react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _objectWithoutProperties(obj, keys) {
+  var target = {};for (var i in obj) {
+    if (keys.indexOf(i) >= 0) continue;if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;target[i] = obj[i];
+  }return target;
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
+  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+
+var Button = function (_React$PureComponent) {
+  _inherits(Button, _React$PureComponent);
+
+  function Button() {
+    _classCallCheck(this, Button);
+
+    return _possibleConstructorReturn(this, _React$PureComponent.apply(this, arguments));
+  }
+
+  Button.prototype.render = function render() {
+    var _props = this.props,
+        onClick = _props.onClick,
+        idyll = _props.idyll,
+        hasError = _props.hasError,
+        updateProps = _props.updateProps,
+        props = _objectWithoutProperties(_props, ["onClick", "idyll", "hasError", "updateProps"]);
+
+    return _react2.default.createElement("button", _extends({}, props, { onClick: onClick.bind(this) }), this.props.children);
+  };
+
+  return Button;
+}(_react2.default.PureComponent);
+
+Button.defaultProps = {
+  onClick: function onClick() {}
+};
+
+Button._idyll = {
+  name: "Button",
+  tagType: "open",
+  children: ['Click Me.'],
+  props: [{
+    name: "onClick",
+    type: "event",
+    example: "`x += 1`"
+  }]
+};
+exports.default = Button;
+
 },{"react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\chart.js":[function(require,module,exports){
 'use strict';
 
@@ -21160,99 +21248,7 @@ Chart._idyll = {
 
 exports.default = Chart;
 
-},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-array\\build\\d3-array.js","react":"react","victory":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\display.js":[function(require,module,exports){
-'use strict';
-
-var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-exports.__esModule = true;
-
-var _typeof = typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol" ? function (obj) {
-  return typeof obj === "undefined" ? "undefined" : _typeof2(obj);
-} : function (obj) {
-  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof2(obj);
-};
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-function _possibleConstructorReturn(self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }return call && ((typeof call === "undefined" ? "undefined" : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-}
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof2(superClass)));
-  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-}
-
-var Format = require('d3-format');
-
-var Display = function (_React$PureComponent) {
-  _inherits(Display, _React$PureComponent);
-
-  function Display(props) {
-    _classCallCheck(this, Display);
-
-    var _this = _possibleConstructorReturn(this, _React$PureComponent.call(this, props));
-
-    _this.format = Format.format(props.format || '0.2f');
-    return _this;
-  }
-
-  Display.prototype.formatValue = function formatValue(v) {
-    var t = typeof v === 'undefined' ? 'undefined' : _typeof(v);
-    switch (t) {
-      case 'object':
-        return JSON.stringify(v);
-      case 'number':
-        return this.format(v);
-      case 'string':
-      default:
-        return v;
-    }
-  };
-
-  Display.prototype.render = function render() {
-    var value = this.props.value;
-
-    var v = value !== undefined ? value : this.props.var;
-    return _react2.default.createElement('span', null, this.formatValue(v));
-  };
-
-  return Display;
-}(_react2.default.PureComponent);
-
-Display._idyll = {
-  name: "Display",
-  tagType: "closed",
-  props: [{
-    name: "value",
-    type: "number",
-    example: "x"
-  }, {
-    name: "format",
-    type: "string",
-    example: '"0.2f"'
-  }]
-};
-
-exports.default = Display;
-
-},{"d3-format":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-format\\build\\d3-format.js","react":"react"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js":[function(require,module,exports){
+},{"d3-array":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\d3-array\\build\\d3-array.js","react":"react","victory":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory\\lib\\index.js"}],"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js":[function(require,module,exports){
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -79159,7 +79155,7 @@ exports.LabelHelpers = _victoryCore.LabelHelpers;
 },{"victory-chart":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-chart\\lib\\index.js","victory-core":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-core\\lib\\index.js","victory-pie":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\victory-pie\\lib\\index.js"}],"__IDYLL_AST__":[function(require,module,exports){
 "use strict";
 
-module.exports = [["var", [["name", ["value", "stepperIndex"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "mover"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "roi2"]], ["value", ["expression", "{ x: [-5, 5], y: [-8, 8] }"]]], []], ["var", [["name", ["value", "exampleVar"]], ["value", ["value", 5]]], []], ["TextContainer", [], [["Header", [["title", ["value", "Testing Some Idyll Components"]], ["subtitle", ["value", "This is gonna be fun!"]], ["author", ["value", "Nick Gonzales"]], ["authorLink", ["value", "https://github.com/KingCeolwulf"]]], []], ["p", [], ["I have been working on a set of instructional videos all summer long using the ", ["a", [["href", ["value", "https://github.com/3b1b/manim"]]], ["manim library"]], " and built templates of my own\nto begin production of my own materials. I felt that simply posting the videos to\nYouTube or even simply starting a Patreon campaign would not feel quite... right."]], ["p", [], ["And a shout-out to ", ["a", [["href", ["value", "https://github.com/mathisonian"]]], ["Matthew Conlen"]], ". Without his help, \nand patience, this part of the project would have been a huge disappointment."]], ["h2", [], ["Enter Idyll", "!", "!"]], ["i", [], ["Only time will tell just how far this rabbit hole goes..."]], ["h2", [], [["strong", [], ["And thank you, Heather, for putting up with the constant grind, you are the best", "!"]]]], ["div", [["style", ["expression", "{display: 'flex', flexAlign: 'row', textAlign: 'center'}"]]], [["Chart", [["theme", ["expression", "{ axis: { style: { grid:{fill: \"none\",stroke: \"blue\",strokeDasharray:[10,5],strokeLinecap:\"round\" ,pointerEvents: \"painted\"}} }}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []], ["Chart", [["theme", ["expression", "{axis: { style: { grid: { stroke: '#ddd'} }}}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []]]], ["p", [], ["\nExamples of ", ["equation", [], ["f(x)=x^2+k"]], ["Stepper", [["currentStep", ["variable", "stepperIndex"]]], [["Graphic", [], [["img", [["src", ["expression", "\"static/images/\" + stepperIndex + \".png\""]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2 "]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/r1aghqw203"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+1"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/qumumgp3k0"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+2"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/xakcwurbf2"]]], []]]], ["StepperControl", [], []]]]]], ["IdyllApparatusComponent", [["_url", ["value", "static/plant.json"]], ["_regionOfInterest", ["variable", "roi2"]], ["_width", ["value", 400]], ["_height", ["value", 400]], ["growth", ["variable", "mover"]]], []], ["p", [], ["Move the slider below to move the sun..."]], ["Range", [["value", ["variable", "mover"]], ["min", ["value", -3]], ["max", ["value", 17]]], []], ["Display", [["value", ["variable", "mover"]]], []], ["p", [], ["So this is how you can use a variable:"]], ["Range", [["min", ["value", 0]], ["max", ["value", 10]], ["value", ["variable", "exampleVar"]]], []], ["Display", [["value", ["variable", "exampleVar"]]], []], ["pre", [], [["code", [], ["[var name:\"exampleVar\" value:5 /]\n\n[Range min:0 max:10 value:exampleVar /]\n[Display value:exampleVar /]"]]]], ["ul", [], [["li", [], [["em", [], ["markdown"]], " ", "syntax is supported."]]]], ["p", [], ["You can also load files from your ", ["code", [], ["static/"]], " directory.", ["img", [["src", ["value", "static/images/quill.svg"]], ["style", ["expression", "{ width: 75, display: 'block', margin: '30px auto' }"]]], []]]]]]];
+module.exports = [["var", [["name", ["value", "stepperIndex"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "mover"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "roi2"]], ["value", ["expression", "{ x: [-5, 5], y: [-8, 8] }"]]], []], ["var", [["name", ["value", "x"]], ["value", ["value", 0]]], []], ["var", [["name", ["value", "y"]], ["value", ["value", 0]]], []], ["TextContainer", [], [["Header", [["title", ["value", "Testing Some Idyll Components"]], ["subtitle", ["value", "This is gonna be fun!"]], ["author", ["value", "Nick Gonzales"]], ["authorLink", ["value", "https://github.com/KingCeolwulf"]]], []], ["p", [], ["I have been working on a set of instructional videos all summer long using the ", ["a", [["href", ["value", "https://github.com/3b1b/manim"]]], ["manim library"]], " and built templates of my own\nto begin production of my own materials. I felt that simply posting the videos to\nYouTube or even simply starting a Patreon campaign would not feel quite... right."]], ["p", [], ["And a shout-out to ", ["a", [["href", ["value", "https://github.com/mathisonian"]]], ["Matthew Conlen"]], ". Without his help, \nand patience, this part of the project would have been a huge disappointment."]], ["h2", [], ["Enter Idyll", "!", "!"]], ["i", [], ["Only time will tell just how far this rabbit hole goes..."]], ["h2", [], [["strong", [], ["And thank you, Heather, for putting up with the constant grind, you are the best", "!"]]]], ["div", [["style", ["expression", "{display: 'flex', flexAlign: 'row', textAlign: 'center'}"]]], [["Chart", [["theme", ["expression", "{ axis: { style: { grid:{fill: \"none\",stroke: \"blue\",strokeDasharray:[10,5],strokeLinecap:\"round\" ,pointerEvents: \"painted\"}} }}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []], ["Chart", [["theme", ["expression", "{axis: { style: { grid: { stroke: '#ddd'} }}}"]], ["equation", ["expression", "x=>x**2"]], ["range", ["expression", "[-5,5]"]], ["domain", ["expression", "[-5,5]"]]], []]]], ["p", [], ["\nExamples of ", ["equation", [], ["f(x)=x^2+k"]], ["Stepper", [["currentStep", ["variable", "stepperIndex"]]], [["Graphic", [], [["img", [["src", ["expression", "\"static/images/\" + stepperIndex + \".png\""]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2 "]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/r1aghqw203"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+1"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/qumumgp3k0"]]], []]]], ["Step", [], [["equation", [], ["f(x)=x^2+2"]], ["link", [["target", ["value", "_blank"]], ["text", ["value", "  try it on desmos.com"]], ["url", ["value", "https://www.desmos.com/calculator/xakcwurbf2"]]], []]]], ["StepperControl", [], []]]]]], ["IdyllApparatusComponent", [["_url", ["value", "static/plant.json"]], ["_regionOfInterest", ["variable", "roi2"]], ["_width", ["value", 400]], ["_height", ["value", 400]], ["growth", ["variable", "mover"]]], []], ["p", [], ["Move the slider below to move the sun..."]], ["Range", [["value", ["variable", "mover"]], ["min", ["value", -3]], ["max", ["value", 17]]], []], ["p", [], ["Now lets test if pushing buttons and moving sliders can make on the fly changes to LaTeX rendering..."]], ["equation", [["latex", ["expression", "\"\\\\text{Test Variable: x = }\" + x "]]], []], ["Range", [["value", ["variable", "x"]], ["min", ["value", -10]], ["max", ["value", 10]], ["step", ["value", 0.01]]], []], ["equation", [["latex", ["expression", "\"\\\\text{Test Variable: y = }\" + y "]]], []], ["button", [["onClick", ["expression", "y -= 1"]]], ["Minus 1"]], ["button", [["onClick", ["expression", "y += 1"]]], ["Plus 1"]], ["p", [], ["You can also load files from your ", ["code", [], ["static/"]], " directory.", ["img", [["src", ["value", "static/images/quill.svg"]], ["style", ["expression", "{ width: 75, display: 'block', margin: '30px auto' }"]]], []]]]]]];
 
 },{}],"__IDYLL_COMPONENTS__":[function(require,module,exports){
 'use strict';
@@ -79175,11 +79171,11 @@ module.exports = {
 	'stepper': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper.js'),
 	'idyll-apparatus-component': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-apparatus-component/lib.js'),
 	'range': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/range.js'),
-	'display': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/display.js'),
+	'button': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/button.js'),
 	'text-container': require('C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/text-container.js')
 };
 
-},{"C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-apparatus-component/lib.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-apparatus-component\\lib.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/chart.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\chart.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/display.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\display.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/equation.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/graphic.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\graphic.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/header.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\header.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/link.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\link.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/range.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\range.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/step.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\step.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper-control.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/text-container.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\text-container.js"}],"__IDYLL_CONTEXT__":[function(require,module,exports){
+},{"C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-apparatus-component/lib.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-apparatus-component\\lib.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/button.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\button.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/chart.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\chart.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/equation.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\equation.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/graphic.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\graphic.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/header.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\header.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/link.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\link.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/range.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\range.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/step.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\step.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper-control.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper-control.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/stepper.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\stepper.js","C:/Users/Nick/Documents/IdyllStuff/stuff3/node_modules/idyll-components/dist/cjs/text-container.js":"C:\\Users\\Nick\\Documents\\IdyllStuff\\stuff3\\node_modules\\idyll-components\\dist\\cjs\\text-container.js"}],"__IDYLL_CONTEXT__":[function(require,module,exports){
 "use strict";
 
 module.exports = function () {};
