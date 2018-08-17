@@ -78,25 +78,23 @@ growth:mover /]
 Move the slider below to move the sun...
 
 [Range value:mover min:-3 max:17 /]
-[Display value:mover /]
 
 
-So this is how you can use a variable:
-
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-
-```
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-```
 
 
-* *markdown* syntax is supported.
+[var name:"x" value: 0.00 /]
+[var name:"y" value: 0.00 /]
+
+Now lets test if pushing buttons and moving sliders can make on the fly changes to LaTeX rendering...
+
+[equation latex:`"\\text{Test Variable: x = }" + x ` /]
+
+[Range value:x min:-10 max:10 step:0.01 /]
+
+[equation latex:`"\\text{Test Variable: y = }" + y ` /]
+[button onClick:`y -= 1`]Minus 1[/button]
+[button onClick:`y += 1`]Plus 1[/button]
+
 
 
 You can also load files from your `static/` directory.
