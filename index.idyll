@@ -5,6 +5,7 @@
   subtitle:"This is gonna be fun!"
   author:"Nick Gonzales"
   authorLink:"https://github.com/KingCeolwulf"
+  fullWidth:true
   /]
 
   I have been working on a set of instructional videos all summer long using the 
@@ -21,6 +22,40 @@ and patience, this part of the project would have been a huge disappointment.
 
 ## **And thank you, Heather, for putting up with the constant grind, you are the best!**
 
+And here's a cool video from MinutePhysics guest-starring Grant Sanderson(3Blue1Brown), the creator of the manim library:
+
+[var name:"playVideo" value:false /]
+[var name:"playAudio" value:true /]
+[var name:"videoid" value:"xdIjYBtnvZU" /]
+[var name:"youtubeOptions1" value:`{
+ controls:0,
+ autoplay:0
+}` /]
+[var name:"youtubeOptions2" value:`{
+ controls:0,
+ autoplay:0
+}` /]
+
+[Youtube
+  id:videoid
+  height: "360"
+  width: "640"
+  play: playVideo
+  audio:playAudio
+  options:youtubeOptions1
+/]
+
+[Button onClick:`playVideo = !playVideo`]
+  [Display value:`playVideo ? "Pause Video" : "Play Video" ` /]
+[/Button]
+[Button onClick:`playAudio = !playAudio`]
+  [Display value:`playAudio ? "Mute" : "Enable Audio" ` /]
+[/Button]
+
+[br/]
+[Button onClick:`videoid='9qlY4n7iDJg'`]Paladins[/Button]
+[Button onClick:`videoid='wxmnRdpWOuE'`]Megathekid[/Button]
+[Button onClick:`videoid='WEkSYw3o5is'`]Funny Cats[/Button]
 
 [div style:`{display: 'flex', flexAlign: 'row', textAlign: 'center'}`]
 [Chart 
@@ -79,25 +114,25 @@ Move the slider below to move the sun...
 
 [Range value:mover min:-3 max:17 /]
 
-
-
-
 [var name:"x" value: 0.00 /]
 [var name:"y" value: 0.00 /]
 
 Now lets test if pushing buttons and moving sliders can make on the fly changes to LaTeX rendering...
 
 [equation latex:`"\\text{Test Variable: x = }" + x ` /]
+[br/]
 
 [Range value:x min:-10 max:10 step:0.01 /]
+[br/]
 
 [equation latex:`"\\text{Test Variable: y = }" + y ` /]
+[br/]
+
+
 [button onClick:`y -= 1`]Minus 1[/button]
 [button onClick:`y += 1`]Plus 1[/button]
 
 
-
-You can also load files from your `static/` directory.
 [img
   src:'static/images/quill.svg'
   style:`{ width: 75, display: 'block', margin: '30px auto' }`
