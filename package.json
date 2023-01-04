@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "d3": "^4.0.0",
-    "idyll": "^3.0.0",
+    "idyll": "^6.0.0-alpha.6",
     "idyll-apparatus-component": "^1.0.4",
     "idyll-d3-component": "^2.0.0",
     "react-youtube": "^7.6.0"
